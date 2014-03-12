@@ -1,0 +1,11 @@
+vagrant box add precise32 http://files.vagrantup.com/lucid32.box
+vagrant up
+vagrant ssh
+vagrant suspend | hult | destroy
+
+cd /vagrant
+export NODE_ENV=development
+export NODE_SITE=development
+export NODE_PATH=.
+node server.js
+supervisor --debug server.js
