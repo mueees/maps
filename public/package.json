@@ -1,0 +1,10 @@
+{
+    "name": "default",
+    "version": "0.0.0",
+    "devDependencies": {
+        "requirejs": "",
+        "grunt": "~0.4.1",
+        "grunt-contrib-watch": "~0.5.1",
+        "grunt-contrib-less": ""
+    }
+}

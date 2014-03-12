@@ -1,0 +1,4 @@
+{"level":"info","message":"Web server listening: 58987","timestamp":"2014-02-27T21:04:27.076Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://109.251.151.22/materialise_dev","timestamp":"2014-02-27T21:04:27.098Z"}
+{"error":{"view":{"name":"index","root":"/home/mue/web/sites/perception/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-27T21:04:33.782Z"}
+{"error":{"view":{"name":"index","root":"/home/mue/web/sites/perception/views","defaultEngine":"hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-02-27T21:04:34.750Z"}

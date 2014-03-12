@@ -1,0 +1,20 @@
+{
+    "name": "materialise-project",
+    "version": "0.0.1",
+    "dependencies": {
+        "express": "3",
+        "util": "0",
+        "underscore": "1",
+        "moment": "2",
+        "node-inspector": "0",
+        "cron": "",
+        "nodemailer": "",
+        "nconf": "",
+        "winston": "",
+        "hbs": "",
+        "async": "",
+        "ncp": "",
+        "mongoose": "",
+        "crypto-js": ""
+    }
+}
