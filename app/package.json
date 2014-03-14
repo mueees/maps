@@ -15,9 +15,6 @@
         "async": "",
         "ncp": "",
         "mongoose": "",
-        "crypto-js": "",
-
-        "passport": "",
-        "passport-local": "0.1.x"
+        "crypto-js": ""
     }
 }

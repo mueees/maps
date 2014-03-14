@@ -1,9 +1,10 @@
 .idea
 /node_modules
-/public/node_modules
+/app/public/node_modules
+/app/frontend/node_modules
 
 #ext
 *.psd
 
 #secret
-/config/secret.json
+/app/config/secret.json

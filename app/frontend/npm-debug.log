@@ -1,0 +1,178 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i' ]
+2 info using npm@1.2.23
+3 info using node@v0.10.8
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose read json D:\internal\maps\app\frontend\package.json
+6 warn package.json default@0.0.0 No repository field.
+7 warn package.json default@0.0.0 No readme data.
+8 verbose readDependencies using package.json deps
+9 verbose install where, deps [ 'D:\\internal\\maps\\app\\frontend',
+9 verbose install   [ 'matchdep',
+9 verbose install     'requirejs',
+9 verbose install     'grunt',
+9 verbose install     'grunt-contrib-watch',
+9 verbose install     'grunt-contrib-less',
+9 verbose install     'grunt-contrib-stylus',
+9 verbose install     'grunt-contrib-clean',
+9 verbose install     'grunt-contrib-concat',
+9 verbose install     'grunt-contrib-copy',
+9 verbose install     'grunt-contrib-uglify' ] ]
+10 verbose from cache D:\internal\maps\app\frontend\package.json
+11 info preinstall default@0.0.0
+12 verbose read json D:\internal\maps\app\frontend\node_modules\grunt\package.json
+13 verbose read json D:\internal\maps\app\frontend\node_modules\grunt-contrib-clean\package.json
+14 verbose read json D:\internal\maps\app\frontend\node_modules\grunt-contrib-concat\package.json
+15 verbose read json D:\internal\maps\app\frontend\node_modules\grunt-contrib-copy\package.json
+16 verbose read json D:\internal\maps\app\frontend\node_modules\grunt-contrib-less\package.json
+17 verbose read json D:\internal\maps\app\frontend\node_modules\grunt-contrib-stylus\package.json
+18 verbose read json D:\internal\maps\app\frontend\node_modules\grunt-contrib-watch\package.json
+19 verbose read json D:\internal\maps\app\frontend\node_modules\matchdep\package.json
+20 verbose read json D:\internal\maps\app\frontend\node_modules\requirejs\package.json
+21 verbose from cache D:\internal\maps\app\frontend\package.json
+22 verbose readDependencies using package.json deps
+23 verbose from cache D:\internal\maps\app\frontend\node_modules\grunt\package.json
+24 verbose from cache D:\internal\maps\app\frontend\node_modules\grunt-contrib-clean\package.json
+25 verbose from cache D:\internal\maps\app\frontend\node_modules\grunt-contrib-concat\package.json
+26 verbose from cache D:\internal\maps\app\frontend\node_modules\grunt-contrib-copy\package.json
+27 verbose from cache D:\internal\maps\app\frontend\node_modules\grunt-contrib-less\package.json
+28 verbose from cache D:\internal\maps\app\frontend\node_modules\grunt-contrib-stylus\package.json
+29 verbose from cache D:\internal\maps\app\frontend\node_modules\grunt-contrib-watch\package.json
+30 verbose from cache D:\internal\maps\app\frontend\node_modules\matchdep\package.json
+31 verbose from cache D:\internal\maps\app\frontend\node_modules\requirejs\package.json
+32 verbose already installed skipping matchdep@~0.1.2 D:\internal\maps\app\frontend
+33 verbose already installed skipping requirejs@ D:\internal\maps\app\frontend
+34 verbose already installed skipping grunt@~0.4.1 D:\internal\maps\app\frontend
+35 verbose already installed skipping grunt-contrib-watch@~0.5.1 D:\internal\maps\app\frontend
+36 verbose already installed skipping grunt-contrib-less@ D:\internal\maps\app\frontend
+37 verbose already installed skipping grunt-contrib-stylus@ D:\internal\maps\app\frontend
+38 verbose already installed skipping grunt-contrib-clean@~0.4.1 D:\internal\maps\app\frontend
+39 verbose already installed skipping grunt-contrib-concat@~0.3.0 D:\internal\maps\app\frontend
+40 verbose already installed skipping grunt-contrib-copy@~0.4.1 D:\internal\maps\app\frontend
+41 verbose cache add [ 'grunt-contrib-uglify@~0.2.0', null ]
+42 verbose cache add name=undefined spec="grunt-contrib-uglify@~0.2.0" args=["grunt-contrib-uglify@~0.2.0",null]
+43 verbose parsed url { protocol: null,
+43 verbose parsed url   slashes: null,
+43 verbose parsed url   auth: null,
+43 verbose parsed url   host: null,
+43 verbose parsed url   port: null,
+43 verbose parsed url   hostname: null,
+43 verbose parsed url   hash: null,
+43 verbose parsed url   search: null,
+43 verbose parsed url   query: null,
+43 verbose parsed url   pathname: 'grunt-contrib-uglify@~0.2.0',
+43 verbose parsed url   path: 'grunt-contrib-uglify@~0.2.0',
+43 verbose parsed url   href: 'grunt-contrib-uglify@~0.2.0' }
+44 verbose cache add name="grunt-contrib-uglify" spec="~0.2.0" args=["grunt-contrib-uglify","~0.2.0"]
+45 verbose parsed url { protocol: null,
+45 verbose parsed url   slashes: null,
+45 verbose parsed url   auth: null,
+45 verbose parsed url   host: null,
+45 verbose parsed url   port: null,
+45 verbose parsed url   hostname: null,
+45 verbose parsed url   hash: null,
+45 verbose parsed url   search: null,
+45 verbose parsed url   query: null,
+45 verbose parsed url   pathname: '~0.2.0',
+45 verbose parsed url   path: '~0.2.0',
+45 verbose parsed url   href: '~0.2.0' }
+46 verbose addNamed [ 'grunt-contrib-uglify', '~0.2.0' ]
+47 verbose addNamed [ null, '>=0.2.0- <0.3.0-' ]
+48 silly lockFile 2cc6dac2-grunt-contrib-uglify-0-2-0 grunt-contrib-uglify@~0.2.0
+49 verbose lock grunt-contrib-uglify@~0.2.0 C:\Users\mue\AppData\Roaming\npm-cache\2cc6dac2-grunt-contrib-uglify-0-2-0.lock
+50 silly addNameRange { name: 'grunt-contrib-uglify',
+50 silly addNameRange   range: '>=0.2.0- <0.3.0-',
+50 silly addNameRange   hasData: false }
+51 verbose url raw grunt-contrib-uglify
+52 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-uglify' ]
+53 verbose url resolved https://registry.npmjs.org/grunt-contrib-uglify
+54 info trying registry request attempt 1 at 20:25:49
+55 http GET https://registry.npmjs.org/grunt-contrib-uglify
+56 http 200 https://registry.npmjs.org/grunt-contrib-uglify
+57 silly registry.get cb [ 200,
+57 silly registry.get   { date: 'Fri, 14 Mar 2014 18:25:49 GMT',
+57 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+57 silly registry.get     etag: '"6CTLHZ75GWNSU5JWVQQMRM8P4"',
+57 silly registry.get     'content-type': 'application/json',
+57 silly registry.get     via: '1.1 varnish',
+57 silly registry.get     'cache-control': 'max-age=1',
+57 silly registry.get     'content-length': '44059',
+57 silly registry.get     'accept-ranges': 'bytes',
+57 silly registry.get     age: '326',
+57 silly registry.get     'x-served-by': 'cache-v41-ASH, cache-fra1224-FRA',
+57 silly registry.get     'x-cache': 'HIT, HIT',
+57 silly registry.get     'x-cache-hits': '1, 1',
+57 silly registry.get     'x-timer': 'S1394794080.726202726,VS0,VS-315,VE-315,VE27468795',
+57 silly registry.get     vary: 'Accept',
+57 silly registry.get     'keep-alive': 'timeout=10, max=50',
+57 silly registry.get     connection: 'Keep-Alive' } ]
+58 silly addNameRange number 2 { name: 'grunt-contrib-uglify',
+58 silly addNameRange   range: '>=0.2.0- <0.3.0-',
+58 silly addNameRange   hasData: true }
+59 silly addNameRange versions [ 'grunt-contrib-uglify',
+59 silly addNameRange   [ '0.1.0',
+59 silly addNameRange     '0.1.1',
+59 silly addNameRange     '0.1.2',
+59 silly addNameRange     '0.2.0',
+59 silly addNameRange     '0.2.1',
+59 silly addNameRange     '0.2.2',
+59 silly addNameRange     '0.2.3',
+59 silly addNameRange     '0.2.4',
+59 silly addNameRange     '0.2.5',
+59 silly addNameRange     '0.2.6',
+59 silly addNameRange     '0.2.7',
+59 silly addNameRange     '0.3.0',
+59 silly addNameRange     '0.3.1',
+59 silly addNameRange     '0.1.1-rc5',
+59 silly addNameRange     '0.1.1-rc6',
+59 silly addNameRange     '0.3.2',
+59 silly addNameRange     '0.3.3',
+59 silly addNameRange     '0.4.0' ] ]
+60 verbose addNamed [ 'grunt-contrib-uglify', '0.2.7' ]
+61 verbose addNamed [ '0.2.7', '0.2.7' ]
+62 silly lockFile 480328f6-grunt-contrib-uglify-0-2-7 grunt-contrib-uglify@0.2.7
+63 verbose lock grunt-contrib-uglify@0.2.7 C:\Users\mue\AppData\Roaming\npm-cache\480328f6-grunt-contrib-uglify-0-2-7.lock
+64 silly lockFile 90f282d3-y-grunt-contrib-uglify-0-2-7-tgz https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.2.7.tgz
+65 verbose lock https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.2.7.tgz C:\Users\mue\AppData\Roaming\npm-cache\90f282d3-y-grunt-contrib-uglify-0-2-7-tgz.lock
+66 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.2.7.tgz',
+66 verbose addRemoteTarball   'e6bda51e0c40a1459f6cead423c65efd725a1bf7' ]
+67 info retry fetch attempt 1 at 20:25:49
+68 verbose fetch to= C:\Users\mue\AppData\Local\Temp\npm-7340\1394821549650-0.38514874619431794\tmp.tgz
+69 http GET https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.2.7.tgz
+70 http 503 https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.2.7.tgz
+71 error fetch failed https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.2.7.tgz
+72 info retry will retry, error on last attempt: Error: 503 Service Unavailable
+73 info retry fetch attempt 2 at 20:25:59
+74 verbose fetch to= C:\Users\mue\AppData\Local\Temp\npm-7340\1394821549650-0.38514874619431794\tmp.tgz
+75 http GET https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.2.7.tgz
+76 http 503 https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.2.7.tgz
+77 error fetch failed https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.2.7.tgz
+78 info retry will retry, error on last attempt: Error: 503 Service Unavailable
+79 info retry fetch attempt 3 at 20:27:00
+80 verbose fetch to= C:\Users\mue\AppData\Local\Temp\npm-7340\1394821549650-0.38514874619431794\tmp.tgz
+81 http GET https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.2.7.tgz
+82 http 503 https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.2.7.tgz
+83 error fetch failed https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.2.7.tgz
+84 silly lockFile 90f282d3-y-grunt-contrib-uglify-0-2-7-tgz https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.2.7.tgz
+85 silly lockFile 90f282d3-y-grunt-contrib-uglify-0-2-7-tgz https://registry.npmjs.org/grunt-contrib-uglify/-/grunt-contrib-uglify-0.2.7.tgz
+86 silly lockFile 480328f6-grunt-contrib-uglify-0-2-7 grunt-contrib-uglify@0.2.7
+87 silly lockFile 480328f6-grunt-contrib-uglify-0-2-7 grunt-contrib-uglify@0.2.7
+88 silly lockFile 2cc6dac2-grunt-contrib-uglify-0-2-0 grunt-contrib-uglify@~0.2.0
+89 silly lockFile 2cc6dac2-grunt-contrib-uglify-0-2-0 grunt-contrib-uglify@~0.2.0
+90 error Error: 503 Service Unavailable
+90 error     at WriteStream.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\fetch.js:57:12)
+90 error     at WriteStream.EventEmitter.emit (events.js:117:20)
+90 error     at fs.js:1596:14
+90 error     at Object.oncomplete (fs.js:107:15)
+91 error If you need help, you may report this log at:
+91 error     <http://github.com/isaacs/npm/issues>
+91 error or email it to:
+91 error     <npm-@googlegroups.com>
+92 error System Windows_NT 6.2.9200
+93 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "i"
+94 error cwd D:\internal\maps\app\frontend
+95 error node -v v0.10.8
+96 error npm -v 1.2.23
+97 verbose exit [ 1, true ]

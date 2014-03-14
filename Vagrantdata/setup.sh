@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo -s
 apt-get update
 
 # setup nodejs
@@ -24,6 +25,14 @@ cp /vagrant/Vagrantdata/nginx/nginx.conf /etc/nginx/
 # Setup supervisor
 npm install supervisor -g
 npm install forever -g
+
+# Setup htop
+apt-get install htop
+
+#FRONT
+#install grunt
+npm install -g grunt-cli
+
 
 #start project
 #cd /vagrant
