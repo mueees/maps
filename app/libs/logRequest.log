@@ -145,3 +145,194 @@
 {"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-14T17:09:16.775Z"}
 {"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-14T17:38:34.635Z"}
 {"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-14T17:38:34.701Z"}
+{"status":404,"url":"/css/bootstrap.min.css","level":"warn","message":"","timestamp":"2014-03-14T18:31:51.446Z"}
+{"status":404,"url":"/css/style.css","level":"warn","message":"","timestamp":"2014-03-14T18:31:51.542Z"}
+{"status":404,"url":"/css/style.css","level":"warn","message":"","timestamp":"2014-03-14T18:31:54.090Z"}
+{"status":404,"url":"/css/bootstrap.min.css","level":"warn","message":"","timestamp":"2014-03-14T18:31:54.093Z"}
+{"status":404,"url":"/css/style.css","level":"warn","message":"","timestamp":"2014-03-14T18:31:55.574Z"}
+{"status":404,"url":"/css/bootstrap.min.css","level":"warn","message":"","timestamp":"2014-03-14T18:31:55.577Z"}
+{"status":404,"url":"/css/style.css","level":"warn","message":"","timestamp":"2014-03-14T18:33:21.375Z"}
+{"status":404,"url":"/css/bootstrap.min.css","level":"warn","message":"","timestamp":"2014-03-14T18:33:21.384Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-17T16:50:09.912Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-17T16:50:10.166Z"}
+{"status":404,"url":"/css/bootstrap.min.css","level":"warn","message":"","timestamp":"2014-03-17T16:50:12.963Z"}
+{"status":404,"url":"/css/style.css","level":"warn","message":"","timestamp":"2014-03-17T16:50:12.985Z"}
+{"status":404,"url":"/css/bootstrap.min.css","level":"warn","message":"","timestamp":"2014-03-17T16:50:14.262Z"}
+{"status":404,"url":"/css/style.css","level":"warn","message":"","timestamp":"2014-03-17T16:50:14.308Z"}
+{"status":404,"url":"/css/style.css","level":"warn","message":"","timestamp":"2014-03-17T16:50:14.877Z"}
+{"status":404,"url":"/css/bootstrap.min.css","level":"warn","message":"","timestamp":"2014-03-17T16:50:14.888Z"}
+{"status":404,"url":"/css/bootstrap.min.css","level":"warn","message":"","timestamp":"2014-03-17T16:50:15.193Z"}
+{"status":404,"url":"/css/style.css","level":"warn","message":"","timestamp":"2014-03-17T16:50:15.200Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-17T16:54:43.879Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-17T16:54:44.206Z"}
+{"status":404,"url":"/css/style.css","level":"warn","message":"","timestamp":"2014-03-17T16:56:48.785Z"}
+{"status":404,"url":"/css/bootstrap.min.css","level":"warn","message":"","timestamp":"2014-03-17T16:56:48.820Z"}
+{"status":404,"url":"/css/bootstrap.min.css","level":"warn","message":"","timestamp":"2014-03-17T16:56:59.971Z"}
+{"status":404,"url":"/css/style.css","level":"warn","message":"","timestamp":"2014-03-17T16:57:00.004Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-17T16:57:38.510Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-17T16:57:38.793Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-17T16:58:07.223Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-17T16:58:07.485Z"}
+{"status":404,"url":"/css/bootstrap.min.css","level":"warn","message":"","timestamp":"2014-03-17T16:58:10.178Z"}
+{"status":404,"url":"/css/style.css","level":"warn","message":"","timestamp":"2014-03-17T16:58:10.214Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-17T16:59:00.431Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-17T16:59:00.675Z"}
+{"status":404,"url":"/css/bootstrap.min.css","level":"warn","message":"","timestamp":"2014-03-17T16:59:03.587Z"}
+{"status":404,"url":"/css/style.css","level":"warn","message":"","timestamp":"2014-03-17T16:59:03.615Z"}
+{"status":404,"url":"/css","level":"warn","message":"","timestamp":"2014-03-17T16:59:16.327Z"}
+{"status":404,"url":"/csspublic","level":"warn","message":"","timestamp":"2014-03-17T16:59:23.847Z"}
+{"status":404,"url":"/css/style.cs","level":"warn","message":"","timestamp":"2014-03-17T16:59:27.895Z"}
+{"status":404,"url":"/css/style.css","level":"warn","message":"","timestamp":"2014-03-17T16:59:29.742Z"}
+{"status":404,"url":"/public/css/style.css","level":"warn","message":"","timestamp":"2014-03-17T16:59:33.836Z"}
+{"status":404,"url":"/public/css/style.css","level":"warn","message":"","timestamp":"2014-03-17T16:59:35.102Z"}
+{"status":404,"url":"/frontend/public/css/style.css","level":"warn","message":"","timestamp":"2014-03-17T16:59:41.604Z"}
+{"status":404,"url":"/frontend/public/css/style.css","level":"warn","message":"","timestamp":"2014-03-17T16:59:42.472Z"}
+{"status":404,"url":"/frontend/public/css/style.css","level":"warn","message":"","timestamp":"2014-03-17T16:59:42.999Z"}
+{"status":404,"url":"/frontend/public/css/style.css","level":"warn","message":"","timestamp":"2014-03-17T16:59:43.047Z"}
+{"status":404,"url":"/frontend/css/style.css","level":"warn","message":"","timestamp":"2014-03-17T16:59:45.669Z"}
+{"status":404,"url":"/frontend/css/style.css","level":"warn","message":"","timestamp":"2014-03-17T16:59:46.328Z"}
+{"status":404,"url":"/frontend/css/style.css","level":"warn","message":"","timestamp":"2014-03-17T16:59:46.771Z"}
+{"status":404,"url":"/public/css/style.css","level":"warn","message":"","timestamp":"2014-03-17T16:59:49.779Z"}
+{"status":404,"url":"/public/css/style.css","level":"warn","message":"","timestamp":"2014-03-17T16:59:50.544Z"}
+{"status":404,"url":"/public/css/style.css","level":"warn","message":"","timestamp":"2014-03-17T16:59:51.209Z"}
+{"status":404,"url":"/public/css/style.css","level":"warn","message":"","timestamp":"2014-03-17T16:59:51.263Z"}
+{"status":404,"url":"/public/css/style.css","level":"warn","message":"","timestamp":"2014-03-17T16:59:51.279Z"}
+{"status":404,"url":"/css/style.css","level":"warn","message":"","timestamp":"2014-03-17T16:59:53.292Z"}
+{"status":404,"url":"/css/style.css","level":"warn","message":"","timestamp":"2014-03-17T16:59:54.358Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-17T17:09:54.681Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-17T17:09:54.942Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-17T17:14:20.990Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-17T17:14:21.350Z"}
+{"status":404,"url":"/bootstrap.min.css","level":"warn","message":"","timestamp":"2014-03-17T17:18:24.685Z"}
+{"status":404,"url":"/style.css","level":"warn","message":"","timestamp":"2014-03-17T17:18:24.702Z"}
+{"status":404,"url":"/style.css","level":"warn","message":"","timestamp":"2014-03-17T17:25:16.388Z"}
+{"status":404,"url":"/bootstrap.min.css","level":"warn","message":"","timestamp":"2014-03-17T17:25:16.416Z"}
+{"status":404,"url":"/style.css","level":"warn","message":"","timestamp":"2014-03-17T17:25:16.703Z"}
+{"status":404,"url":"/bootstrap.min.css","level":"warn","message":"","timestamp":"2014-03-17T17:25:16.827Z"}
+{"status":404,"url":"/style.css","level":"warn","message":"","timestamp":"2014-03-17T17:38:15.046Z"}
+{"status":404,"url":"/bootstrap.min.css","level":"warn","message":"","timestamp":"2014-03-17T17:38:15.055Z"}
+{"status":404,"url":"/bootstrap.min.css","level":"warn","message":"","timestamp":"2014-03-17T17:38:15.327Z"}
+{"status":404,"url":"/style.css","level":"warn","message":"","timestamp":"2014-03-17T17:38:15.356Z"}
+{"status":404,"url":"/bootstrap.min.css","level":"warn","message":"","timestamp":"2014-03-17T17:43:53.611Z"}
+{"status":404,"url":"/style.css","level":"warn","message":"","timestamp":"2014-03-17T17:43:53.650Z"}
+{"status":404,"url":"/bootstrap.min.css","level":"warn","message":"","timestamp":"2014-03-17T17:44:20.902Z"}
+{"status":404,"url":"/style.css","level":"warn","message":"","timestamp":"2014-03-17T17:44:20.911Z"}
+{"status":404,"url":"/bootstrap.min.css","level":"warn","message":"","timestamp":"2014-03-17T17:48:23.266Z"}
+{"status":404,"url":"/style.css","level":"warn","message":"","timestamp":"2014-03-17T17:48:23.289Z"}
+{"status":404,"url":"/bootstrap.min.css","level":"warn","message":"","timestamp":"2014-03-17T17:48:23.581Z"}
+{"status":404,"url":"/style.css","level":"warn","message":"","timestamp":"2014-03-17T17:48:23.594Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-18T13:27:39.074Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-18T13:27:39.393Z"}
+{"status":404,"url":"/bootstrap.min.css","level":"warn","message":"","timestamp":"2014-03-18T13:40:07.251Z"}
+{"status":404,"url":"/style.css","level":"warn","message":"","timestamp":"2014-03-18T13:40:07.280Z"}
+{"status":404,"url":"/style.css","level":"warn","message":"","timestamp":"2014-03-18T13:40:31.905Z"}
+{"status":404,"url":"/bootstrap.min.css","level":"warn","message":"","timestamp":"2014-03-18T13:40:31.913Z"}
+{"status":404,"url":"/bootstrap.min.css","level":"warn","message":"","timestamp":"2014-03-18T13:40:32.976Z"}
+{"status":404,"url":"/style.css","level":"warn","message":"","timestamp":"2014-03-18T13:40:33.020Z"}
+{"status":404,"url":"/js/require.js","level":"warn","message":"","timestamp":"2014-03-18T15:18:02.211Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-18T15:20:50.163Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-18T15:20:50.568Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-18T15:21:23.888Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-18T15:21:24.151Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-18T15:23:06.684Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-18T15:23:06.931Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T15:29:12.987Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T15:30:09.329Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T15:30:58.815Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T15:33:54.073Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T15:42:13.019Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T15:43:31.259Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T15:43:38.999Z"}
+{"status":404,"url":"/js/marionette.js?bust=1395158178604","level":"warn","message":"","timestamp":"2014-03-18T15:56:18.749Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T15:56:20.582Z"}
+{"status":404,"url":"/js/marionette.js?bust=1395158182091","level":"warn","message":"","timestamp":"2014-03-18T15:56:22.243Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T15:56:22.505Z"}
+{"status":404,"url":"/js/marionette.js?bust=1395158185270","level":"warn","message":"","timestamp":"2014-03-18T15:56:25.406Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T15:56:25.631Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T15:56:52.601Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T15:57:20.406Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T15:57:39.854Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T15:58:19.075Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:00:47.728Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:00:57.787Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:01:07.812Z"}
+{"status":404,"url":"/js/app/app.js?bust=1395158573242","level":"warn","message":"","timestamp":"2014-03-18T16:02:53.461Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:02:53.910Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:03:28.948Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:03:35.082Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:03:48.826Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:04:35.910Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:04:45.023Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:05:26.853Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:06:13.001Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:06:33.058Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:06:43.451Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:07:13.040Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:07:34.161Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:09:09.944Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:09:15.536Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:09:17.061Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:09:43.827Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:10:11.739Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:11:13.046Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:14:25.785Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:14:53.950Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:16:08.055Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:16:47.569Z"}
+{"status":404,"url":"/sdf","level":"warn","message":"","timestamp":"2014-03-18T16:16:52.823Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:16:55.757Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:17:14.634Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:28:22.051Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:29:19.803Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:30:41.437Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:30:47.289Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:30:53.335Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:31:38.426Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:31:43.787Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:32:01.015Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:32:04.155Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:33:05.235Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:33:19.908Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:33:28.109Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:33:46.766Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:33:52.686Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:35:01.544Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:35:07.263Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:35:25.504Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:35:47.887Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:36:07.033Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:36:38.595Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:37:01.083Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:37:13.114Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:37:51.632Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:38:55.743Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:39:26.723Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T16:39:51.795Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T17:01:42.793Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T17:03:47.335Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T17:03:49.872Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T17:04:11.416Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T17:04:13.483Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T17:04:14.520Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T17:04:36.327Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T17:04:40.026Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T17:04:49.548Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T17:05:23.514Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T17:05:46.238Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T17:06:18.115Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T17:06:20.238Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T17:06:22.813Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T17:06:29.010Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T17:06:35.564Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T17:06:38.038Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T17:06:42.080Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T17:07:02.483Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T17:07:21.935Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T17:07:38.879Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T17:07:45.691Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T17:08:38.656Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T17:08:42.712Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T17:09:00.625Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T17:09:06.816Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T17:09:10.016Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-18T17:12:18.405Z"}

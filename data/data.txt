@@ -1,3 +1,10 @@
+cd /vagrant/app
+export NODE_ENV=development
+export NODE_SITE=development
+export NODE_PATH=.
+supervisor server.js
+node server.js
+
 Юзеры:
 ----------------------------
 Система с регистрацией пользователей. Регистрация обычная, мыло/пароль.

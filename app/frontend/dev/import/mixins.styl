@@ -1,0 +1,56 @@
+/*
+	Mixins
+*/
+box-shadow()
+    -webkit-box-shadow arguments
+    -moz-box-shadow arguments
+    box-shadow arguments
+
+transition()
+    -webkit-transition arguments
+    -moz-transition arguments
+    -o-transition arguments
+    transition arguments
+
+border-radius()
+    -webkit-border-radius arguments
+    border-radius arguments
+
+border-top-right-radius()    
+    -webkit-border-top-right-radius arguments
+    -moz-border-radius-topright arguments
+    border-top-right-radius arguments
+
+border-bottom-right-radius()
+    -webkit-border-bottom-right-radius arguments
+    -moz-border-radius-bottomright arguments
+    border-bottom-right-radius arguments
+        
+border-top-left-radius()
+    -webkit-border-top-left-radius arguments
+    -moz-border-top-left-radius arguments
+    border-top-left-radius arguments
+
+border-bottom-left-radius()
+    -webkit-border-bottom-left-radius arguments
+    -moz-border-bottom-left-radius arguments
+    border-bottom-left-radius arguments    
+ 
+/*
+    Example background-linear-gradient top, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%
+*/
+background-linear-gradient()
+    background-image -webkit-linear-gradient(arguments)
+    background-image -moz-linear-gradient(arguments)
+    background-image -ms-linear-gradient(arguments)
+    background-image -o-linear-gradient(arguments)
+    background-image linear-gradient(arguments)
+
+//fix "display: inline-block" for IE
+display()
+    if arguments == inline-block
+        display inline-block
+        *display inline
+        *zoom 1
+    else
+        display arguments

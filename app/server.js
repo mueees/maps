@@ -13,7 +13,8 @@ require('auth');
 app.use(express.favicon());
 
 app.configure(function() {
-    app.use(express.static(__dirname + '/public'));
+    app.use(express.static(__dirname + '/frontend/public/'));
+    if( process.env.NODE_SITE === "development" ) app.use(express.static(__dirname + '/frontend/dev/'));
     app.use(express.cookieParser());
     app.use(express.bodyParser({ keepExtensions: true, uploadDir: './tmp' }));
     app.set('views', __dirname + "/views");

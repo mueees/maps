@@ -3,36 +3,53 @@
 <head>
     <title>Free maps</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
+    <link href="/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 
-<header class="header">
-    <div class="container">
-        <div class="row">
-            <nav class="col-sm-3">
-                <h1>Free map</h1>
-            </nav>
-            <div class="col-sm-3 col-sm-offset-6 login-wrap">
-                <ul>
-                    <li class="signin">
-                        <a href="#">Sign in</a>
-                    </li>
-                    <li class="signup">
-                        <a href="#">Sign up</a>
-                    </li>
-                </ul>
-            </div>
+<section id="main">
+    <div id="map"></div>
+</section>
+<div class="intro-container">
+    <div class="account">
+        <div class="signin-container">
+            <p>Sign In</p>
+            <form role="form">
+                <div class="form-group">
+                    <input type="email" class="form-control" id="signInEmail" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" id="signInPassword" placeholder="Password">
+                </div>
+                <button type="submit" class="btn btn-primary signin">Sign in</button>
+            </form>
+        </div>
+        <div class="signup-container">
+            <p>Sign Up</p>
+            <form role="form">
+                <div class="form-group">
+                    <input type="email" class="form-control" id="signUpEmail" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" id="signUpPassword" placeholder="Password">
+                </div>
+                <button type="submit" class="btn btn-primary signup">Sign up</button>
+            </form>
         </div>
     </div>
-</header>
-<section id="main">
+    <div class="make-container">
+        <button type="button" class="btn btn-primary btn-lg">Make a Free Map</button>
+    </div>
+</div>
 
-</section>
-<footer></footer>
-
-
+<script type="text/javascript" src="js/require.js"></script>
+<script type="text/javascript">
+    require(['js/config'], function(){
+        require(['apps/home/home'], function(){});
+    });
+</script>
 
 </body>
 </html>
