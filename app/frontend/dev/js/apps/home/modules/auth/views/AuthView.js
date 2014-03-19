@@ -58,6 +58,7 @@ define([
         },
 
         isValidSignUp: function(){
+            return true;
             return this.$el.find('.signup-container form').valid();
         },
 
@@ -81,6 +82,7 @@ define([
                 this.$el.find('.signin-container button').button('loading');
                 this.trigger('signIn', this.getSignInData());
             }else{
+                this.trigger("invalidData");
                 this.errorAnimateSignIn();
             }
         },
@@ -91,12 +93,12 @@ define([
                 this.$el.find('.signup-container button').button('loading');
                 this.trigger('signUp', this.getSignUpData());
             }else{
+                this.trigger("invalidData");
                 this.errorAnimateSignUp();
             }
         },
 
         errorAnimateSignIn: function(){
-            var _this = this;
             var signIn = this.$el.find('.signin-container');
             signIn.addClass('animated shake');
             this.$el.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
@@ -105,7 +107,6 @@ define([
         },
 
         errorAnimateSignUp: function(){
-            var _this = this;
             var signUp = this.$el.find('.signup-container');
             signUp.addClass('animated shake');
             this.$el.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){

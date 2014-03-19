@@ -8,8 +8,8 @@ module.exports = function(app) {
 
     app.get('/', rootController.home);
 
-    app.post('/api/user/register', memberController.register);
-    app.post('/api/user/login', passport.authenticate('local', {}), memberController.login);
+    app.post('/api/user/signup', memberController.signup);
+    app.post('/api/user/signin', passport.authenticate('local', {}), memberController.signin);
     app.get('/api/user/logout', memberController.logout);
 
 }

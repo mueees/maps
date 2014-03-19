@@ -12,7 +12,8 @@ define([
 
     App.addRegions({
         main: "#main",
-        body: 'body'
+        body: 'body',
+        noticeContainer: "#notice-container"
     });
 
     App.on('initialize:after', function(){

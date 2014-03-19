@@ -24,18 +24,39 @@
 body {
   color: #242424;
 }
-.map {
-  height: 600px;
+#notice-container {
+  position: fixed;
+  width: 200px;
+  min-height: 12px;
+  top: 5px;
+  right: 5px;
+}
+.notice {
+  width: 200px;
+  font-size: 12px;
+  background: rgba(0,0,0,0.5);
+  padding: 10px;
+  min-height: 50px;
+  margin: 0 0 3px;
+  color: #fff;
+}
+.notice .body {
+  padding: 0 20px 0 0;
+}
+.notice.error {
+  border-left: 6px solid #f00;
+}
+.notice.success {
+  border-left: 6px solid #3abe3a;
 }
 .intro-container {
-  width: 650px;
   padding: 10px;
   background: rgba(0,0,0,0.4);
-  margin: 0 0 0 -325px;
   color: #fff;
   position: fixed;
   top: 120px;
-  left: 50%;
+  margin: 0 0 0 30%;
+  width: 40%;
 }
 .intro-container h2 {
   font-size: 18px;

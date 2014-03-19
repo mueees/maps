@@ -648,3 +648,619 @@
 {"status":404,"url":"/api/user/signIn","level":"warn","message":"","timestamp":"2014-03-18T22:26:06.321Z"}
 {"status":404,"url":"/api/user/signIn","level":"warn","message":"","timestamp":"2014-03-18T22:26:09.639Z"}
 {"status":404,"url":"/api/user/signIn","level":"warn","message":"","timestamp":"2014-03-18T22:26:14.235Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T09:06:44.855Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T09:06:45.234Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T09:09:26.988Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T09:09:51.010Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T09:11:03.978Z"}
+{"status":404,"url":"/bootstrap.min.css","level":"warn","message":"","timestamp":"2014-03-19T09:11:23.222Z"}
+{"status":404,"url":"/animate.css","level":"warn","message":"","timestamp":"2014-03-19T09:11:23.278Z"}
+{"status":404,"url":"/style.css","level":"warn","message":"","timestamp":"2014-03-19T09:11:23.298Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T09:11:25.746Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T09:13:00.463Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T09:14:21.530Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T09:15:18.681Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T09:17:33.826Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T09:17:35.465Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T09:19:41.576Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T09:20:48.340Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T09:23:21.508Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T09:23:25.097Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T09:24:36.248Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T09:24:38.576Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T09:24:52.527Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T09:24:54.526Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T09:38:09.991Z"}
+{"status":404,"url":"/bootstrap.min.css","level":"warn","message":"","timestamp":"2014-03-19T09:38:35.256Z"}
+{"status":404,"url":"/style.css","level":"warn","message":"","timestamp":"2014-03-19T09:38:35.273Z"}
+{"status":404,"url":"/animate.css","level":"warn","message":"","timestamp":"2014-03-19T09:38:35.283Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T09:38:36.518Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T09:38:38.391Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T09:39:00.487Z"}
+{"status":404,"url":"/bootstrap.min.css","level":"warn","message":"","timestamp":"2014-03-19T09:39:00.816Z"}
+{"status":404,"url":"/animate.css","level":"warn","message":"","timestamp":"2014-03-19T09:39:00.888Z"}
+{"status":404,"url":"/style.css","level":"warn","message":"","timestamp":"2014-03-19T09:39:00.904Z"}
+{"status":404,"url":"/bootstrap.min.css","level":"warn","message":"","timestamp":"2014-03-19T09:39:01.145Z"}
+{"status":404,"url":"/animate.css","level":"warn","message":"","timestamp":"2014-03-19T09:39:01.165Z"}
+{"status":404,"url":"/style.css","level":"warn","message":"","timestamp":"2014-03-19T09:39:01.183Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T09:39:02.157Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T09:39:04.017Z"}
+{"status":404,"url":"/api/user/signIn","level":"warn","message":"","timestamp":"2014-03-19T10:04:54.573Z"}
+{"status":404,"url":"/api/user/signIn","level":"warn","message":"","timestamp":"2014-03-19T10:04:56.172Z"}
+{"status":404,"url":"/api/user/signIn","level":"warn","message":"","timestamp":"2014-03-19T10:04:58.145Z"}
+{"status":404,"url":"/api/user/signIn","level":"warn","message":"","timestamp":"2014-03-19T10:05:00.810Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T10:05:03.095Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T10:05:12.433Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T10:05:14.512Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T10:06:02.097Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T10:06:02.417Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T10:06:40.474Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T10:06:40.747Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T10:06:44.537Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T10:07:28.655Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T10:08:13.601Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T10:08:36.519Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T10:08:44.037Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T10:08:57.064Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T10:24:05.367Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T10:24:05.640Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T10:26:05.247Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T10:26:05.465Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T10:28:01.136Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T10:28:01.442Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T10:29:08.561Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T10:29:08.602Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T10:32:57.290Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T10:43:32.637Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T10:44:45.790Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T10:45:04.762Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T10:45:31.050Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T10:45:53.737Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T10:46:04.981Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T10:46:43.073Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T10:46:55.510Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T10:47:13.209Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T10:53:09.821Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T10:53:53.205Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T10:55:16.280Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T10:55:18.601Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T10:55:30.884Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T10:55:33.513Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T10:56:24.836Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T10:59:52.137Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:00:00.810Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:01:15.738Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:01:22.050Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:01:27.633Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:01:31.314Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:01:38.209Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:03:20.440Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:03:30.811Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:03:40.595Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:03:43.116Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:03:44.940Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:05:17.568Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:05:22.143Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:05:43.581Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:06:12.228Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:06:21.173Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:06:56.609Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:07:16.078Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:07:24.678Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:07:31.077Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:07:37.803Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:07:43.646Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:08:13.023Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:08:26.962Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:08:48.757Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:09:34.890Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:09:44.565Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:09:47.490Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:09:55.505Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:09:58.817Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:10:20.257Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:31.079Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:32.546Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:33.664Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:33.791Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:33.928Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:34.081Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:34.219Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:36.342Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:36.463Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:36.962Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:36.996Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:37.030Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:37.063Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:37.095Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:37.131Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:37.196Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:37.228Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:37.274Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:37.331Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:37.376Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:37.442Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:37.511Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:37.574Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:37.631Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:39.799Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:41.245Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:41.363Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:41.497Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:42.314Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:42.447Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:43.337Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:43.466Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:43.809Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:44.051Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:44.261Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:44.379Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:44.529Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:44.661Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:44.801Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:47.411Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:47.738Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:47.884Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:48.030Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:48.180Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:51.642Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:52.141Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:52.241Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:52.275Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:52.309Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:52.343Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:52.412Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:52.444Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:52.507Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:52.574Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:52.609Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:52.671Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:10:56.313Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:11:49.134Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:11:51.787Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:11:54.265Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:11:56.267Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:12:00.528Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:12:02.509Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:12:03.487Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:12:03.989Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:12:04.039Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:12:04.094Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:12:04.157Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:12:04.202Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:12:04.258Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:12:04.301Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:12:04.356Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:12:04.430Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:12:04.496Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:12:08.862Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:12:27.197Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:12:34.045Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:12:35.802Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:12:42.112Z"}
+{"status":404,"url":"/api/user/signIn","level":"warn","message":"","timestamp":"2014-03-19T11:12:46.476Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:14:19.061Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:14:24.279Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:14:27.210Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:14:44.117Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:14:45.470Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:14:47.161Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:14:51.914Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:14:57.698Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:15:05.419Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:15:08.458Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:16:34.443Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:16:39.098Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:17:11.030Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:17:14.236Z"}
+{"status":404,"url":"/bootstrap.min.css","level":"warn","message":"","timestamp":"2014-03-19T11:17:37.373Z"}
+{"status":404,"url":"/animate.css","level":"warn","message":"","timestamp":"2014-03-19T11:17:37.390Z"}
+{"status":404,"url":"/style.css","level":"warn","message":"","timestamp":"2014-03-19T11:17:37.396Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:17:38.281Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:17:41.016Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:17:44.262Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:17:48.362Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:17:51.124Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:17:51.627Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:17:51.667Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:17:51.737Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:17:51.791Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:17:51.829Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:17:51.910Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:17:51.959Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:17:52.026Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:17:52.059Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:17:52.089Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:17:52.120Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:17:52.169Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:17:52.221Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:17:52.253Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:17:52.288Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:17:52.321Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:17:52.354Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:17:52.388Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:17:52.428Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:17:52.484Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:17:52.518Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:17:52.554Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:17:52.590Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:17:52.649Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:17:52.718Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:17:52.749Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:17:52.790Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:17:52.851Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:17:52.923Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:17:52.981Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:17:53.020Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:17:53.081Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:17:53.149Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:20:05.050Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:20:11.905Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:20:14.087Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:20:43.716Z"}
+{"status":404,"url":"/api/user/signUp","level":"warn","message":"","timestamp":"2014-03-19T11:20:52.033Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:22:45.276Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:24:55.652Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:26:04.244Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:26:32.678Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:27:28.737Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T11:28:07.226Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T11:28:07.267Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T11:28:36.756Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T11:28:36.797Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T11:29:01.593Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T11:29:01.634Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T11:48:05.471Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T11:48:05.508Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:48:11.997Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:48:47.758Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:49:17.610Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:49:39.319Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T11:50:14.342Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T11:50:14.377Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:50:16.187Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:50:43.591Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T11:51:24.260Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T11:51:24.299Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:51:26.230Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:52:10.052Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:52:27.719Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T11:52:51.537Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T11:52:51.572Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T11:55:07.400Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T11:55:07.439Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T11:55:11.820Z"}
+{"error":{"status":400,"message":{"error":"Invalid Email"}},"level":"error","message":"","timestamp":"2014-03-19T11:55:15.682Z"}
+{"error":{"status":400,"message":{"error":"Invalid Email"}},"level":"error","message":"","timestamp":"2014-03-19T11:55:21.244Z"}
+{"error":{"status":400,"message":{"error":"Invalid Email"}},"level":"error","message":"","timestamp":"2014-03-19T11:55:22.258Z"}
+{"error":{"status":400,"message":{"error":"Invalid Email"}},"level":"error","message":"","timestamp":"2014-03-19T11:55:22.435Z"}
+{"error":{"status":400,"message":{"error":"Invalid Email"}},"level":"error","message":"","timestamp":"2014-03-19T11:55:22.573Z"}
+{"error":{"status":400,"message":{"error":"Invalid Email"}},"level":"error","message":"","timestamp":"2014-03-19T11:55:22.715Z"}
+{"error":{"status":400,"message":{"error":"Invalid Email"}},"level":"error","message":"","timestamp":"2014-03-19T11:55:22.849Z"}
+{"error":{"status":400,"message":{"error":"Invalid Email"}},"level":"error","message":"","timestamp":"2014-03-19T11:55:22.970Z"}
+{"error":{"status":400,"message":{"error":"Invalid Email"}},"level":"error","message":"","timestamp":"2014-03-19T11:55:23.141Z"}
+{"error":{"status":400,"message":{"error":"Invalid Email"}},"level":"error","message":"","timestamp":"2014-03-19T11:55:23.396Z"}
+{"error":{"status":400,"message":{"error":"Invalid Email"}},"level":"error","message":"","timestamp":"2014-03-19T11:55:23.660Z"}
+{"error":{"status":400,"message":{"error":"Invalid Email"}},"level":"error","message":"","timestamp":"2014-03-19T11:55:24.545Z"}
+{"error":{"status":400,"message":{"error":"Invalid Email"}},"level":"error","message":"","timestamp":"2014-03-19T11:55:25.050Z"}
+{"error":{"status":400,"message":{"error":"Invalid Email"}},"level":"error","message":"","timestamp":"2014-03-19T11:55:25.086Z"}
+{"error":{"status":400,"message":{"error":"Invalid Email"}},"level":"error","message":"","timestamp":"2014-03-19T11:55:25.145Z"}
+{"error":{"status":400,"message":{"error":"Invalid Email"}},"level":"error","message":"","timestamp":"2014-03-19T11:55:25.188Z"}
+{"error":{"status":400,"message":{"error":"Invalid Email"}},"level":"error","message":"","timestamp":"2014-03-19T11:55:25.217Z"}
+{"error":{"status":400,"message":{"error":"Invalid Email"}},"level":"error","message":"","timestamp":"2014-03-19T11:55:25.257Z"}
+{"error":{"status":400,"message":{"error":"Invalid Email"}},"level":"error","message":"","timestamp":"2014-03-19T11:55:25.314Z"}
+{"error":{"status":400,"message":{"error":"Invalid Email"}},"level":"error","message":"","timestamp":"2014-03-19T11:55:25.349Z"}
+{"error":{"status":400,"message":{"error":"Invalid Email"}},"level":"error","message":"","timestamp":"2014-03-19T11:55:25.385Z"}
+{"error":{"status":400,"message":{"error":"Invalid Email"}},"level":"error","message":"","timestamp":"2014-03-19T11:55:25.429Z"}
+{"error":{"status":400,"message":{"error":"Invalid Email"}},"level":"error","message":"","timestamp":"2014-03-19T11:55:25.480Z"}
+{"error":{"status":400,"message":{"error":"Invalid Email"}},"level":"error","message":"","timestamp":"2014-03-19T11:55:25.518Z"}
+{"error":{"status":400,"message":{"error":"Invalid Email"}},"level":"error","message":"","timestamp":"2014-03-19T11:55:25.584Z"}
+{"error":{"status":400,"message":{"error":"Invalid Email"}},"level":"error","message":"","timestamp":"2014-03-19T11:55:25.634Z"}
+{"error":{"status":400,"message":{"error":"Invalid Email"}},"level":"error","message":"","timestamp":"2014-03-19T11:55:25.681Z"}
+{"error":{"status":400,"message":{"error":"Invalid Email"}},"level":"error","message":"","timestamp":"2014-03-19T11:55:25.719Z"}
+{"error":{"status":400,"message":{"error":"Invalid Email"}},"level":"error","message":"","timestamp":"2014-03-19T11:55:25.775Z"}
+{"error":{"status":400,"message":{"error":"Invalid Email"}},"level":"error","message":"","timestamp":"2014-03-19T11:55:25.816Z"}
+{"error":{"status":400,"message":{"error":"Invalid Email"}},"level":"error","message":"","timestamp":"2014-03-19T11:55:25.875Z"}
+{"error":{"status":400,"message":{"error":"Invalid Email"}},"level":"error","message":"","timestamp":"2014-03-19T11:55:25.911Z"}
+{"error":{"status":400,"message":{"error":"Invalid Email"}},"level":"error","message":"","timestamp":"2014-03-19T11:55:25.949Z"}
+{"error":{"status":400,"message":{"error":"Invalid Email"}},"level":"error","message":"","timestamp":"2014-03-19T11:55:25.984Z"}
+{"error":{"status":400,"message":{"error":"Invalid Email"}},"level":"error","message":"","timestamp":"2014-03-19T11:55:26.040Z"}
+{"error":{"status":400,"message":{"error":"Invalid Email"}},"level":"error","message":"","timestamp":"2014-03-19T11:55:26.077Z"}
+{"error":{"status":400,"message":{"error":"Invalid Email"}},"level":"error","message":"","timestamp":"2014-03-19T11:55:26.105Z"}
+{"error":{"status":400,"message":{"error":"Invalid Email"}},"level":"error","message":"","timestamp":"2014-03-19T11:55:26.140Z"}
+{"error":{"status":400,"message":{"error":"Invalid Email"}},"level":"error","message":"","timestamp":"2014-03-19T11:55:26.178Z"}
+{"error":{"status":400,"message":{"error":"Invalid Email"}},"level":"error","message":"","timestamp":"2014-03-19T11:55:26.204Z"}
+{"error":{"status":400,"message":{"error":"Invalid Email"}},"level":"error","message":"","timestamp":"2014-03-19T11:55:26.241Z"}
+{"error":{"status":400,"message":{"error":"Invalid Email"}},"level":"error","message":"","timestamp":"2014-03-19T11:55:26.271Z"}
+{"error":{"status":400,"message":{"error":"Invalid Email"}},"level":"error","message":"","timestamp":"2014-03-19T11:55:30.324Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T11:56:27.521Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T11:56:27.565Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-19T11:56:29.163Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-19T11:56:35.966Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-19T11:56:42.811Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-19T11:56:45.389Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T11:57:22.871Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T11:57:22.910Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T11:57:56.598Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T11:57:56.651Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T11:58:58.584Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T11:58:58.641Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T11:59:27.493Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T11:59:27.545Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T11:59:38.012Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T11:59:38.049Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T11:59:57.072Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T11:59:57.107Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T12:00:13.829Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T12:00:13.875Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T12:00:51.565Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T12:00:51.633Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T12:01:00.776Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T12:01:00.811Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T12:01:31.105Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T12:01:31.168Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T12:01:56.556Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T12:01:56.591Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T12:02:33.793Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T12:02:33.833Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T12:04:09.067Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T12:04:09.290Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T12:04:45.324Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T12:04:45.366Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T12:09:21.904Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T12:09:21.942Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T12:09:53.842Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T12:09:53.905Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T12:11:48.742Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T12:11:48.777Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T12:13:37.208Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T12:13:37.244Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T12:15:01.150Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T12:15:01.194Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T12:47:06.777Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T12:47:06.815Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T12:49:45.310Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T12:49:45.344Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T12:50:38.724Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T12:50:56.170Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T12:50:56.214Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T12:51:17.601Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T12:51:17.643Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T12:51:21.826Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T12:51:40.761Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T13:00:20.963Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T13:00:20.996Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T13:00:34.442Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T13:15:11.974Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T13:15:12.010Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T13:21:22.779Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T13:21:22.818Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T13:25:54.496Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T13:25:54.532Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T13:27:11.617Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T13:33:07.975Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T13:33:08.010Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T13:34:51.192Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T13:34:51.229Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T13:41:54.705Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T13:41:54.741Z"}
+{"level":"info","message":"Web server listening: 5002","timestamp":"2014-03-19T13:54:28.720Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T13:54:28.772Z"}
+{"level":"info","message":"Web server listening: 5002","timestamp":"2014-03-19T13:55:11.033Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T13:55:11.073Z"}
+{"level":"info","message":"Web server listening: 5002","timestamp":"2014-03-19T13:56:39.376Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T13:56:39.413Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T14:01:53.379Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T14:01:53.414Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T14:01:59.008Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T14:03:17.114Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T14:03:17.152Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T14:03:30.809Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T15:44:09.489Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T15:44:09.543Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T16:08:10.474Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T16:08:10.513Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T16:13:56.596Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T16:13:56.630Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-19T16:15:11.082Z"}
+{"error":{},"level":"error","message":"","timestamp":"2014-03-19T16:15:14.672Z"}
+{"error":{},"level":"error","message":"","timestamp":"2014-03-19T16:15:18.115Z"}
+{"error":{},"level":"error","message":"","timestamp":"2014-03-19T16:15:20.663Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T16:15:40.053Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T16:15:40.145Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T16:22:07.230Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T16:22:07.265Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T16:22:46.609Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T16:22:46.648Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-19T16:23:00.134Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T16:24:42.776Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T16:24:42.810Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T16:26:56.004Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T16:26:56.044Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-19T16:29:13.656Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T16:29:13.668Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-19T16:29:21.052Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T16:30:53.299Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T16:30:53.340Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T16:31:02.044Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T16:32:42.700Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T16:32:42.747Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T16:32:53.607Z"}
+{"error":{},"level":"error","message":"","timestamp":"2014-03-19T16:33:00.824Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T16:33:29.103Z"}
+{"error":{},"level":"error","message":"","timestamp":"2014-03-19T16:33:37.123Z"}
+{"error":{},"level":"error","message":"","timestamp":"2014-03-19T16:33:45.644Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T16:34:04.952Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T16:34:05.011Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T16:34:08.137Z"}
+{"error":{},"level":"error","message":"","timestamp":"2014-03-19T16:34:10.593Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T16:34:41.490Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T16:34:41.528Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T16:38:01.209Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T16:38:01.387Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T16:38:35.303Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T16:38:54.105Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T16:38:59.478Z"}
+{"error":{},"level":"error","message":"","timestamp":"2014-03-19T16:39:15.160Z"}
+{"error":{},"level":"error","message":"","timestamp":"2014-03-19T16:39:20.574Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T16:41:12.568Z"}
+{"error":{},"level":"error","message":"","timestamp":"2014-03-19T16:41:18.955Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T16:44:26.822Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T16:44:26.883Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T16:44:44.981Z"}
+{"error":{},"level":"error","message":"","timestamp":"2014-03-19T16:44:55.278Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T16:45:27.879Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T16:45:27.915Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T16:45:35.621Z"}
+{"error":{},"level":"error","message":"","timestamp":"2014-03-19T16:45:40.337Z"}
+{"error":{},"level":"error","message":"","timestamp":"2014-03-19T16:45:49.745Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T16:47:19.189Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T16:47:19.232Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T16:47:26.580Z"}
+{"error":{},"level":"error","message":"","timestamp":"2014-03-19T16:47:34.990Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T16:48:02.726Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T16:48:03.082Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T16:48:22.596Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T16:48:26.595Z"}
+{"error":{},"level":"error","message":"","timestamp":"2014-03-19T16:48:34.490Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T16:49:25.521Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T16:49:25.584Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T16:50:33.073Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T16:50:33.132Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T16:50:38.473Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T16:50:40.826Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T16:51:35.053Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T16:51:35.101Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T16:56:33.407Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T17:02:20.015Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T17:02:20.051Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T17:02:33.388Z"}
+{"error":{},"level":"error","message":"","timestamp":"2014-03-19T17:02:50.740Z"}
+{"error":{},"level":"error","message":"","timestamp":"2014-03-19T17:02:53.521Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T17:04:19.972Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T17:04:20.022Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T17:05:22.023Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T17:06:24.261Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T17:06:24.324Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T17:22:04.824Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T17:22:04.858Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T17:22:12.808Z"}
+{"error":{"status":400,"message":"Server error"},"level":"error","message":"","timestamp":"2014-03-19T17:22:55.828Z"}
+{"message":"","name":"ValidationError","errors":{"name":{"message":"Path `name` is required.","name":"ValidatorError","path":"name","type":"required"}},"level":"error","timestamp":"2014-03-19T17:22:55.824Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T17:24:01.256Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T17:24:01.297Z"}
+{"error":{"status":400,"message":"Server error"},"level":"error","message":"","timestamp":"2014-03-19T17:24:08.177Z"}
+{"message":"","name":"ValidationError","errors":{"name":{"message":"Path `name` is required.","name":"ValidatorError","path":"name","type":"required","value":""}},"level":"error","timestamp":"2014-03-19T17:24:08.174Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T17:24:37.170Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T17:24:37.212Z"}
+{"name":"AuthError","data":"535-5.7.8 Username and Password not accepted. Learn more at\r\n535 5.7.8 http://support.google.com/mail/bin/answer.py?answer=14257 fq16sm57591985wjc.3 - gsmtp","stage":"auth","level":"error","message":"","timestamp":"2014-03-19T17:24:38.711Z"}
+{"name":"AuthError","data":"535-5.7.8 Username and Password not accepted. Learn more at\r\n535 5.7.8 http://support.google.com/mail/bin/answer.py?answer=14257 fq16sm57591985wjc.3 - gsmtp","stage":"auth","level":"error","message":"","timestamp":"2014-03-19T17:24:38.713Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T17:26:09.108Z"}
+{"name":"AuthError","data":"535-5.7.8 Username and Password not accepted. Learn more at\r\n535 5.7.8 http://support.google.com/mail/bin/answer.py?answer=14257 a4sm54081620eep.12 - gsmtp","stage":"auth","level":"error","message":"","timestamp":"2014-03-19T17:26:16.745Z"}
+{"name":"AuthError","data":"535-5.7.8 Username and Password not accepted. Learn more at\r\n535 5.7.8 http://support.google.com/mail/bin/answer.py?answer=14257 a4sm54081620eep.12 - gsmtp","stage":"auth","level":"error","message":"","timestamp":"2014-03-19T17:26:16.746Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T17:26:24.067Z"}
+{"name":"AuthError","data":"535-5.7.8 Username and Password not accepted. Learn more at\r\n535 5.7.8 http://support.google.com/mail/bin/answer.py?answer=14257 w10sm45315536wiy.9 - gsmtp","stage":"auth","level":"error","message":"","timestamp":"2014-03-19T17:26:29.381Z"}
+{"name":"AuthError","data":"535-5.7.8 Username and Password not accepted. Learn more at\r\n535 5.7.8 http://support.google.com/mail/bin/answer.py?answer=14257 w10sm45315536wiy.9 - gsmtp","stage":"auth","level":"error","message":"","timestamp":"2014-03-19T17:26:29.382Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T17:30:46.140Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T17:30:46.203Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T17:31:03.613Z"}
+{"level":"info","message":"Message sent: 250 2.0.0 OK 1395250298 q15sm57604836wjw.18 - gsmtp","timestamp":"2014-03-19T17:31:38.011Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T17:33:40.557Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T17:33:40.611Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T17:34:46.795Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T17:34:47.134Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T17:35:21.828Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T17:35:21.866Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T17:35:29.110Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T17:35:45.239Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T17:35:45.284Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T17:37:03.328Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T17:37:03.387Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T17:37:12.020Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T17:37:12.110Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T17:38:15.287Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T17:38:15.339Z"}
+{"level":"info","message":"Message sent: 250 2.0.0 OK 1395250699 48sm56073949eee.2 - gsmtp","timestamp":"2014-03-19T17:38:19.050Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T17:38:50.256Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T17:38:50.293Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T17:38:54.885Z"}
+{"level":"info","message":"Message sent: 250 2.0.0 OK 1395250738 t4sm43758285eeb.29 - gsmtp","timestamp":"2014-03-19T17:38:58.538Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T17:42:41.349Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T17:42:41.416Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T17:42:44.698Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T17:43:13.212Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T17:43:13.747Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T17:43:35.222Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T17:43:35.308Z"}
+{"level":"info","message":"Message sent: 250 2.0.0 OK 1395251025 z47sm5251858een.16 - gsmtp","timestamp":"2014-03-19T17:43:45.570Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T17:45:24.808Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T17:45:24.846Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T17:45:36.298Z"}
+{"level":"info","message":"Message sent: 250 2.0.0 OK 1395251140 t50sm43795494eev.28 - gsmtp","timestamp":"2014-03-19T17:45:40.701Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T17:46:36.599Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T17:46:36.636Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T17:46:42.541Z"}
+{"level":"info","message":"Message sent: 250 2.0.0 OK 1395251219 x45sm56087054eef.15 - gsmtp","timestamp":"2014-03-19T17:46:59.557Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T17:47:34.593Z"}
+{"level":"info","message":"Message sent: 250 2.0.0 OK 1395251280 4sm43811555eeq.33 - gsmtp","timestamp":"2014-03-19T17:48:00.663Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T17:48:39.507Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T17:48:39.564Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T17:48:43.071Z"}
+{"level":"info","message":"Message sent: 250 2.0.0 OK 1395251361 q49sm43819564eem.34 - gsmtp","timestamp":"2014-03-19T17:49:21.938Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T17:51:03.404Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T17:51:03.449Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T17:51:18.995Z"}
+{"level":"info","message":"Message sent: 250 2.0.0 OK 1395251497 y51sm56155023eeu.0 - gsmtp","timestamp":"2014-03-19T17:51:37.360Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T17:51:42.517Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:51:46.387Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:51:51.088Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:51:52.124Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:51:53.959Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:51:55.639Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:51:57.160Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:52:00.248Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:52:00.575Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:52:00.720Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:52:01.665Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:52:02.165Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:52:02.199Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:52:02.232Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:52:02.264Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:52:02.298Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:52:02.337Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:52:02.370Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:52:02.400Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:52:02.434Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:52:02.465Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:52:02.498Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-19T17:52:27.745Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-19T17:52:27.829Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T17:52:45.711Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:52:47.700Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-19T17:55:07.413Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:55:09.472Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:55:11.637Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:55:14.637Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:55:14.779Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:55:14.923Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:55:15.059Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:55:19.012Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:55:21.138Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:55:21.499Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:55:21.839Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:55:25.828Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:55:49.575Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:55:50.928Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:55:54.177Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:55:54.342Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:55:54.467Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:55:54.663Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:55:54.802Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:55:54.933Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:55:55.067Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:55:55.205Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:55:55.439Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:55:55.584Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:55:55.696Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:56:00.069Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:56:12.934Z"}

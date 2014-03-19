@@ -1,4 +1,5 @@
 vagrant box add lucid32 http://files.vagrantup.com/lucid32.box
+vagrant plugin install vagrant-vbguest
 vagrant up
 vagrant provision
 vagrant ssh

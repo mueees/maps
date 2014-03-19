@@ -1,12 +1,25 @@
+vagrant ssh-config > ~/vagrant-ssh-config
+ssh -F ~/vagrant-ssh-config -L 5858:127.0.0.1:5858 default
+rm ~/vagrant-ssh-config
+
+#first terminal
 cd /vagrant/app
 export NODE_ENV=development
 export NODE_SITE=development
 export NODE_PATH=.
-supervisor server.js
-node server.js
+node-inspector
+
+#second terminal
+cd /vagrant/app
+export NODE_ENV=development
+export NODE_SITE=development
+export NODE_PATH=.
+supervisor --debug --ignore 'frontend/' server.js
+
 
 http://daneden.github.io/animate.css/
 http://jqueryvalidation.org/documentation/
+https://github.com/chriso/validator.js
 
 Юзеры:
 ----------------------------

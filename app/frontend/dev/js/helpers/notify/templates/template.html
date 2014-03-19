@@ -1,1 +1,8 @@
-<span class="text"><%= text%></span>
+<div class="header">
+    <% if( withCloseBtn ) {%>
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    <% }%>
+</div>
+<div class="body">
+    <p><%= text %></p>
+</div>

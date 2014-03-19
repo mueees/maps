@@ -6,12 +6,23 @@ define([
     return Marionette.ItemView.extend({
         template: _.template(template),
 
-        className: "notify",
+        className: "notice",
 
-        events: {},
+        events: {
+            "click .close" : "animateClose"
+        },
 
         initialize: function(){
-            this.render();
+            this.render(this.model.toJSON());
+            this.$el.addClass(this.model.get("type"));
+        },
+
+        animateClose: function(){
+            var _this = this;
+            this.$el.removeClass('fadeInRight').addClass('animated fadeOutRight');
+            this.$el.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+                _this.close();
+            });
         }
     })
 

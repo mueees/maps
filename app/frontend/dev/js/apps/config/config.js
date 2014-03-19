@@ -1,8 +1,8 @@
 define([], function(){
     return {
         api: {
-            'userSignUp': '/api/user/signUp',
-            'userSignIn': '/api/user/signIn'
+            'userSignUp': '/api/user/signup',
+            'userSignIn': '/api/user/signin'
         }
     }
 })
