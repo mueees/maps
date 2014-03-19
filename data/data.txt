@@ -5,6 +5,9 @@ export NODE_PATH=.
 supervisor server.js
 node server.js
 
+http://daneden.github.io/animate.css/
+http://jqueryvalidation.org/documentation/
+
 Юзеры:
 ----------------------------
 Система с регистрацией пользователей. Регистрация обычная, мыло/пароль.

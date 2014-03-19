@@ -2,7 +2,8 @@
 node_modules
 app/public/node_modules
 app/frontend/node_modules
-app/frontend/public/
+app/frontend/public
+.vagrant
 
 #ext
 *.psd

@@ -1,5 +1,5 @@
 define([
-    'app/app',
+    'apps/app',
     'marionette',
 
     /*views*/
@@ -43,6 +43,10 @@ define([
             }
 
             Notify.API = API;
+
+            App.reqres.setHandler('notify:showNotify', function( options ){
+                return API.showNotify( options );
+            })
 
         }
     })
