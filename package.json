@@ -8,7 +8,6 @@
         "moment": "2",
         "node-inspector": "0",
         "cron": "",
-        "nodemailer": "",
         "nconf": "",
         "winston": "",
         "hbs": "",
@@ -18,6 +17,7 @@
         "crypto-js": "",
         "validator": "",
         "nodemailer": "",
+        "i18n-2": "",
 
         "passport": "",
         "passport-local": "0.1.x"

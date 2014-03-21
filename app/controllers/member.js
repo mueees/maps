@@ -4,6 +4,8 @@ var config = require('config')
     , _ = require('underscore')
     , validator = require('validator')
     , async = require('async')
+    , EmailAction = require("actions/email/email")
+    , EmailSender = require("EmailSender")
     , MemberModel = require('member/model/member');
 
 var controller = {
@@ -33,7 +35,7 @@ var controller = {
             },
             function(isHaveUser, cb){
                 if( isHaveUser ){
-                    cb("User with same email already registered");
+                    cb(req.i18n.__("User with same email already registered"));
                     return false;
                 }else{
                     cb(null);
@@ -43,14 +45,44 @@ var controller = {
             function(cb){
                 MemberModel.registerNewMember(data.email, data.password, cb);
             }
-        ], function(err){
+        ], function(err, member){
             if( err ){
                 return next(new HttpError(400, err));
             }
-
             res.send(200, {
-                message: "Register success"
+                message: req.i18n.__("Register success. To complete your registration please verify your email")
             })
+
+            //send mail
+            //send email with confirmation code
+
+            /*
+            * todo: change to queue 20.3.2014
+            * https://github.com/LearnBoost/kue
+            * */
+            var emailAction = new EmailAction({
+                to: member.email,
+                template: null,
+                subject: "Confirmation account",
+                locale: 'ru',
+                data: {
+                    confirmationId: member.confirmationId
+                }
+            });
+
+            emailAction.execute();
+
+             var emailSender = new EmailSender({
+                to: member.email,
+                subject: "Confirmation account"
+            });
+            emailSender.send(function(err){
+                if( err ){
+                    logger.error(err);
+                    return false;
+                }
+            });
+
         })
 
     }

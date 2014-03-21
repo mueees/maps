@@ -1,0 +1,8 @@
+{
+	"User with same email already registered": "Пользователь с таким email уже зарегестрирован.",
+	"Register success. To complete your registration please verify your email": "Для подтверждения регистрации, проверьте ваш email.",
+	"An error occurred. Please try again later": "Произошла ошибка. Пожалуйста попробуйте повторить позже.",
+    "Registration": "Регистрация",
+    "Confirmation account": "Подтверждение аккаунта",
+    "Hello": "Привет"
+}

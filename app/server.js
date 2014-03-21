@@ -5,12 +5,17 @@ var express = require('express'),
     HttpError = require('error').HttpError,
     EmailSender = require('libs/EmailSender'),
     logger = require("libs/log")(module),
+    I18n = require('i18n-2'),
+
+    hbs = require('hbs'),
+    template = require("views/email/test.hbs"),
     config = require("config");
 
 require("mongooseDb");
 // Passport configuration
 require('auth');
 app.use(express.favicon());
+
 
 app.configure(function() {
     app.use(express.static(__dirname + '/frontend/public/'));
@@ -19,7 +24,27 @@ app.configure(function() {
     app.use(express.bodyParser({ keepExtensions: true, uploadDir: './tmp' }));
     app.set('views', __dirname + "/views");
     app.set('view engine', 'hbs');
+
+    I18n.expressBind(app, {
+        // setup some locales - other locales default to en silently
+        locales: ['en', 'ru'],
+        // change the cookie name from 'lang' to 'locale'
+        /*cookieName: 'locale',*/
+        extension: '.json'
+    });
 });
+
+//setup locale
+app.use(function(req, res, next) {
+    //req.i18n.setLocaleFromCookie();
+    req.i18n.setLocale('ru');
+    next();
+});
+
+//test
+var htmlTemplate = hbs.compile(template);
+console.log(htmlTemplate())
+
 
 app.use( require("middleware/sendHttpError") );
 

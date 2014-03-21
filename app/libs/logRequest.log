@@ -1264,3 +1264,487 @@
 {"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:55:55.696Z"}
 {"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:56:00.069Z"}
 {"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-19T17:56:12.934Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T08:37:40.091Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T08:37:40.138Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:37:54.956Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:37:59.945Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-20T08:38:03.294Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:05.350Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:15.555Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:18.372Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:19.547Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:19.700Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:19.843Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:19.972Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:20.109Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:20.243Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:20.378Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:20.602Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:24.475Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:24.974Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:25.009Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:25.041Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:25.073Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:25.105Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:25.139Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:25.175Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:25.208Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:25.243Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:25.289Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:25.310Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:25.341Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:25.374Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:25.406Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:25.440Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:25.469Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:25.502Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:25.549Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:25.572Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:25.601Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:25.634Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:25.671Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:25.698Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:25.736Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:25.766Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:25.801Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:25.831Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:25.866Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:25.905Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:25.936Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:25.973Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:26.004Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:26.041Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:26.073Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:26.125Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:26.162Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:26.203Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:26.237Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:26.270Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:26.310Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:26.361Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:26.393Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:26.430Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:26.465Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:26.502Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:26.536Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:26.563Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:29.064Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:31.232Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:34.456Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:39.183Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:38:58.433Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:39:14.283Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T08:51:26.381Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T09:42:41.018Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T10:19:10.552Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T10:19:11.951Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T10:24:40.709Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T10:26:17.315Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T10:26:19.596Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T10:32:40.978Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T10:32:47.261Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-20T10:34:33.979Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-20T10:34:35.773Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-20T10:34:39.640Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-20T10:34:39.769Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-20T10:34:42.650Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-20T10:34:42.762Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-20T10:34:43.262Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-20T10:34:43.297Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-20T10:34:43.330Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-20T10:34:43.368Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-20T10:34:43.400Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-20T10:34:43.432Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-20T10:34:43.464Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-20T10:34:43.495Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-20T10:34:43.531Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-20T10:34:43.562Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-20T10:34:46.376Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-20T10:34:46.501Z"}
+{"level":"info","message":"Message sent: 250 2.0.0 OK 1395311722 pm2sm59503810wic.0 - gsmtp","timestamp":"2014-03-20T10:35:22.751Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-20T10:35:24.267Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-20T10:35:31.551Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-20T10:35:41.051Z"}
+{"level":"info","message":"Message sent: 250 2.0.0 OK 1395311745 g3sm3285201eet.35 - gsmtp","timestamp":"2014-03-20T10:35:45.349Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-20T10:36:28.604Z"}
+{"level":"info","message":"Message sent: 250 2.0.0 OK 1395311792 n15sm5306019wij.3 - gsmtp","timestamp":"2014-03-20T10:36:32.777Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T10:44:43.706Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T10:44:43.742Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T10:45:29.854Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T10:45:29.904Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T10:45:43.166Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T10:45:43.207Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T10:46:01.344Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T10:46:01.410Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-20T10:46:36.325Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T10:47:06.048Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T10:47:06.083Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-20T10:47:10.404Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-20T10:47:13.237Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-20T10:47:15.617Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T10:49:40.873Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T10:49:40.921Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T10:50:18.502Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T10:50:18.544Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T10:51:06.563Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T10:51:06.603Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T10:51:25.715Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T10:51:25.760Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T10:51:39.231Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T10:51:39.275Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T10:51:54.713Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T10:51:54.752Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T10:52:07.889Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T10:52:07.928Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T10:52:31.499Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T10:52:31.549Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T10:52:38.580Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T10:52:38.642Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T10:52:54.586Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T10:52:54.658Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T10:53:16.321Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T10:53:16.367Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T10:55:25.436Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T10:55:25.487Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T10:55:34.912Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T10:55:34.964Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T10:55:48.170Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T10:55:48.212Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T10:56:11.754Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T10:56:11.797Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T10:57:49.712Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T10:57:49.748Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T10:58:03.395Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T10:58:03.508Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T10:58:50.303Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T10:58:50.338Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T10:59:19.205Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T10:59:19.240Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T11:00:08.859Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T11:00:08.900Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T11:01:20.710Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T11:01:20.773Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T11:03:45.905Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T11:03:45.941Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T11:04:17.352Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T11:04:17.392Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T11:04:37.525Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T11:04:37.579Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T11:04:52.753Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T11:04:52.787Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T11:06:05.532Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T11:06:05.579Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T11:12:39.147Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T11:12:39.186Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T11:12:59.420Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T11:12:59.480Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T11:13:23.361Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T11:13:23.404Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T11:13:35.700Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T11:13:35.734Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T11:14:28.140Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T11:14:28.175Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-20T11:14:35.762Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-20T11:14:40.852Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T11:15:22.680Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T11:15:22.717Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-20T11:15:23.889Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T11:16:02.969Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T11:16:03.019Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T11:16:14.552Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T11:16:14.588Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-20T11:16:17.054Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T11:16:31.408Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T11:16:31.456Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-20T11:16:32.233Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T11:17:50.464Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T11:17:50.519Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T11:18:01.466Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T11:18:01.505Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-20T11:18:03.194Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T11:18:43.872Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T11:18:43.964Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T11:19:01.178Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T11:19:01.226Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован"},"level":"error","message":"","timestamp":"2014-03-20T11:19:08.279Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-20T11:20:06.957Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T11:20:07.005Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T11:20:08.253Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T11:20:08.400Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T11:20:08.740Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T11:20:08.884Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T11:20:09.027Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T11:23:05.706Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T11:23:05.749Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T11:23:06.045Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T11:23:07.194Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T11:23:08.068Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T11:28:38.441Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T11:28:38.506Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T11:28:53.315Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T11:28:53.406Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-20T11:28:55.905Z"}
+{"level":"info","message":"Message sent: 250 2.0.0 OK 1395314946 bi8sm52175012wib.3 - gsmtp","timestamp":"2014-03-20T11:29:06.287Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-20T11:29:11.616Z"}
+{"level":"info","message":"Message sent: 250 2.0.0 OK 1395314955 o7sm3577516eew.25 - gsmtp","timestamp":"2014-03-20T11:29:15.630Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T11:29:49.633Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T11:29:49.674Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-20T11:29:51.831Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован"},"level":"error","message":"","timestamp":"2014-03-20T11:29:53.533Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован"},"level":"error","message":"","timestamp":"2014-03-20T11:29:57.437Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован"},"level":"error","message":"","timestamp":"2014-03-20T11:29:59.036Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован"},"level":"error","message":"","timestamp":"2014-03-20T11:29:59.177Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован"},"level":"error","message":"","timestamp":"2014-03-20T11:29:59.674Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован"},"level":"error","message":"","timestamp":"2014-03-20T11:29:59.713Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован"},"level":"error","message":"","timestamp":"2014-03-20T11:29:59.741Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован"},"level":"error","message":"","timestamp":"2014-03-20T11:29:59.775Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован"},"level":"error","message":"","timestamp":"2014-03-20T11:29:59.811Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован"},"level":"error","message":"","timestamp":"2014-03-20T11:29:59.846Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован"},"level":"error","message":"","timestamp":"2014-03-20T11:29:59.876Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован"},"level":"error","message":"","timestamp":"2014-03-20T11:29:59.902Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован"},"level":"error","message":"","timestamp":"2014-03-20T11:29:59.946Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован"},"level":"error","message":"","timestamp":"2014-03-20T11:29:59.981Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован"},"level":"error","message":"","timestamp":"2014-03-20T11:30:02.600Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован"},"level":"error","message":"","timestamp":"2014-03-20T11:30:06.319Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-20T11:38:50.349Z"}
+{"error":{"status":400,"message":"User with same email already registered"},"level":"error","message":"","timestamp":"2014-03-20T11:38:52.552Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:30.776Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:33.462Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:33.614Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:33.742Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:33.877Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:34.003Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:34.121Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:34.249Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:34.370Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:34.483Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:34.601Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:34.717Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:37.738Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:38.246Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:38.288Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:38.348Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:38.386Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:38.449Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:38.498Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:38.551Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:38.596Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:38.669Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:38.716Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:38.746Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:38.809Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:38.867Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:38.903Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:38.942Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:38.969Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:39.005Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:39.037Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:39.070Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:39.103Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:39.144Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:39.171Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:39.205Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:39.237Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:39.268Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:39.305Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:39.359Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:39.401Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:39.438Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:39.469Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:39.508Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:39.560Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:39.599Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:39.641Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:39.703Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:39.748Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:39.791Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:39.834Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:39.905Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:39.967Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:40.042Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:40.097Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:40.173Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:40.234Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:40.292Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:40.325Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:40.361Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:40.394Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:40.461Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:40.527Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:40.586Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:40.626Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:40.685Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:40.722Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:40.754Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:40.801Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:40.851Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:40.886Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:40.921Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:40.957Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:41.013Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:41.058Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:41.112Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:41.154Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:41.189Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:41.226Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T11:44:44.384Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T11:47:13.391Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T11:47:13.435Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T11:48:27.944Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T11:48:27.989Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T11:48:35.516Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T11:48:35.551Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T11:48:49.241Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T11:48:49.294Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T11:48:58.169Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T11:48:58.207Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T11:49:07.790Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T11:49:07.831Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T11:49:42.712Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T11:49:42.755Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-20T13:01:16.206Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T13:01:44.748Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T13:01:52.927Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T13:03:21.620Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T13:03:21.662Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T13:03:57.157Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T13:03:57.192Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T13:04:17.649Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T13:04:17.703Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T13:04:25.450Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T13:04:25.489Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T13:04:56.828Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T13:04:56.870Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T13:05:04.792Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T13:05:04.837Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T13:05:17.745Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T13:05:17.783Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T13:06:39.810Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T13:06:39.853Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-20T13:06:53.754Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T13:07:08.792Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T13:07:08.828Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-20T13:07:13.394Z"}
+{"level":"info","message":"Message sent: 250 2.0.0 OK 1395320849 44sm4085780eek.30 - gsmtp","timestamp":"2014-03-20T13:07:29.043Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T13:07:45.577Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T13:07:45.629Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-20T13:08:06.282Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T13:08:39.368Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T13:08:39.419Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T13:09:15.663Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T13:09:15.706Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T13:09:20.049Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T13:09:21.993Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T13:09:23.464Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T13:09:23.739Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-20T13:09:23.880Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T13:09:45.317Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T13:09:45.360Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-20T13:10:45.586Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-20T13:10:52.739Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T13:11:11.701Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T13:11:11.739Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-20T13:11:13.574Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T13:11:50.230Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T13:11:50.302Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T13:11:57.614Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T13:11:57.660Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-20T13:12:04.794Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T13:12:41.673Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T13:12:41.712Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-20T13:12:44.136Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T13:13:38.961Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T13:13:38.999Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-20T13:13:41.136Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T13:15:57.680Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T13:15:57.721Z"}
+{"status":404,"url":"/","level":"warn","message":"","timestamp":"2014-03-20T13:15:58.448Z"}
+{"status":404,"url":"/","level":"warn","message":"","timestamp":"2014-03-20T13:16:03.246Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T13:16:14.932Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T13:16:14.975Z"}
+{"status":404,"url":"/","level":"warn","message":"","timestamp":"2014-03-20T13:16:15.560Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T13:16:50.893Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T13:16:50.930Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-20T13:16:53.508Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-20T13:16:53.591Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T13:31:33.822Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T13:31:33.885Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T13:31:44.684Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T13:31:44.718Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T13:31:54.502Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T13:31:54.579Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T13:32:06.241Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T13:32:06.281Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T13:32:21.727Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T13:32:21.784Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T13:33:15.613Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T13:33:15.653Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T13:34:43.568Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T13:34:43.611Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-20T13:34:56.582Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-20T13:34:56.621Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-21T15:57:56.003Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-21T15:57:56.669Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-21T15:58:00.429Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-21T15:58:02.786Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-21T15:58:02.949Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-21T15:58:03.090Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-21T15:58:03.227Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-21T15:58:03.357Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-21T15:58:06.563Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-21T15:58:09.622Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-21T15:58:19.169Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-21T15:58:20.747Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-21T15:58:22.216Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-21T15:58:22.366Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-21T15:58:22.509Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-21T15:58:24.070Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-21T15:58:24.203Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-21T15:58:24.439Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-21T15:58:24.548Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-21T15:58:26.662Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-21T15:58:27.165Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-21T15:58:27.195Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-21T15:58:27.229Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-21T15:58:27.260Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-21T15:58:27.296Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-21T15:58:27.329Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-21T15:58:27.357Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-21T15:58:27.392Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-21T15:58:27.429Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-21T15:58:27.460Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-21T15:58:27.498Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-21T15:58:27.527Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-21T15:58:27.557Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-21T15:58:27.591Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-21T15:58:30.590Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-21T15:58:37.662Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-21T16:10:36.781Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-21T16:10:38.849Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-21T16:10:38.975Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-21T16:19:24.840Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-21T16:19:24.876Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-21T16:19:34.720Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-21T16:19:34.756Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-21T16:19:43.397Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-21T16:19:43.432Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-21T16:21:37.736Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-21T16:21:37.776Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-21T16:21:58.599Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-21T16:21:58.638Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-21T16:22:41.574Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-21T16:22:41.617Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-21T16:22:54.817Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-21T16:22:54.851Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-21T16:23:11.779Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-21T16:23:11.855Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-21T16:23:44.660Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-21T16:23:44.727Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-21T16:28:22.331Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-21T16:28:22.366Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-21T16:35:58.964Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-21T16:35:59.007Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-21T16:36:38.762Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-21T16:36:38.811Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-21T16:36:54.991Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-21T16:36:55.029Z"}

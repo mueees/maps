@@ -43,8 +43,11 @@ define([
                         url: config.api.userSignUp,
                         type: "POST",
                         data: data,
-                        success: function(){
-
+                        success: function(data){
+                            App.reqres.request("notify:showNotify", {
+                                text: data.message,
+                                withCloseBtn: false
+                            });
                         },
                         error: function(xhr){
                             var responseText = xhr.responseText
