@@ -17,7 +17,6 @@
         "mongoose": "",
         "crypto-js": "",
         "validator": "",
-        "nodemailer": "",
 
         "passport": "",
         "passport-local": "0.1.x"
