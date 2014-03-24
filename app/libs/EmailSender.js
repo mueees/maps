@@ -36,14 +36,16 @@ _.extend(EmailSender.prototype, {
 
     },
 
-    send: function(){
+    send: function(cb){
         var _this = this;
 
         this.smtpTransport.sendMail(this.mailOptions, function(err, response){
             if(err){
+                cb(err);
                 logger.log('error', err);
-                throw new Error(err);
+                return false;
             }else{
+                cb(null);
                 logger.log('info', "Message sent: " + response.message);
             }
 

@@ -20,6 +20,7 @@ supervisor --debug --ignore 'frontend/' server.js
 http://daneden.github.io/animate.css/
 http://jqueryvalidation.org/documentation/
 https://github.com/chriso/validator.js
+https://www.npmjs.org/package/i18n-2
 
 Юзеры:
 ----------------------------
@@ -53,3 +54,4 @@ https://github.com/chriso/validator.js
 ----------------------------
 Иерархия будет примерно следующей
 - слой (папка)
+
