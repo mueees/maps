@@ -1,8 +1,12 @@
 var BaseModel = require('../base/action'),
     util = require('util'),
+    logger = require('libs/log')(module),
     EmailSender = require("EmailSender"),
     config = require("config"),
-    hbs = require("hbs"),
+    async = require('async'),
+    exphbs  = require('express3-handlebars'),
+    helpers = require('libs/exphbs/helpers'),
+
     simpleTextTemp = require('views/email/simpleText.hbs'),
     _ = require('underscore');
 
@@ -21,9 +25,8 @@ function EmailAction(options){
         locale: config.get("email:default:locale")
     }
 
-    this.makeLocale();
-    this.makeHtml();
     this.settings = _.extend( defaultOption , options);
+    this.makeLocale();
 }
 
 util.inherits(EmailAction, BaseModel);
@@ -31,19 +34,50 @@ util.inherits(EmailAction, BaseModel);
 _.extend(EmailAction.prototype, {
 
     makeLocale: function(){
-        this.settings.i18n = new (require('i18n-2'))({
-            locales: this.settings.locale
+        var _this  = this;
+        var i18n = require("i18n");
+        i18n.setLocale(_this.settings.locale);
+        _this.settings.i18n = i18n;
+    },
+
+    makeHtml: function(cb){
+        var _this = this;
+        var hbs = exphbs.create({
+            helpers: helpers(_this.settings.i18n)
+        });
+
+        hbs.render(_this.settings.template, _this.settings.data, function(err, html){
+            if( err ){
+                _this.settings.html = "";
+                cb(err);
+                return false;
+            }
+            _this.settings.html = html;
+            cb(null);
+        })
+    },
+
+    send: function(cb){
+        var _this = this;
+        var emailSender = new EmailSender( _this.settings );
+        emailSender.send(function(err){
+            if(err){ return cb(err);}
+            cb(null);
         });
     },
 
-    makeHtml: function(){
-        var htmlTemplate = hbs.compile(template);
-        this.settings.html = htmlTemplate(this.settings.data);
-    },
-
-    execute: function(cb){
-        var emailSender = new EmailSender( this.settings );
-        emailSender.send(cb);
+    execute: function(callback){
+        async.waterfall([
+            this.makeHtml.bind(this),
+            this.send.bind(this)
+        ], function(err){
+            if(err){
+                logger.error(err);
+                if(callback) callback(err);
+                return false;
+            }
+            if(callback) callback(null);
+        })
     }
 });
 

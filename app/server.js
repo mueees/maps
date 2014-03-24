@@ -5,12 +5,12 @@ var express = require('express'),
     HttpError = require('error').HttpError,
     logger = require("libs/log")(module),
     i18n = require("i18n"),
-
-    hbs = require('hbs'),
-    template = require("./test.hbs"),
+    hbs,
+    exphbs  = require('express3-handlebars'),
     config = require("config");
 
-//require("mongooseDb");
+
+require("mongooseDb");
 // Passport configuration
 require('auth');
 app.use(express.favicon());
@@ -22,52 +22,27 @@ i18n.configure({
     extension: '.json'
 });
 
-
 app.configure(function() {
     app.use(express.static(__dirname + '/frontend/public/'));
     if( process.env.NODE_SITE === "development" ) app.use(express.static(__dirname + '/frontend/dev/'));
     app.use(express.cookieParser());
     app.use(express.bodyParser({ keepExtensions: true, uploadDir: './tmp' }));
     app.set('views', __dirname + "/views");
-    app.set('view engine', 'hbs');
+    app.engine('.hbs', exphbs({extname: '.hbs'}));
+    app.set('view engine', '.hbs');
 
     // init i18n module for this loop
-    //app.use(i18n.init);
+    app.use(i18n.init);
 });
-
-// register hbs helpers in res.locals' context which provides this.locale
-hbs.registerHelper('__', function () {
-    console.log('__n');
-    return i18n.__.apply(this, arguments);
-});
-hbs.registerHelper('__n', function () {
-    console.log('__n');
-    return i18n.__n.apply(this, arguments);
-});
-
-hbs.registerHelper('test', function () {
-    console.log('test');
-    return "Cool done!";
-});
-
-
-hbs.registerHelper('link_to', function() {
-    return 'this is tets';
-});
-
-
-var source2 = require("./test.hbs");
-//var source2 = "<ul>{{test}}</ul>"
-var htmlTemplate = hbs.compile(source2);
-console.log(htmlTemplate({}));
-
-var source = "<ul>{{link_to}}</ul>"
-var template2 = hbs.compile(source);
-console.log(template2({}));
-
-return false;
 
 app.use( require("middleware/sendHttpError") );
+app.use(function(req, res,  next){
+    res.setLocale('ru');
+    next();
+
+})
+
+
 
 //routing
 route(app);

@@ -19,6 +19,9 @@
         "nodemailer": "",
         "i18n": "",
 
+        "hbs-precompiler": "",
+        "express3-handlebars": "",
+
         "passport": "",
         "passport-local": "0.1.x"
     }

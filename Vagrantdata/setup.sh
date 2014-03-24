@@ -17,14 +17,20 @@ apt-get update
 apt-get install -y mongodb
 
 # Setup nginx
-mkdir /etc/nginx/vhosts
-cp /vagrant/Vagrantdata/nginx/vhosts/* /etc/nginx/vhosts/
-cp /vagrant/Vagrantdata/nginx/nginx.conf /etc/nginx/
-/etc/init.d/nginx restart
+#mkdir /etc/nginx/vhosts
+#cp /vagrant/Vagrantdata/nginx/vhosts/* /etc/nginx/vhosts/
+#cp /vagrant/Vagrantdata/nginx/nginx.conf /etc/nginx/
+#/etc/init.d/nginx restart
 
 # Setup supervisor
 npm install supervisor -g
 npm install forever -g
+
+#Setup handlebars
+npm install -g handlebars
+
+#Setup node-inspector
+npm i -g node-inspector
 
 # Setup htop
 apt-get install htop

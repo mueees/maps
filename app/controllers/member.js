@@ -35,7 +35,7 @@ var controller = {
             },
             function(isHaveUser, cb){
                 if( isHaveUser ){
-                    cb(req.i18n.__("User with same email already registered"));
+                    cb(res.__("User with same email already registered"));
                     return false;
                 }else{
                     cb(null);
@@ -50,7 +50,7 @@ var controller = {
                 return next(new HttpError(400, err));
             }
             res.send(200, {
-                message: req.i18n.__("Register success. To complete your registration please verify your email")
+                message: res.__("Register success. To complete your registration please verify your email")
             })
 
             //send mail
@@ -62,27 +62,14 @@ var controller = {
             * */
             var emailAction = new EmailAction({
                 to: member.email,
-                template: null,
+                template: './views/email/registerConfirmation.hbs',
                 subject: "Confirmation account",
-                locale: 'ru',
+                locale: res.getLocale(),
                 data: {
                     confirmationId: member.confirmationId
                 }
             });
-
             emailAction.execute();
-
-             var emailSender = new EmailSender({
-                to: member.email,
-                subject: "Confirmation account"
-            });
-            emailSender.send(function(err){
-                if( err ){
-                    logger.error(err);
-                    return false;
-                }
-            });
-
         })
 
     }
