@@ -10,7 +10,6 @@
         "cron": "",
         "nconf": "",
         "winston": "",
-        "hbs": "",
         "async": "",
         "ncp": "",
         "mongoose": "",
@@ -19,7 +18,6 @@
         "nodemailer": "",
         "i18n": "",
 
-        "hbs-precompiler": "",
         "express3-handlebars": "",
 
         "passport": "",
