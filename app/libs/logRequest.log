@@ -4,3 +4,68 @@
 {"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-25T15:51:47.179Z"}
 {"status":404,"url":"/projects","level":"warn","message":"","timestamp":"2014-03-25T15:51:58.312Z"}
 {"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-25T15:52:01.047Z"}
+{"status":404,"url":"/projects","level":"warn","message":"","timestamp":"2014-03-25T16:13:13.975Z"}
+{"status":404,"url":"/projects","level":"warn","message":"","timestamp":"2014-03-25T16:13:15.039Z"}
+{"status":404,"url":"/projects","level":"warn","message":"","timestamp":"2014-03-25T16:13:15.598Z"}
+{"status":404,"url":"/projects","level":"warn","message":"","timestamp":"2014-03-25T16:13:16.648Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-25T16:13:25.867Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-25T16:13:25.899Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-25T16:13:27.861Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-25T16:15:22.570Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-25T16:15:22.602Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-25T16:15:24.648Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-25T16:15:26.418Z"}
+{"error":{"view":{"name":"index","root":"/vagrant/app/views","defaultEngine":".hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-03-25T16:15:43.901Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-25T16:15:52.406Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-25T16:15:52.445Z"}
+{"error":{"view":{"name":"index","root":"/vagrant/app/views","defaultEngine":".hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-03-25T16:15:53.470Z"}
+{"error":{"view":{"name":"index","root":"/vagrant/app/views","defaultEngine":".hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-03-25T16:15:54.377Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-25T16:16:49.005Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-25T16:16:49.050Z"}
+{"error":{"view":{"name":"index","root":"/vagrant/app/views","defaultEngine":".hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-03-25T16:16:50.048Z"}
+{"error":{"view":{"name":"index","root":"/vagrant/app/views","defaultEngine":".hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-03-25T16:16:51.167Z"}
+{"error":{"view":{"name":"index","root":"/vagrant/app/views","defaultEngine":".hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-03-25T16:16:51.651Z"}
+{"error":{"view":{"name":"index","root":"/vagrant/app/views","defaultEngine":".hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-03-25T16:16:52.190Z"}
+{"error":{"view":{"name":"index","root":"/vagrant/app/views","defaultEngine":".hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-03-25T16:16:52.236Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-25T16:17:12.069Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-25T16:17:12.102Z"}
+{"error":{"view":{"name":"index","root":"/vagrant/app/views","defaultEngine":".hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-03-25T16:17:13.252Z"}
+{"error":{"view":{"name":"index","root":"/vagrant/app/views","defaultEngine":".hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-03-25T16:17:15.404Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-25T16:18:10.069Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-25T16:18:10.102Z"}
+{"error":{"view":{"name":"index","root":"/vagrant/app/views","defaultEngine":".hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-03-25T16:18:10.720Z"}
+{"error":{"view":{"name":"index","root":"/vagrant/app/views","defaultEngine":".hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-03-25T16:18:11.840Z"}
+{"error":{"view":{"name":"index","root":"/vagrant/app/views","defaultEngine":".hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-03-25T16:18:12.336Z"}
+{"error":{"view":{"name":"index","root":"/vagrant/app/views","defaultEngine":".hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-03-25T16:18:12.372Z"}
+{"error":{"view":{"name":"index","root":"/vagrant/app/views","defaultEngine":".hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-03-25T16:18:12.404Z"}
+{"error":{"view":{"name":"index","root":"/vagrant/app/views","defaultEngine":".hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-03-25T16:18:12.432Z"}
+{"error":{"view":{"name":"index","root":"/vagrant/app/views","defaultEngine":".hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-03-25T16:18:12.462Z"}
+{"error":{"view":{"name":"index","root":"/vagrant/app/views","defaultEngine":".hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-03-25T16:18:12.502Z"}
+{"error":{"view":{"name":"index","root":"/vagrant/app/views","defaultEngine":".hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-03-25T16:18:12.531Z"}
+{"error":{"view":{"name":"index","root":"/vagrant/app/views","defaultEngine":".hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-03-25T16:18:12.572Z"}
+{"error":{"view":{"name":"index","root":"/vagrant/app/views","defaultEngine":".hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-03-25T16:18:12.603Z"}
+{"error":{"view":{"name":"index","root":"/vagrant/app/views","defaultEngine":".hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-03-25T16:18:12.630Z"}
+{"error":{"view":{"name":"index","root":"/vagrant/app/views","defaultEngine":".hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-03-25T16:18:12.660Z"}
+{"error":{"view":{"name":"index","root":"/vagrant/app/views","defaultEngine":".hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-03-25T16:18:12.703Z"}
+{"error":{"view":{"name":"index","root":"/vagrant/app/views","defaultEngine":".hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-03-25T16:18:12.742Z"}
+{"error":{"view":{"name":"index","root":"/vagrant/app/views","defaultEngine":".hbs","ext":".hbs"}},"level":"error","message":"","timestamp":"2014-03-25T16:18:14.685Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-25T16:19:28.418Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-25T16:19:28.455Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-25T16:19:50.629Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-25T16:19:50.672Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-25T16:19:51.788Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-25T16:19:54.303Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-25T16:20:18.937Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-25T16:20:18.969Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-25T16:20:20.261Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-25T16:20:40.422Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-25T16:20:40.478Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-25T16:20:50.273Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-25T16:20:50.306Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-25T16:20:53.273Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-25T16:22:00.019Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-25T16:22:03.176Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-25T16:22:03.314Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-25T16:22:03.481Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-25T16:22:03.699Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-25T16:22:03.873Z"}

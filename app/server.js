@@ -37,7 +37,10 @@ app.configure(function() {
     }));
     app.use(express.bodyParser({ keepExtensions: true, uploadDir: './tmp' }));
     app.set('views', __dirname + "/views");
-    app.engine('.hbs', exphbs({extname: '.hbs'}));
+    app.engine('.hbs', exphbs({
+        extname: '.hbs',
+        defaultLayout: 'main'
+    }));
     app.set('view engine', '.hbs');
     app.use(passport.initialize());
     app.use(passport.session());
