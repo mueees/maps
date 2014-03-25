@@ -1,10 +1,11 @@
 define([
     'apps/app',
     'marionette',
+    'underscore',
 
     /*views*/
     './views/notify'
-], function(App, Marionette, NotifyView){
+], function(App, Marionette, _, NotifyView){
 
     App.module("Notify", {
 
@@ -27,8 +28,8 @@ define([
 
             var Controller = {
                 showNotify: function( options ){
-                    var settings = $.extend(defaultSettings, options);
 
+                    var settings = $.extend(_.clone(defaultSettings), options);
                     var notifyModel = new NotifyModel(settings);
                     var notifyView = new NotifyView({model:notifyModel});
                     $('#notice-container').append(notifyView.$el);

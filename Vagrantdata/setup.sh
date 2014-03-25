@@ -1,19 +1,28 @@
 #!/bin/bash
 sudo -s
+#for mongo
+apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
 apt-get update
 
+#Install GIT
+apt-get install -y git-core
+
 # setup nodejs
-apt-get install -y python-software-properties python g++ make
-add-apt-repository ppa:chris-lea/node.js
-apt-get update
-apt-get install -y nodejs
+apt-get install -y curl build-essential openssl libssl-dev
+git clone https://github.com/joyent/node.git
+cd node
+git checkout v0.10.26
+./configure --openssl-libpath=/usr/lib/ssl
+make
+make test
+make install
+node -v # it's alive!
+npm -v # it's alive!
 
 # setup nginx
 apt-get install -y nginx
 
 # setup mongodb
-apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
-apt-get update
 apt-get install -y mongodb
 
 # Setup nginx
@@ -38,12 +47,3 @@ apt-get install htop
 #FRONT
 #install grunt
 npm install -g grunt-cli
-
-
-#start project
-#cd /vagrant
-#export NODE_ENV=development
-#export NODE_SITE=development
-#export NODE_PATH=.
-#node server.js
-#supervisor --debug server.js

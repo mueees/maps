@@ -73,14 +73,31 @@ define([
                         url: config.api.userSignIn,
                         type: "POST",
                         data: data,
-                        success: function(){
-
+                        success: function(data){
+                            var redirect = data.redirect || config.url.afterSignIn;
+                            App.reqres.request("notify:showNotify", {
+                                text: "Success. Redirect to project page ... ",
+                                withCloseBtn: false
+                            });
+                            setTimeout(function(){
+                                window.location = redirect;
+                            }, 1500);
                         },
-                        error: function(){
+                        error: function(xhr){
+                            var responseText = xhr.responseText
+                                , error = "Server error";
+                            if( responseText ){
+                                try{
+                                    responseText = JSON.parse(responseText);
+                                    error = responseText.error;
+                                }catch(e){}
+                            }
+
                             authView.errorSignIn();
                             App.reqres.request("notify:showNotify", {
-                                text: "Server error, please try again",
-                                withCloseBtn: false
+                                text: error,
+                                withCloseBtn: false,
+                                type: "error"
                             });
                         }
                     })

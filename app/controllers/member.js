@@ -5,20 +5,11 @@ var config = require('config')
     , validator = require('validator')
     , async = require('async')
     , EmailAction = require("actions/email/email")
-    , EmailSender = require("EmailSender")
+    , config = require("config")
     , MemberModel = require('member/model/member');
 
 var controller = {
     signup: function(req, res, next){
-        /*
-         проверить нет ли уже такого юзера
-         если есть проверить его статус, если такой юзер уже есть,
-         сказать что юзер с таким мылом уже зарегестрирован
-
-         если нет, то зарегестрировать его, сгенерировать активационную ссылку ссылку
-         и скинуть ее на указанный email
-
-         */
         var data = req.body;
 
         if( !validator.isEmail(data.email) ) {
@@ -74,9 +65,56 @@ var controller = {
 
     }
     , signin: function(req, res, next){
-        res.end();
+        res.send({
+            redirect: config.get('url:afterSignIn')
+        })
     }
     , logout: function(req, res, next){}
-}
+    , confirmation: function(req, res, next){
+        if(!req.params.id) {
+            return res.redirect('/');
+        }
 
+        async.waterfall([
+            function(cb){
+                MemberModel.isHaveConfirmationId(req.params.id, cb);
+            },
+            function(member, cb){
+                if( !member ){
+                    return cb("Cannot find confirmation id");
+                }
+                return cb(null, member);
+            }
+        ], function(err, member){
+            if(err) {
+                logger.error(err);
+                return res.redirect('/');
+            }
+
+            logger.info("Member confirmed account");
+            req.login(member._id, function(err) {
+                if (err) { return next(err); }
+                return res.redirect(config.get('url:afterConfirmationAccount'));
+            });
+
+            if( member.status == 400 ){
+                member.confirm();
+                /*
+                 * todo: change to queue 20.3.2014
+                 * https://github.com/LearnBoost/kue
+                 * */
+                var emailAction = new EmailAction({
+                    to: member.email,
+                    template: './views/email/successConfirmation.hbs',
+                    subject: "Confirmation success",
+                    locale: res.getLocale(),
+                    data: {}
+                });
+                emailAction.execute();
+            }
+
+        })
+
+    }
+}
 module.exports = controller;

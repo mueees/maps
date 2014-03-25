@@ -1,5 +1,5 @@
 {
-    "Hello": "Hello",
+	"Hello": "Hello",
 	"User with same email already registered": "User with same email already registered",
 	"Register success. To complete your registration please verify your email": "Register success. To complete your registration please verify your email",
 	"An error occurred. Please try again later": "An error occurred. Please try again later",
@@ -8,5 +8,6 @@
 	"Thank you for signing up to join Free map!": "Thank you for signing up to join Free map!",
 	"To complete your registration and confirm your email address, please click the following link": "To complete your registration and confirm your email address, please click the following link",
 	"Activate My Account": "Activate My Account",
-	"If this link doesn’t work, please copy it into your browser’s address bar:": "If this link doesn’t work, please copy it into your browser’s address bar:"
+	"If this link doesn’t work, please copy it into your browser’s address bar:": "If this link doesn’t work, please copy it into your browser’s address bar:",
+	"Confirmation Success!": "Confirmation Success!"
 }

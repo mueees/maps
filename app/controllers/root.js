@@ -1,3 +1,8 @@
+var config = require("config");
 exports.home = function(req, res, next) {
-    res.render('index.hbs', {});
+    if(req.user){
+        res.redirect(config.get('url:homePageForRegisterUser'));
+    }else{
+        res.render('index.hbs', {});
+    }
 }

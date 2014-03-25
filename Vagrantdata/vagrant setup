@@ -1,6 +1,9 @@
 vagrant box add lucid32 http://files.vagrantup.com/lucid32.box
 vagrant box add precise32 /home/mue/VirtualBox\ VMs/precise32.box
 
+#Debian Wheezy 7.2 amd64 (VirtualBox Guest Additions 4.3.0) (2013/10/19)
+vagrant box add debian-72 https://dl.dropboxusercontent.com/u/197673519/debian-7.2.0.box
+
 vagrant plugin install vagrant-vbguest
 vagrant up
 vagrant provision

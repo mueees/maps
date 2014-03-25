@@ -7,7 +7,7 @@ define([
 
     return Marionette.ItemView.extend({
 
-        el: ".account",
+        el: ".intro-container",
 
         events: {
             "click .signin-container .signin": "signInBtn",
@@ -113,6 +113,15 @@ define([
                 signUp.removeClass('animated shake');
             });
         },
+
+        /*successSignIn: function(){
+            var signIn = this.$el;
+            signIn.addClass('animated flip');
+            this.$el.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+                signIn.removeClass('animated flip');
+                signIn.addClass('animated bounceOutLeft');
+            });
+        },*/
 
         errorSignUp: function(){
             this.errorAnimateSignUp();

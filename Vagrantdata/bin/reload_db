@@ -1,4 +1,0 @@
-#!/bin/bash
-
-echo "Clean old database ..."
-mongo zbanaldb --eval "db.dropDatabase()"

@@ -5,7 +5,7 @@ var express = require('express'),
     HttpError = require('error').HttpError,
     logger = require("libs/log")(module),
     i18n = require("i18n"),
-    hbs,
+    passport = require('passport'),
     exphbs  = require('express3-handlebars'),
     config = require("config");
 
@@ -26,11 +26,21 @@ app.configure(function() {
     app.use(express.static(__dirname + '/frontend/public/'));
     if( process.env.NODE_SITE === "development" ) app.use(express.static(__dirname + '/frontend/dev/'));
     app.use(express.cookieParser());
+    app.use(express.session({
+        secret: config.get("session:secret"),
+        key: config.get("session:key"),
+        "cookie": {
+            "path": "/",
+            "httpOnly": true,
+            "maxAge": null
+        }
+    }));
     app.use(express.bodyParser({ keepExtensions: true, uploadDir: './tmp' }));
     app.set('views', __dirname + "/views");
     app.engine('.hbs', exphbs({extname: '.hbs'}));
     app.set('view engine', '.hbs');
-
+    app.use(passport.initialize());
+    app.use(passport.session());
     // init i18n module for this loop
     app.use(i18n.init);
 });
@@ -41,8 +51,6 @@ app.use(function(req, res,  next){
     next();
 
 })
-
-
 
 //routing
 route(app);

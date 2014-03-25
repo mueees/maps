@@ -48,7 +48,11 @@ module.exports = function(grunt) {
         watch: {
             stylus: {
                 tasks: ['build'],
-                files: ['dev/stylus/*.styl', 'dev/import/*.styl']
+                files: [
+                    'dev/stylus/*.styl',
+                    'dev/import/*.styl',
+                    'dev/css/animate.css'
+                ]
             }
         }
 

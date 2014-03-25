@@ -1,0 +1,2 @@
+echo "Clean members ..."
+mongo map_dev --eval "db.members.remove()"

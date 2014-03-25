@@ -3,6 +3,9 @@ define([], function(){
         api: {
             'userSignUp': '/api/user/signup',
             'userSignIn': '/api/user/signin'
+        },
+        url: {
+            afterSignIn: "/projects"
         }
     }
 })

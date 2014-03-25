@@ -17,6 +17,7 @@
         "validator": "",
         "nodemailer": "",
         "i18n": "",
+        "connect-flash": "",
 
         "express3-handlebars": "",
 

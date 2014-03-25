@@ -2,7 +2,7 @@
 VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
-  config.vm.box = "lucid32"
+  config.vm.box = "debian-72"
 
   #setup network
   config.vm.network "forwarded_port", guest: 5001, host: 5001

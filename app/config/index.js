@@ -11,6 +11,7 @@ if((node_site == 'development')){
 }
 
 nconf.file('secret', {file: path.join(__dirname, 'secret.json')});
+nconf.file('project', {file: path.join(__dirname, 'project.json')});
 nconf.file('configFile', {file: path.join(__dirname, configFile)});
 
 module.exports = nconf;

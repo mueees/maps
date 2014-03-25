@@ -1,0 +1,2 @@
+echo "Clean database ..."
+mongo map_dev --eval "db.dropDatabase()"
