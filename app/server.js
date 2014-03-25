@@ -37,7 +37,7 @@ app.configure(function() {
 
 app.use( require("middleware/sendHttpError") );
 app.use(function(req, res,  next){
-    res.setLocale('ru');
+    res.setLocale('en');
     next();
 
 })

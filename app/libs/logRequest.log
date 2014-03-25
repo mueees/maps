@@ -280,3 +280,37 @@
 {"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-24T17:10:55.218Z"}
 {"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-24T17:10:55.253Z"}
 {"level":"info","message":"Message sent: 250 2.0.0 OK 1395681061 ms3sm8525423lbb.17 - gsmtp","timestamp":"2014-03-24T17:11:01.214Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-24T19:33:23.337Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-24T19:33:23.401Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-24T19:33:41.062Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-24T19:33:41.871Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-24T19:33:42.031Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-24T19:33:42.189Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-24T19:33:42.361Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-24T19:33:57.663Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-24T19:33:57.701Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-24T19:33:59.998Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-24T19:34:07.629Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-24T19:34:11.975Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-24T19:34:20.959Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-24T19:34:20.998Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-24T19:39:45.334Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-24T19:39:45.373Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-24T19:41:52.635Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-24T19:43:08.576Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-24T20:17:26.948Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-24T20:18:56.864Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-24T20:18:56.905Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-24T20:19:28.660Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-24T20:19:30.418Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-24T20:19:32.101Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-24T20:19:33.698Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-24T20:21:29.533Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-24T20:21:29.571Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-24T20:29:14.222Z"}
+{"error":{"status":400,"message":"Пользователь с таким email уже зарегестрирован."},"level":"error","message":"","timestamp":"2014-03-24T20:29:16.118Z"}
+{"level":"info","message":"Message sent: 250 2.0.0 OK 1395692995 wm1sm14573973lac.14 - gsmtp","timestamp":"2014-03-24T20:29:55.396Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-24T20:33:47.327Z"}
+{"level":"info","message":"Message sent: 250 2.0.0 OK 1395693230 wm1sm14582276lac.14 - gsmtp","timestamp":"2014-03-24T20:33:50.490Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-24T20:34:15.693Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-24T20:34:15.735Z"}

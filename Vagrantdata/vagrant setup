@@ -1,4 +1,6 @@
 vagrant box add lucid32 http://files.vagrantup.com/lucid32.box
+vagrant box add precise32 /home/mue/VirtualBox\ VMs/precise32.box
+
 vagrant plugin install vagrant-vbguest
 vagrant up
 vagrant provision
