@@ -1,2 +1,6 @@
 {"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-25T13:54:04.584Z"}
 {"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-25T13:54:04.630Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-25T15:51:42.742Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-25T15:51:47.179Z"}
+{"status":404,"url":"/projects","level":"warn","message":"","timestamp":"2014-03-25T15:51:58.312Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-25T15:52:01.047Z"}
