@@ -5,7 +5,6 @@ var config = require('config')
     , validator = require('validator')
     , async = require('async')
     , EmailAction = require("actions/email/email")
-    , config = require("config")
     , MemberModel = require('member/model/member');
 
 var controller = {

@@ -52,9 +52,9 @@ http://geojsonlint.com/
     dateCreate: <date>,
     lastModify: <date>,
     name: <name>,
-    userId: <userId>,
+    userId: <userId>, #может и не быть, если ее создал guest
     isPublic: true || false #только для проектов зарегестрированных пользователей
-    protectCode: <protectCode> #защитить карту паролем
+    protectedPassword: <protectCode> #защитить карту паролем
     type: "account" || "guest", # показывает, карта создана зарегестрированным юзером или гостем
     share: [
         {
