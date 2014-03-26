@@ -69,3 +69,19 @@
 {"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-25T16:22:03.481Z"}
 {"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-25T16:22:03.699Z"}
 {"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-25T16:22:03.873Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-25T21:08:36.321Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-25T21:08:36.393Z"}
+{"error":{},"level":"error","message":"","timestamp":"2014-03-25T21:10:00.399Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-25T21:12:39.760Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-25T21:12:39.781Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-25T21:12:57.683Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-25T21:13:04.034Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-25T21:13:05.430Z"}
+{"error":{"status":400,"message":"Invalid Email"},"level":"error","message":"","timestamp":"2014-03-25T21:13:05.592Z"}
+{"level":"info","message":"Message sent: 250 2.0.0 OK 1395782126 kz7sm17782860lab.16 - gsmtp","timestamp":"2014-03-25T21:15:26.290Z"}
+{"level":"info","message":"Member confirmed account","timestamp":"2014-03-25T21:17:35.620Z"}
+{"status":404,"url":"/projects","level":"warn","message":"","timestamp":"2014-03-25T21:17:35.691Z"}
+{"level":"info","message":"Message sent: 250 2.0.0 OK 1395782257 lm5sm17782930lac.13 - gsmtp","timestamp":"2014-03-25T21:17:37.074Z"}
+{"status":404,"url":"/projects","level":"warn","message":"","timestamp":"2014-03-25T21:17:41.335Z"}
+{"status":404,"url":"/projects","level":"warn","message":"","timestamp":"2014-03-25T21:17:44.256Z"}
+{"status":404,"url":"/projects","level":"warn","message":"","timestamp":"2014-03-25T21:17:45.819Z"}
