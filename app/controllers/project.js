@@ -6,8 +6,6 @@ var config = require('config')
     , validator = require('validator')
     , ProjectModel = require('models/project/project');
 
-
-
 var controller = {
     add: function(req, res, next){
         var data = req.body;
@@ -26,12 +24,6 @@ var controller = {
     },
 
     remove: function(req, res, next){
-
-        console.log(312312312);
-
-        if(!req.params.id) {
-            return next(new HttpError(400, "Project Id incorrect"));
-        }
 
         var userId = (req.user) ? req.user._id : null;
         if( !userId ){
@@ -64,6 +56,39 @@ var controller = {
                 message: res.__("Project was deleted")
             });
         })
+    },
+
+    getProjects: function(req, res, next){
+        ProjectModel.find({
+            userId: req.user._id
+        }, function(err, projects){
+            if(err){
+                logger(err);
+                return next(new HttpError(400, "Server error"));
+            }
+            res.send(projects);
+
+        });
+    },
+
+    getProject: function(req, res, next){
+        ProjectModel.find({_id: req.params.id}, function(err, project){
+            if(err){
+                logger(err);
+                return next(new HttpError(400, "Server error"));
+            }
+
+            if( !project ){
+                return next(new HttpError(400, "Cannot find project"));
+            }
+
+            res.send(project);
+        })
+    },
+
+    editProject: function(req, res, next){
+        // req.params.id
     }
+
 }
 module.exports = controller;

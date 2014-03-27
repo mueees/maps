@@ -1,8 +1,8 @@
 var request = require('request');
 
-var url = "http://127.0.0.1:5001/api/project/remove/123",
+var url = "http://127.0.0.1:5001/api/projects",
     options = {
-        type: "POST"
+        type: "GET"
     };
 
 request(url, options, function(err, response, buffer) {
