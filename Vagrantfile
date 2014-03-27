@@ -9,11 +9,16 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.network "forwarded_port", guest: 8080, host: 8080
   config.vm.network "forwarded_port", guest: 5858, host: 5858
 
-  #config.vm.customize ["setextradata", :id, "VBoxInternal2/SharedFoldersEnableSymlinksCreate/v-root", "1"]
+
+  config.vm.provider :virtualbox do |vb|
+    vb.gui = false
+    vb.customize ["modifyvm", :id, "--name", "map-dev", "--memory", "2048"]
+  end
 
   config.vm.provision :shell, :path => "./Vagrantdata/setup.sh"
 
-    #config.vm.provider "virtualbox" do |v|
-    #  v.customize ["setextradata", :id, "VBoxInternal2/SharedFoldersEnableSymlinksCreate/vagrant-root", "1"]
-    #end
+
+
+
+
 end
