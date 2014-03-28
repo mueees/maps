@@ -6,7 +6,9 @@ var rootController = require('../controllers/root')
 
 module.exports = function(app) {
 
+    //static
     app.get('/', rootController.home);
+    app.get('/editor', rootController.editor);
 
     //member
     app.get('/api/user/confirmation/:id', memberController.confirmation);
