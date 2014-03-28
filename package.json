@@ -18,6 +18,7 @@
         "nodemailer": "",
         "i18n": "",
         "connect-flash": "",
+        "request": "",
 
         "express3-handlebars": "",
 

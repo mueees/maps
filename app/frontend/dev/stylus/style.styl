@@ -1,11 +1,13 @@
 @charset "utf-8";
 
+@import "../import/reset.styl"
 @import "../import/variables.styl"
 @import "../import/mixins.styl"
 @import "../import/rewrite.styl"
 
 body
     color mainColor
+    font-family "Open Sans"
 
 #notice-container
     position fixed
@@ -58,3 +60,80 @@ body
             width 100%
             margin 10px 0 0 0
             height 60px
+
+//control-container
+
+.second-buttons
+    position absolute
+    top 5px
+    left 320px
+
+    ul
+        overflow hidden
+    li
+        float left
+        margin 0 10px 0 0
+
+#control-container
+    z-index 10
+    position absolute
+    top 5px
+    left 5px
+
+    .main-buttons
+        background white
+        width 300px
+
+        ul
+            overflow hidden
+            margin 0
+            padding 0
+        li
+            float left
+
+    .tab-container
+        background white
+        padding 0 0 10px
+        width 300px
+    .tab-data
+
+        .config
+            padding 10px 0 10px 10px
+
+        .layout
+            .features
+                display none
+
+            &.active
+                .features
+                    display block
+
+
+        header
+            border-left 6px solid white
+            padding 10px 0 10px 10px
+            cursor pointer
+
+            &:hover
+                border-left 6px solid #5cb85c
+                background #e6e6e6
+
+        .features
+            margin 0 0 0 10px
+
+        .feature
+            border-bottom 1px solid #e6e6e6
+            border-left 3px solid white
+            padding 8px 0 8px 10px
+            cursor pointer
+
+            &:hover
+                background #e6e6e6
+                border-left 3px solid #428bca
+
+
+//bootstrap
+
+.btn-control
+    padding 7px 0
+    width 75px

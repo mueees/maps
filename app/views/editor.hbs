@@ -1,0 +1,93 @@
+<div id="main"></div>
+<div id="control-container">
+    <div class="main-buttons">
+        <ul>
+            <li><a class="btn btn-control btn-primary" href="#style">Style</a></li>
+            <li><a class="btn btn-control btn-primary" href="#data">Data</a></li>
+            <li><a class="btn btn-control btn-primary" href="#project">Project</a></li>
+            <li><a class="btn btn-control btn-success" href="#">Save</a></li>
+        </ul>
+    </div>
+    <div class="tab-container">
+        <div class="tab-data">
+            <div class="config">
+                <a class="btn btn-sm btn-primary" href="#">Add Layout</a>
+            </div>
+            <div class="layouts">
+                <div class="layout active">
+                    <header>
+                        <input class="visible" type="checkbox"/>
+                        <span class="title">Some name</span>
+                    </header>
+                    <section class="features">
+                        <div data-type="marker" class="feature">
+                            <i class="icon">marker</i>
+                            <span class="name">Some place</span>
+                            <i class="icon">delete-icon</i>
+                        </div>
+                        <div data-type="marker" class="feature">
+                            <i class="icon">marker</i>
+                            <span class="name">Some place</span>
+                            <i class="icon">delete-icon</i>
+                        </div>
+                        <div data-type="marker" class="feature">
+                            <i class="icon">marker</i>
+                            <span class="name">Some place</span>
+                            <i class="icon">delete-icon</i>
+                        </div>
+                    </section>
+                </div>
+                <div class="layout">
+                    <header>
+                        <input class="visible" type="checkbox"/>
+                        <span class="title">Some name</span>
+                    </header>
+                    <section class="features">
+                        <div data-type="marker" class="feature">
+                            <i class="icon">marker</i>
+                            <span class="name">Some place</span>
+                            <i class="icon">delete-icon</i>
+                        </div>
+                    </section>
+                </div>
+                <div class="layout active">
+                    <header>
+                        <input class="visible" type="checkbox"/>
+                        <span class="title">Some name</span>
+                    </header>
+                    <section class="features">
+                        <div data-type="marker" class="feature">
+                            <i class="icon">marker</i>
+                            <span class="name">Some place</span>
+                            <i class="icon">delete-icon</i>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="second-buttons">
+    <ul>
+        <li>
+            <a class="btn btn-control btn-primary" href="#">Marker</a>
+        </li>
+        <li>
+            <a class="btn btn-control btn-primary" href="#">Line</a>
+        </li>
+        <li>
+            <a class="btn btn-control btn-primary" href="#">Polygon</a>
+        </li>
+    </ul>
+</div>
+<div id="notice-container"></div>
+
+<script type="text/javascript">
+    var config = {{{script}}}
+</script>
+<script type="text/javascript" src="js/require.js"></script>
+<script type="text/javascript">
+    require(['js/config'], function(){
+        require(['apps/editor/editor'], function(){});
+    });
+</script>

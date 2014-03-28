@@ -13,7 +13,8 @@ define([
     App.addRegions({
         main: "#main",
         body: 'body',
-        noticeContainer: "#notice-container"
+        noticeContainer: "#notice-container",
+        controlContainer: "#control-container"
     });
 
     App.on('initialize:after', function(){

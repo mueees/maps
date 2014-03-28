@@ -9,5 +9,8 @@
 	"To complete your registration and confirm your email address, please click the following link": "To complete your registration and confirm your email address, please click the following link",
 	"Activate My Account": "Activate My Account",
 	"If this link doesn’t work, please copy it into your browser’s address bar:": "If this link doesn’t work, please copy it into your browser’s address bar:",
-	"Confirmation Success!": "Confirmation Success!"
+	"Confirmation Success!": "Confirmation Success!",
+
+    "Project was deleted": "Project was deleted",
+    "User doesn't have project with this Id": "User doesn't have project with this Id"
 }
