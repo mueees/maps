@@ -35,6 +35,12 @@ module.exports = function(grunt) {
                         src: ['<%= configPath.dev %>/img/*'],
                         dest: '<%= configPath.public %>',
                         flatten: true
+                    },
+                    {
+                        expand: true,
+                        src: ['<%= configPath.dev %>/img/icons/*'],
+                        dest: '<%= configPath.public %>',
+                        flatten: true
                     }
                 ]
             }

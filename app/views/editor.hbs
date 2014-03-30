@@ -1,5 +1,5 @@
 <div id="main"></div>
-<div id="control-container">
+<div id="control-first-container">
     <div class="main-buttons">
         <ul>
             <li><a class="btn btn-control btn-primary" href="#style">Style</a></li>
@@ -13,72 +13,821 @@
             <div class="config">
                 <a class="btn btn-sm btn-primary" href="#">Add Layout</a>
             </div>
-            <div class="layouts">
-                <div class="layout active">
-                    <header>
-                        <input class="visible" type="checkbox"/>
-                        <span class="title">Some name</span>
-                    </header>
-                    <section class="features">
-                        <div data-type="marker" class="feature">
-                            <i class="icon">marker</i>
-                            <span class="name">Some place</span>
-                            <i class="icon">delete-icon</i>
-                        </div>
-                        <div data-type="marker" class="feature">
-                            <i class="icon">marker</i>
-                            <span class="name">Some place</span>
-                            <i class="icon">delete-icon</i>
-                        </div>
-                        <div data-type="marker" class="feature">
-                            <i class="icon">marker</i>
-                            <span class="name">Some place</span>
-                            <i class="icon">delete-icon</i>
-                        </div>
-                    </section>
+            <div class="proejctLayouts-container">
+                <div class="layouts">
+                    <div class="layout active">
+                        <header>
+                            <input class="visible" type="checkbox"/>
+                            <span class="title">Some name</span>
+                        </header>
+                        <section class="features">
+                            <div data-type="marker" class="feature">
+                                <span class="glyphicon glyphicon-map-marker"></span>
+                                <span class="name">Some place</span>
+                                <a class="manage" href="#">
+                                    <span class="glyphicon glyphicon-trash"></span>
+                                </a>
+                                <span class="meta">
+                                    <span class="link">
+                                        <span class="glyphicon glyphicon-link">a</span>
+                                    </span>
+                                </span>
+                                <a href="#" class="manage" title="Clone feature to project">
+                                    <span class="glyphicon glyphicon-cloud-upload"></span>
+                                </a>
+                            </div>
+                            <div data-type="line" class="feature">
+
+                                <span class="glyphicon glyphicon-resize-full"></span>
+                                <span class="name">Some place</span>
+                                <span class="meta">
+                                    <span class="link">
+                                        <span class="glyphicon glyphicon-link">p</span>
+                                    </span>
+                                </span>
+                                <a class="manage" href="#">
+                                    <span class="glyphicon glyphicon-trash"></span>
+                                </a>
+                                <a class="manage" href="#">
+                                    <span class="glyphicon glyphicon-cloud-upload"></span>
+
+                                </a>
+                            </div>
+                            <div data-type="polygon" class="feature">
+                                <span class="glyphicon glyphicon-retweet"></span>
+                                <span class="name">Some place</span>
+                                <a class="manage" href="#" title="Delete feature">
+                                    <span class="glyphicon glyphicon-trash"></span>
+                                </a>
+                                <a class="manage" href="#" title="Share feature">
+                                    <span class="glyphicon glyphicon-share"></span>
+                                </a>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="layout">
+                        <header>
+                            <input class="visible" type="checkbox"/>
+                            <span class="title">Some name</span>
+                        </header>
+                        <section class="features">
+                            <div data-type="marker" class="feature">
+                                <i class="icon">marker</i>
+                                <span class="name">Some place</span>
+                                <i class="icon">delete-icon</i>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="layout active">
+                        <header>
+                            <input class="visible" type="checkbox"/>
+                            <span class="title">Some name</span>
+                        </header>
+                        <section class="features">
+                            <div data-type="marker" class="feature">
+                                <i class="icon">marker</i>
+                                <span class="name">Some place</span>
+                                <i class="icon">delete-icon</i>
+                            </div>
+                        </section>
+                    </div>
                 </div>
-                <div class="layout">
-                    <header>
-                        <input class="visible" type="checkbox"/>
-                        <span class="title">Some name</span>
-                    </header>
-                    <section class="features">
-                        <div data-type="marker" class="feature">
-                            <i class="icon">marker</i>
-                            <span class="name">Some place</span>
-                            <i class="icon">delete-icon</i>
-                        </div>
-                    </section>
-                </div>
-                <div class="layout active">
-                    <header>
-                        <input class="visible" type="checkbox"/>
-                        <span class="title">Some name</span>
-                    </header>
-                    <section class="features">
-                        <div data-type="marker" class="feature">
-                            <i class="icon">marker</i>
-                            <span class="name">Some place</span>
-                            <i class="icon">delete-icon</i>
-                        </div>
-                    </section>
+            </div>
+            <div class="accountLayouts-container">
+                <span>Account features</span>
+                <div class="layouts">
+                    <div class="layout active">
+                        <header>
+                            <input class="visible" type="checkbox"/>
+                            <span class="title">Some name</span>
+                        </header>
+                        <section class="features">
+                            <div data-type="marker" class="feature">
+                                <span class="glyphicon glyphicon-map-marker"></span>
+                                <span class="name">Some place</span>
+                                <a class="manage" href="#">
+                                    <span class="glyphicon glyphicon-trash"></span>
+                                </a>
+                            </div>
+                            <div data-type="line" class="feature">
+                                <span class="glyphicon glyphicon-resize-full"></span>
+                                <span class="name">Some place</span>
+                                <a class="manage" href="#">
+                                    <span class="glyphicon glyphicon-trash"></span>
+                                </a>
+                            </div>
+                            <div data-type="polygon" class="feature">
+                                <span class="glyphicon glyphicon-retweet"></span>
+                                <span class="name">Some place</span>
+                                <a class="manage" href="#">
+                                    <span class="glyphicon glyphicon-trash"></span>
+                                </a>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="layout">
+                        <header>
+                            <input class="visible" type="checkbox"/>
+                            <span class="title">Some name</span>
+                        </header>
+                        <section class="features">
+                            <div data-type="marker" class="feature">
+                                <i class="icon">marker</i>
+                                <span class="name">Some place</span>
+                                <i class="icon">delete-icon</i>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="layout active">
+                        <header>
+                            <input class="visible" type="checkbox"/>
+                            <span class="title">Some name</span>
+                        </header>
+                        <section class="features">
+                            <div data-type="marker" class="feature">
+                                <i class="icon">marker</i>
+                                <span class="name">Some place</span>
+                                <i class="icon">delete-icon</i>
+                            </div>
+                        </section>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+<div id="control-second-container">
 <div class="second-buttons">
     <ul>
-        <li>
-            <a class="btn btn-control btn-primary" href="#">Marker</a>
+        <li class="marker">
+            <a class="btn btn-sm btn-primary" href="#"><span class="glyphicon glyphicon-map-marker"></span></a>
         </li>
-        <li>
-            <a class="btn btn-control btn-primary" href="#">Line</a>
+        <li class="line">
+            <a class="btn btn-sm btn-primary" href="#"><span class="glyphicon glyphicon-resize-full"></span></a>
         </li>
-        <li>
-            <a class="btn btn-control btn-primary" href="#">Polygon</a>
+        <li class="polygon">
+            <a class="btn btn-sm btn-primary" href="#"><span class="glyphicon glyphicon-retweet"></span></a>
         </li>
     </ul>
+</div>
+<div class="editor-container">
+<div class="editor-marker">
+<div class="content">
+<div class="tab-latlong">
+    <form>
+        <div class="latitude">
+            <span>Latitude</span>
+            <div class="input-group">
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-resize-horizontal"></span>
+                                </span>
+                <input disabled type="text" class="form-control" name="latitude" placeholder="Latitude" value="23.654587">
+            </div>
+        </div>
+        <br/>
+        <dev class="latitude">
+            <span>Longitude</span>
+            <div class="input-group">
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-resize-vertical"></span>
+                                </span>
+                <input disabled type="text" class="form-control" name="latitude" placeholder="Latitude" value="23.654587">
+            </div>
+        </dev>
+    </form>
+</div>
+
+
+{{!--<div class="tab-symbol">
+    <div class="icons-container">
+        <ul>
+            <li>
+                <div class="item">
+                    <span class="i-airplane"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-angry"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-black"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-car"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-clear"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-clouds"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-comments"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-dark2"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-databases"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-delivery"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-email"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-film"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-film2"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-first"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-flag"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-flag2"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-football"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-football2"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-football3"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-gps"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-graduation"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-greek"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-happy"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-hot"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-idea"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-kid"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-like"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-lock"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-microphone"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-money"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-motorcycle"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-musical"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-party"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-pharmacy"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-pins"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-play"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-rainy"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-restaurant"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-rss"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-sale"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-shopping"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-soda"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-tag"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-taxi"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-train"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-wheat"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-airplane"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-angry"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-black"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-car"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-clear"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-clouds"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-comments"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-dark2"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-databases"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-delivery"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-email"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-film"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-film2"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-first"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-flag"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-flag2"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-football"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-football2"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-football3"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-gps"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-graduation"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-greek"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-happy"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-hot"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-idea"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-kid"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-like"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-lock"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-microphone"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-money"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-motorcycle"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-musical"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-party"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-pharmacy"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-pins"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-play"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-rainy"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-restaurant"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-rss"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-sale"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-shopping"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-soda"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-tag"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-taxi"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-train"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="i-wheat"></span>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+</div>--}}
+{{!--<div class="tab-text">
+    <form>
+        <div class="form-group">
+            <input type="text" class="form-control" name="title" placeholder="Title">
+        </div>
+        <div class="form-group">
+            <textarea class="form-control" name="description" rows="5"  placeholder="Description"></textarea>
+        </div>
+        <div class="tags-container">
+            <div class="tag">
+                <div class="input-group">
+                <span class="input-group-addon">
+                    <a href="#">
+                        <span class="glyphicon glyphicon-remove"></span>
+                    </a>
+                </span>
+                    <input type="text" class="form-control" placeholder="Tag">
+                </div>
+                <div class="tips">
+                    <div class="list-group ">
+                        <a href="#" class="list-group-item active">
+                            Cras justo odio
+                        </a>
+                        <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+                        <a href="#" class="list-group-item">Morbi leo risus</a>
+                        <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+                        <a href="#" class="list-group-item">Vestibulum at eros</a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </form>
+</div>--}}
+{{!--<div class="tab-style">
+    <div class="sub-section">
+        <div class="btn-group">
+            <button type="button" class="btn btn-default">Small</button>
+            <button type="button" class="btn btn-default">Medium</button>
+            <button type="button" class="btn btn-default">Large</button>
+        </div>
+    </div>
+    <div class="sub-section">
+        <div class="palitra">
+            <ul class="colored">
+                <li class="active color-1">
+                    <div class="choose">
+                        <span class="glyphicon glyphicon-ok"></span>
+                    </div>
+                </li>
+                <li class="color-2">
+                    <div class="choose">
+                        <span class="glyphicon glyphicon-ok"></span>
+                    </div>
+                </li>
+                <li class="color-3">
+                    <div class="choose">
+                        <span class="glyphicon glyphicon-ok"></span>
+                    </div>
+                </li>
+                <li class="color-4">
+                    <div class="choose">
+                        <span class="glyphicon glyphicon-ok"></span>
+                    </div>
+                </li>
+                <li class="color-5">
+                    <div class="choose">
+                        <span class="glyphicon glyphicon-ok"></span>
+                    </div>
+                </li>
+                <li class="color-6">
+                    <div class="choose">
+                        <span class="glyphicon glyphicon-ok"></span>
+                    </div>
+                </li>
+                <li class="color-7">
+                    <div class="choose">
+                        <span class="glyphicon glyphicon-ok"></span>
+                    </div>
+                </li>
+                <li class="color-8">
+                    <div class="choose">
+                        <span class="glyphicon glyphicon-ok"></span>
+                    </div>
+                </li>
+                <li class="color-10">
+                    <div class="choose">
+                        <span class="glyphicon glyphicon-ok"></span>
+                    </div>
+                </li>
+                <li class="color-11">
+                    <div class="choose">
+                        <span class="glyphicon glyphicon-ok"></span>
+                    </div>
+                </li>
+                <li class="color-12">
+                    <div class="choose">
+                        <span class="glyphicon glyphicon-ok"></span>
+                    </div>
+                </li>
+                <li class="color-13">
+                    <div class="choose">
+                        <span class="glyphicon glyphicon-ok"></span>
+                    </div>
+                </li>
+                <li class="color-14">
+                    <div class="choose">
+                        <span class="glyphicon glyphicon-ok"></span>
+                    </div>
+                </li>
+                <li class="color-15">
+                    <div class="choose">
+                        <span class="glyphicon glyphicon-ok"></span>
+                    </div>
+                </li>
+                <li class="color-16">
+                    <div class="choose">
+                        <span class="glyphicon glyphicon-ok"></span>
+                    </div>
+                </li>
+                <li class="color-17">
+                    <div class="choose">
+                        <span class="glyphicon glyphicon-ok"></span>
+                    </div>
+                </li>
+                <li class="color-18">
+                    <div class="choose">
+                        <span class="glyphicon glyphicon-ok"></span>
+                    </div>
+                </li>
+                <li class="color-19">
+                    <div class="choose">
+                        <span class="glyphicon glyphicon-ok"></span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>--}}
+
+</div>
+<div class="tabs tab-count-5 pos-bottom">
+    <ul>
+        <li class="active">
+            <a href="#">Text</a>
+        </li>
+        <li>
+            <a href="#">Style</a>
+        </li>
+        <li>
+            <a href="#">Symbol</a>
+        </li>
+        <li>
+            <a href="#">Lat/Lon</a>
+        </li>
+        <li>
+            <a href="#"><span class="glyphicon glyphicon-trash"></span></a>
+        </li>
+    </ul>
+</div>
+</div>
+</div>
 </div>
 <div id="notice-container"></div>
 

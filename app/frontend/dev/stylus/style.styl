@@ -1,13 +1,94 @@
 @charset "utf-8";
 
-@import "../import/reset.styl"
+/*@import "../import/reset.styl"*/
 @import "../import/variables.styl"
+@import "../import/icons.styl"
 @import "../import/mixins.styl"
 @import "../import/rewrite.styl"
+@import "../import/palitra.styl"
+
+//reset
+
+ul
+    padding 0
+    margin 0
+li
+    list-style none
 
 body
     color mainColor
     font-family "Open Sans"
+
+.tabs
+    margin 10px 0
+    ul
+        overflow:hidden;
+        padding 0
+        margin 0
+    li
+        float:left;
+        text-align:center;
+        line-height:2;
+        background rgb(227, 227, 227)
+        outline 0
+
+        &.active
+            background white
+            border: 0 !important
+
+        &:hover
+            background white
+
+        a
+            font-size 12px
+            color mainColor
+            text-decoration none
+            display: block
+            padding: 5px 0
+
+    &.pos-bottom
+        li
+            border-top: 1px solid #B3B3B3
+
+            &:hover
+                border-top: 1px solid white
+
+    &.pos-top
+        li
+            border-bottom: 1px solid #B3B3B3
+
+            &:hover
+                border-bottom: 1px solid white
+
+
+    &.tab-count-1
+        li:first-child:nth-last-child(1) {
+            width: 100%;
+        }
+
+    &.tab-count-2
+        li:first-child:nth-last-child(2),
+        li:first-child:nth-last-child(2) ~ li {
+            width: 50%;
+        }
+
+    &.tab-count-3
+        li:first-child:nth-last-child(3),
+        li:first-child:nth-last-child(3) ~ li {
+            width: 33.3333%;
+        }
+
+    &.tab-count-4
+        li:first-child:nth-last-child(4),
+        li:first-child:nth-last-child(4) ~ li {
+            width: 25%;
+        }
+
+    &.tab-count-5
+        li:first-child:nth-last-child(5),
+        li:first-child:nth-last-child(5) ~ li {
+            width: 20%;
+        }
 
 #notice-container
     position fixed
@@ -61,24 +142,102 @@ body
             margin 10px 0 0 0
             height 60px
 
-//control-container
 
-.second-buttons
+.tips
+    z-index: 10
+
+    .list-group
+        max-height: 200px
+        overflow: auto;
+
+    .list-group-item
+        padding 8px 20px 8px 10px
+        border-left: 3px solid #fff
+        color mainColor
+        background white
+        border-radius: 1px 1px
+
+        &.active
+            background white
+            color mainColor
+            border-color: #ddd
+            border-left: 3px solid #428bca
+
+            &:hover
+                background white
+                color mainColor
+                border-color: #ddd
+                border-left: 3px solid #428bca
+
+        &:hover
+            border-left: 3px solid #428bca
+
+//control-container
+#control-second-container
+    width 300px
+    z-index 10
     position absolute
     top 5px
-    left 320px
+    left 310px
 
-    ul
-        overflow hidden
-    li
-        float left
-        margin 0 10px 0 0
+    .second-buttons
+        margin 0 0 10px
 
-#control-container
+        ul
+            overflow hidden
+            padding 0
+            margin 0
+        li
+            float left
+            margin 0 5px 0 0
+            list-style none
+
+    .editor-container
+        background white
+
+    .content
+        padding 20px 15px
+
+        .sub-section
+            margin 10px 0
+
+    .icons-container
+        ul
+            overflow auto
+            max-height 245px
+        li
+            float: left
+            margin 0 7px 7px 0
+
+        .item
+            padding 2px
+
+            &:hover, &.active
+                background #e6e6e6
+
+    .tag
+        position: relative
+
+        .tips
+            position absolute
+            left 0
+            top: 40px;
+            width: 270px;
+
+        textarea
+            width 100%
+            resize none
+
+#control-first-container
     z-index 10
     position absolute
     top 5px
     left 5px
+    width 300px
+
+
+
+
 
     .main-buttons
         background white
@@ -90,11 +249,14 @@ body
             padding 0
         li
             float left
+            list-style none
 
     .tab-container
         background white
         padding 0 0 10px
-        width 300px
+        max-height 700px
+        overflow: auto
+
     .tab-data
 
         .config
@@ -108,11 +270,11 @@ body
                 .features
                     display block
 
-
         header
             border-left 6px solid white
             padding 10px 0 10px 10px
             cursor pointer
+            background: #F0F0F0
 
             &:hover
                 border-left 6px solid #5cb85c
@@ -120,19 +282,41 @@ body
 
         .features
             margin 0 0 0 10px
+            border-left 1px solid grey
 
         .feature
             border-bottom 1px solid #e6e6e6
             border-left 3px solid white
-            padding 8px 0 8px 10px
+            padding 8px 20px 8px 10px
             cursor pointer
+
+            .meta
+                color #b8b8b8
 
             &:hover
                 background #e6e6e6
                 border-left 3px solid #428bca
 
+            .manage
+                float right
+                margin: 0 0 0 10px
 
 //bootstrap
+
+.btn-hover
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
 
 .btn-control
     padding 7px 0
