@@ -272,6 +272,9 @@
 .form-group {
   margin-bottom: 5px;
 }
+.form-group label {
+  font-weight: normal;
+}
 .btn {
   -webkit-border-radius: 1px;
   border-radius: 1px;
@@ -364,6 +367,27 @@ body {
   color: #242424;
   font-family: "Open Sans";
 }
+.unvisibleInput {
+  border: 0;
+  outline: 0;
+}
+.key-value {
+  border: 1px solid #dadada;
+}
+.key-value td {
+  text-align: center;
+  border: 0 !important;
+}
+.key-value .value {
+  background: #f2f2f2;
+}
+.key-value .value input {
+  background: #f2f2f2;
+}
+.key-value .name {
+  background: #fff;
+  font-weight: bold;
+}
 .tabs {
   margin: 10px 0;
 }
@@ -423,6 +447,9 @@ body {
 .tabs.tab-count-5 li:first-child:nth-last-child(5),
 .tabs.tab-count-5 li:first-child:nth-last-child(5) ~ li {
   width: 20%;
+}
+.tabs-content {
+  padding: 20px 15px;
 }
 #notice-container {
   position: fixed;
@@ -531,10 +558,7 @@ body {
 #control-second-container .editor-container {
   background: #fff;
 }
-#control-second-container .content {
-  padding: 20px 15px;
-}
-#control-second-container .content .sub-section {
+#control-second-container .editor-container .sub-section {
   margin: 10px 0;
 }
 #control-second-container .icons-container ul {
@@ -591,6 +615,21 @@ body {
   max-height: 700px;
   overflow: auto;
 }
+#control-first-container .tab-data .layouts-container {
+  margin: 0 0 10px;
+}
+#control-first-container .tab-data .proejctLayouts {
+  border-right: 2px solid #f00;
+}
+#control-first-container .tab-data .accountLayouts {
+  border-right: 2px solid #30ff00;
+}
+#control-first-container .tab-data .publicLayouts {
+  border-right: 2px solid #0075ff;
+}
+#control-first-container .tab-data .layouts-container-header {
+  padding: 10px 0 10px 10px;
+}
 #control-first-container .tab-data .config {
   padding: 10px 0 10px 10px;
 }
@@ -600,15 +639,19 @@ body {
 #control-first-container .tab-data .layout.active .features {
   display: block;
 }
-#control-first-container .tab-data header {
+#control-first-container .tab-data .layout header {
   border-left: 6px solid #fff;
   padding: 10px 0 10px 10px;
   cursor: pointer;
   background: #f0f0f0;
 }
-#control-first-container .tab-data header:hover {
+#control-first-container .tab-data .layout header:hover {
   border-left: 6px solid #5cb85c;
   background: #e6e6e6;
+}
+#control-first-container .tab-data .layout-header .manage {
+  float: right;
+  margin: 0 20px 0 0;
 }
 #control-first-container .tab-data .features {
   margin: 0 0 0 10px;
@@ -630,6 +673,13 @@ body {
 #control-first-container .tab-data .feature .manage {
   float: right;
   margin: 0 0 0 10px;
+}
+#control-first-container .tab-data .share-feature {
+  margin: 0px 10px 0px 10px;
+  padding: 7px;
+}
+#control-first-container .tab-data .share-feature li a {
+  display: block;
 }
 .btn-hover {
   display: inline-block;

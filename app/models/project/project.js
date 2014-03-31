@@ -49,7 +49,14 @@ var projectSchema = new Schema({
         type: Array,
         default: [],
         required: false
+    },
+    //new, this is project settings
+    description: {
+        type: String,
+        default: "",
+        required: true
     }
+
 });
 projectSchema.statics.isHasProject = function(idProject, cb){
     this.find({idProject: idProject}, null, function(err, projects){
