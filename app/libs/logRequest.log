@@ -1399,3 +1399,6 @@
 {"status":404,"url":"/animate.css","level":"warn","message":"","timestamp":"2014-03-30T20:17:34.532Z"}
 {"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-30T20:17:35.039Z"}
 {"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-30T20:17:36.418Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-03-31T14:59:44.654Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-03-31T14:59:44.690Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-03-31T14:59:55.634Z"}

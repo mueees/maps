@@ -21,7 +21,13 @@ http://daneden.github.io/animate.css/
 http://jqueryvalidation.org/documentation/
 https://github.com/chriso/validator.js
 https://www.npmjs.org/package/i18n-2
+
 http://geojsonlint.com/
+http://mapbox.github.io/togeojson/
+https://github.com/mapbox/togeojson
+http://kalapun.com/blog/2014/03/13/gpx-to-geojson-in-mongodb-with-node-js/
+https://github.com/tyrasd/osmtogeojson
+http://gpx.lisss.ru/
 
 Внутренние страницы
 1. /projects
