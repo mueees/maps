@@ -14,12 +14,35 @@ define([
 
         define: function( Control, App, Backbone, Marionette, $, _ ){
 
+            var Router = Marionette.AppRouter.extend({
+
+                before: function(){
+                    App.startSubApp( "Control", {} );
+                },
+
+                appRoutes: {
+                    "": "start"
+                }
+
+            })
+
             var Controller = {
                 start: function(){
-
+                    debugger
                 }
             }
-            Controller.start();
+
+            var API  = {
+                start: function(){Controller.start()}
+            }
+
+            //Controller.start();
+
+            App.addInitializer(function(){
+                new Router({
+                    controller: API
+                })
+            })
 
         }
     })

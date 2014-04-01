@@ -9,6 +9,8 @@ define([
     //add Chanels
     App.channels = {}
     App.channels.main = _.extend({}, Backbone.Events);
+    App.route = {};
+    App.route.root = "/";
 
     App.addRegions({
         main: "#main",
@@ -19,7 +21,10 @@ define([
 
     App.on('initialize:after', function(){
         if( Backbone.history ){
-            Backbone.history.start();
+            Backbone.history.start({
+                pushState: true,
+                root: App.route.root
+            });
         }
     })
 

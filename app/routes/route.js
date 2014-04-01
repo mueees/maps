@@ -8,7 +8,7 @@ module.exports = function(app) {
 
     //static
     app.get('/', rootController.home);
-    app.get('/editor', rootController.editor);
+    app.get('/editor(/:idProject)?(/analyze/:idFeature)?', rootController.editor);
 
     //member
     app.get('/api/user/confirmation/:id', memberController.confirmation);

@@ -8,5 +8,10 @@ require([
     'apps/editor/modules/control/control_app',
     'apps/editor/modules/map/map_app'
 ], function(App){
+
+    App.projectModel = new Model();
+
+
+    App.route.root = "/editor/";
     App.start();
 })

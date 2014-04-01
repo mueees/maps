@@ -12,14 +12,17 @@ exports.home = function(req, res, next) {
     }
 }
 exports.editor = function(req, res, next) {
+
     var jsData = {};
-    var id = req.query.id || null;
+    var id = req.params.idProject || null;
     jsData.user = null;
 
-    if(req.user){jsData.user = {
-        "_id": req.user._id,
-        "email": req.user.email
-    }}
+    if(req.user){
+        jsData.user = {
+            "_id": req.user._id,
+            "email": req.user.email
+        }
+    }
 
     if( req.user && id ){
         async.waterfall([

@@ -13,6 +13,18 @@ define([
 
         define: function( Map, App, Backbone, Marionette, $, _ ){
 
+            var Router = Marionette.AppRouter.extend({
+
+                before: function(){
+                    App.startSubApp( "Map", {} );
+                },
+
+                appRoutes: {
+                    "": "start"
+                }
+
+            })
+
             var Controller = {
                 start: function(){
                     var mapView = new MapView();
@@ -20,7 +32,15 @@ define([
                 }
             }
 
-            Controller.start();
+            var API  = {
+                start: function(){Controller.start()}
+            }
+
+            App.addInitializer(function(){
+                new Router({
+                    controller: API
+                })
+            })
 
 
         }

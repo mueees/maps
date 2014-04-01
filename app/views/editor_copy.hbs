@@ -1007,8 +1007,9 @@
 <script type="text/javascript">
     var config = {{{script}}}
 </script>
-<script type="text/javascript" src="/js/require.js"></script>
-<script type="text/javascript" src="/js/config.js"></script>
+<script type="text/javascript" src="js/require.js"></script>
 <script type="text/javascript">
-    require(['apps/editor/editor'], function(){});
+    require(['js/config'], function(){
+        require(['apps/editor/editor'], function(){});
+    });
 </script>
