@@ -5,8 +5,13 @@ define([
     'config',
 
     'apps/app',
+
+    /*models*/
+    './models/project',
+    './layout/LayoutView',
+
     'helpers/notify/module'
-], function(jQuery, Backbone, Marionette, config, App){
+], function(jQuery, Backbone, Marionette, config, App, ProjectModel, LayoutView){
 
     App.module("Control", {
 
@@ -21,19 +26,54 @@ define([
                 },
 
                 appRoutes: {
-                    "": "start"
+                    "": "editController",
+                    ":projectId": "editController",
+                    ":projectId/analyze/:featureId": "analyzeController"
                 }
 
             })
 
             var Controller = {
-                start: function(){
-                    debugger
+                editController: function(projectId){
+                    var projectModel = Controller.getProjectModel(projectId);
+
+                    /*projectModel.save(null, {
+                        url: projectModel.url + "/add"
+                    });*/
+
+                    //вставить layout
+                    var layoutView = new LayoutView();
+
+
+                    /*
+                    1. проверить если id проекта
+                    2. если id есть, и проект выгружен в конфиг, создать модель проекта
+                    3. если id нет или есть, но проект не выгружен в конфиг, создать новую модель проекта
+                    4. инициализировать карту, отдать ей модель проекта
+                    5. инициализировать view основного меню
+                    6.
+                     */
+                },
+                analyzeController: function(){
+
+                },
+
+                getProjectModel: function(projectId){
+                    if( projectId ){
+                        if(Maps.config.project){
+                            return new ProjectModel(Maps.config.project);
+                        }else{
+                            return new ProjectModel();
+                        }
+                    }else{
+                        return new ProjectModel();
+                    }
                 }
             }
 
             var API  = {
-                start: function(){Controller.start()}
+                editController: function(projectId){Controller.editController(projectId)},
+                analyzeController: function(){Controller.analyzeController()}
             }
 
             //Controller.start();

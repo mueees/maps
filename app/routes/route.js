@@ -8,7 +8,7 @@ module.exports = function(app) {
 
     //static
     app.get('/', rootController.home);
-    app.get('/editor(/:idProject)?(/analyze/:idFeature)?', rootController.editor);
+    app.get('/editor/(:idProject)?(/analyze/:idFeature)?', rootController.editor);
 
     //member
     app.get('/api/user/confirmation/:id', memberController.confirmation);
@@ -22,6 +22,5 @@ module.exports = function(app) {
     app.get('/api/projects', passport.authenticate('local', {}), projectController.getProjects);
     app.get('/api/project/:id', passport.authenticate('local', {}), projectController.getProject);
     app.post('/api/project/edit/:id', passport.authenticate('local', {}), projectController.editProject);
-
 
 }

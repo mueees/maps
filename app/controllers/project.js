@@ -9,16 +9,37 @@ var config = require('config')
 var controller = {
     add: function(req, res, next){
         var data = req.body;
+
         data.userId = (req.user) ? req.user._id : null;
         var project = new ProjectModel(data);
-        if( !project.validate() ){
-            return next(new HttpError(400, "Project data doesn't not valid"));
-        }
 
-        project.save(function(err){
-            if(err) return next(new HttpError(400, "An error occurred. Please try again later"));
+        async.waterfall([
+            function(cb){
+                project.validate(function(err){
+                    if(err) {
+                        logger.error(err);
+                        return cb("Project data doesn't not valid");
+                    }else{
+                        cb(null);
+                    }
+                })
+            },
+            function(cb){
+                project.save(function(err){
+                    if(err) {
+                        logger.error(err);
+                        return cb("An error occurred. Please try again later");
+                    }
+                    cb(null);
+                })
+            }
+        ], function(err){
+            if(err){
+                return next(new HttpError(400, err));
+            }
+
             res.send({
-                message: "Project saved"
+                _id: project._id
             });
         })
     },
@@ -63,7 +84,7 @@ var controller = {
             userId: req.user._id
         }, function(err, projects){
             if(err){
-                logger(err);
+                logger.error(err);
                 return next(new HttpError(400, "Server error"));
             }
             res.send(projects);
@@ -74,7 +95,7 @@ var controller = {
     getProject: function(req, res, next){
         ProjectModel.find({_id: req.params.id}, function(err, project){
             if(err){
-                logger(err);
+                logger.error(err);
                 return next(new HttpError(400, "Server error"));
             }
 

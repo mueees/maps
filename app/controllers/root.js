@@ -49,6 +49,23 @@ exports.editor = function(req, res, next) {
                 script: JSON.stringify(jsData)
             });
         })
+    }else if(!req.user && id){
+        async.waterfall([
+            function(cb){
+                ProjectModel.isHasProject(id, cb);
+            },
+            function(project, cb){
+                if( project && project.type == "guest" ){
+                    jsData.project = project;
+                }
+                cb(null);
+            }
+        ], function(){
+            res.render('editor', {
+                title: "Free maps: editor",
+                script: JSON.stringify(jsData)
+            });
+        })
     }else{
         res.render('editor', {
             title: "Free maps: editor",

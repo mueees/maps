@@ -30,16 +30,21 @@ var projectSchema = new Schema({
         default: true,
         required: true
     },
-    protectedPassword: {
+
+    /*DEPRECATED*/
+
+    /*protectedPassword: {
         type: String,
         default: "",
         required: false
-    },
+    },*/
+
     type: {
         type: String,
         default: "guest",
         required: true
     },
+
     share: {
         type: Array,
         default: [],
@@ -59,7 +64,7 @@ var projectSchema = new Schema({
 
 });
 projectSchema.statics.isHasProject = function(idProject, cb){
-    this.find({idProject: idProject}, null, function(err, projects){
+    this.find({_id: idProject}, null, function(err, projects){
         if( err ){
             logger.error(err);
             cb("Server error");
@@ -76,7 +81,7 @@ projectSchema.statics.isHasProject = function(idProject, cb){
 projectSchema.statics.isUserHasProject = function(userId, idProject, cb){
     this.find({
         userId: userId,
-        idProject: idProject
+        _id: idProject
     }, null, function(err, projects){
         if( err ){
             logger.error(err);

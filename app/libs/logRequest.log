@@ -1536,3 +1536,403 @@
 {"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-03-31T21:54:11.074Z"}
 {"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T03:48:37.082Z"}
 {"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T03:48:37.099Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T08:04:43.562Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T08:04:43.599Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T08:10:10.611Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T12:44:54.946Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:46:43.683Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:46:49.482Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:47:23.357Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:47:32.314Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:47:42.200Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T12:47:58.108Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:47:59.057Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T12:48:07.640Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:48:08.334Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T12:48:15.592Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:48:16.296Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T12:48:57.004Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:48:57.668Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T12:49:02.715Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:49:03.338Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:49:12.108Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:49:25.930Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:49:39.637Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T12:49:45.986Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:49:47.288Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:50:31.534Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:50:35.269Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T12:50:38.101Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:50:39.179Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T12:50:40.284Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:50:41.412Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:50:44.642Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:50:50.825Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T12:50:58.284Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:50:59.420Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T12:51:04.510Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:51:05.761Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:51:16.129Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:51:27.039Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T12:51:31.710Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:51:32.947Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T12:51:35.548Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:51:36.743Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T12:51:40.562Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:51:42.031Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T12:51:53.077Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:51:54.612Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T12:51:57.793Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:51:58.771Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T12:52:13.701Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:52:14.799Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T12:52:18.155Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:52:19.234Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:52:24.859Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:52:27.712Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:52:39.943Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:52:45.462Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:52:50.701Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T12:52:54.558Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:52:55.739Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:53:01.315Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:53:06.957Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:53:11.719Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:53:14.862Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:54:11.947Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T12:54:14.874Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:54:16.040Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T12:54:19.498Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:54:20.998Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T12:54:22.084Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:54:23.274Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T12:54:25.202Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:54:26.255Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T12:54:29.127Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:54:30.623Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T12:54:35.648Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:54:36.491Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T12:54:44.583Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:54:45.203Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T12:55:04.867Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:55:05.951Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T12:56:30.677Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:56:31.743Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T12:56:35.047Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:56:36.103Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:56:39.043Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T12:56:44.330Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:56:45.201Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T12:57:38.633Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:57:39.885Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T12:57:50.516Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:57:51.709Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T12:57:54.697Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:12:24.688Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:12:26.234Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:12:30.598Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:12:32.833Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:12:33.849Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:12:37.179Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:12:42.013Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:12:46.493Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:12:50.988Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:12:51.852Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:13:07.212Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:13:10.054Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:13:11.106Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:13:14.052Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:13:18.352Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:13:26.236Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:13:30.732Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:13:31.963Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:13:38.414Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:13:39.676Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:13:44.057Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:13:45.375Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:13:47.211Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:13:48.236Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:13:50.835Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:14:21.351Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:14:22.859Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:14:25.664Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:14:28.867Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:14:34.367Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:14:35.400Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:14:37.801Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:14:38.896Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:14:41.196Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:14:41.929Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:14:45.886Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:14:46.974Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:14:51.540Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:14:54.788Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:14:55.688Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:15:01.532Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:15:02.215Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:15:08.055Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:15:09.333Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:15:42.901Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:16:02.346Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:16:03.696Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:16:07.626Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:16:08.943Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:16:12.626Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:16:13.818Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:17:02.861Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:17:10.017Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:17:14.319Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:17:18.943Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:17:32.456Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:17:39.946Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:17:42.354Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:17:44.223Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:17:49.737Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:17:52.642Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:18:00.857Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:18:32.079Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:18:33.681Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:18:35.838Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:18:37.037Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:18:38.373Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:18:39.547Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:18:40.818Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:18:42.049Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:19:07.168Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:19:08.481Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:19:10.384Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:19:11.787Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:19:13.011Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:19:14.394Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:19:17.015Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:19:19.818Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:19:24.262Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:19:25.727Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:19:27.741Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:20:25.927Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:20:27.172Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:20:30.534Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:20:35.102Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:20:38.169Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:20:41.797Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:20:42.642Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:20:43.890Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:20:46.832Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:20:49.205Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:37:39.192Z"}
+{"status":404,"url":"/editor.%D0%B2%D0%B0%D0%BF","level":"warn","message":"","timestamp":"2014-04-01T13:37:42.793Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:37:46.402Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:37:47.554Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:37:50.429Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:37:55.012Z"}
+{"status":404,"url":"/editor/df/ff","level":"warn","message":"","timestamp":"2014-04-01T13:37:58.772Z"}
+{"status":404,"url":"/editor/df/analyze","level":"warn","message":"","timestamp":"2014-04-01T13:38:05.494Z"}
+{"status":404,"url":"/editor/df/analyze","level":"warn","message":"","timestamp":"2014-04-01T13:38:06.913Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:38:10.728Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:38:11.737Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:38:30.089Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:38:41.933Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:39:23.103Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:41:54.253Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:41:55.561Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:42:13.474Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:42:35.284Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:42:50.244Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:42:56.917Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:42:58.065Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:43:02.112Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:43:03.235Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:43:07.859Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:43:08.968Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:43:13.120Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:44:00.762Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:48:56.256Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T13:53:36.128Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T13:53:36.159Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T13:54:00.830Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T13:54:00.881Z"}
+{"status":404,"url":"/api/project","level":"warn","message":"","timestamp":"2014-04-01T13:56:39.287Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:56:39.872Z"}
+{"status":404,"url":"/api/project","level":"warn","message":"","timestamp":"2014-04-01T13:57:24.493Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:57:24.612Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T13:57:41.962Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T13:57:41.993Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:58:03.522Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T13:58:09.547Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T13:58:09.605Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T13:58:12.951Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:58:14.007Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T13:58:20.419Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T13:58:20.463Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T13:58:23.815Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T13:58:29.690Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T13:58:29.723Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T13:59:52.227Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T13:59:52.258Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:00:04.744Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:00:04.778Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T14:00:07.516Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:00:13.754Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:00:13.785Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:00:54.496Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:00:54.555Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:01:15.086Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:01:15.119Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T14:01:16.865Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:01:23.554Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:01:23.597Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:01:45.270Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:01:45.307Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:01:54.840Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:01:54.874Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T14:01:56.617Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:02:03.179Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:02:03.232Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:02:16.280Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:02:16.319Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:02:22.988Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:02:23.024Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T14:02:25.262Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:02:31.624Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:02:31.654Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T14:02:37.910Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:02:44.602Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:02:44.662Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:03:09.751Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:03:09.784Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T14:03:11.730Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T14:03:16.886Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:03:33.623Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:03:33.687Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:04:47.563Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:04:47.600Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T14:04:49.368Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:05:06.145Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:05:06.177Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T14:05:07.983Z"}
+{"error":{"status":400,"message":"An error occurred. Please try again later"},"level":"error","message":"","timestamp":"2014-04-01T14:05:08.262Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:05:36.242Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:05:36.276Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T14:05:38.130Z"}
+{"error":{"status":400,"message":"An error occurred. Please try again later"},"level":"error","message":"","timestamp":"2014-04-01T14:05:38.559Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:06:09.600Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:06:09.642Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:08:40.631Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:08:40.671Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:09:02.112Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:09:02.156Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:09:30.624Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:09:30.655Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:09:51.357Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:09:51.400Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:09:59.173Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:09:59.204Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:10:57.994Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:10:58.037Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:11:05.027Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:11:05.071Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:11:18.091Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:11:18.133Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:11:33.806Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:11:33.840Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:11:44.301Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:11:44.332Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:11:52.853Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:11:52.890Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:12:03.055Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:12:03.086Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:12:47.098Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:12:47.145Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:12:53.479Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:12:53.527Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:13:08.991Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:13:09.031Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T14:13:11.199Z"}
+{"error":{"status":400,"message":"Project data doesn't not valid"},"level":"error","message":"","timestamp":"2014-04-01T14:13:11.310Z"}
+{"message":"","name":"ValidationError","errors":{"description":{"message":"Path `description` is required.","name":"ValidatorError","path":"description","type":"required","value":""}},"level":"error","timestamp":"2014-04-01T14:13:11.305Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T14:13:36.570Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:14:05.202Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:14:05.241Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T14:14:06.397Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T14:14:07.321Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:15:05.506Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:15:05.562Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T14:15:16.762Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T14:16:00.681Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T14:17:10.214Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:18:39.064Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:18:39.103Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:18:57.148Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:18:57.181Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:19:34.954Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:19:34.998Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:20:01.262Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:20:01.298Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:20:10.766Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:20:10.799Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:20:26.360Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:20:26.402Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:20:48.053Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:20:48.090Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:21:05.087Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:21:05.119Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:21:46.427Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:21:46.472Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:21:59.346Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:21:59.394Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:22:44.813Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:22:44.845Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T14:22:46.983Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:23:43.826Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:23:43.877Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:23:53.647Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:23:53.694Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:24:10.142Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:24:10.191Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:24:21.947Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:24:22.013Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T14:24:31.035Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:24:45.561Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:24:45.634Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:25:00.191Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:25:00.225Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:25:11.476Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:25:11.529Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:25:18.781Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:25:18.812Z"}
+{"message":"","name":"CastError","type":"ObjectId","value":"/533aca20a06756a50df4329f","path":"_id","level":"error","timestamp":"2014-04-01T14:25:19.113Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T14:25:20.645Z"}
+{"message":"","name":"CastError","type":"ObjectId","value":"/533aca20a06756a50df4329f","path":"_id","level":"error","timestamp":"2014-04-01T14:25:29.246Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T14:25:30.798Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:25:42.929Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:25:42.965Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:26:45.266Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:26:45.297Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:26:53.201Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:26:53.236Z"}
+{"message":"","name":"CastError","type":"ObjectId","value":"/533aca20a06756a50df4329f","path":"_id","level":"error","timestamp":"2014-04-01T14:26:53.865Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T14:26:55.362Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:27:36.048Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:27:36.088Z"}
+{"message":"","name":"CastError","type":"ObjectId","value":"/533aca20a06756a50df4329f","path":"_id","level":"error","timestamp":"2014-04-01T14:27:36.692Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T14:27:38.235Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:28:05.754Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:28:05.793Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T14:28:08.099Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T14:28:27.415Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:29:00.805Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:29:00.881Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:29:12.220Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:29:12.251Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-01T14:29:26.014Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-01T14:29:26.046Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T14:29:36.167Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T14:38:36.815Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T14:38:44.348Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T14:40:22.126Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T14:40:30.518Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T14:40:32.610Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T14:40:44.935Z"}
+{"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-01T14:41:35.220Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T14:41:37.901Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-01T14:41:51.189Z"}
