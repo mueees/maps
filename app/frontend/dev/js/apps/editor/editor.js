@@ -5,8 +5,7 @@ require([
     'helpers/notify/module',
 
     /*modules*/
-    'apps/editor/modules/control/control_app',
-    'apps/editor/modules/map/map_app'
+    'apps/editor/modules/EditProject/EditProject_app'
 ], function(App){
     App.route.root = "/editor/";
     App.start();

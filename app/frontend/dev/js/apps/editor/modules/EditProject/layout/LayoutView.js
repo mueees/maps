@@ -7,11 +7,9 @@ define([
         template: _.template(LayoutTemp),
 
         regions: {
-            /*'menu': '.menu_rss',
-            'tabCont': ".tabCont",
-            'addCont': ".addCont",
-            'contentCont': '.contentCont',
-            'main_rss': '.main_rss'*/
+            'map': '#map',
+            'firstContainer': "#control-first-container",
+            'secondContainer': "#control-second-container"
         }
     })
 

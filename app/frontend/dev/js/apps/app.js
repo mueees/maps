@@ -7,12 +7,19 @@ define([
     var App = new Marionette.Application();
 
     //add Chanels
-    App.channels = {}
-    App.channels.main = _.extend({}, Backbone.Events);
+    App.channels = {};
+    App.channels.main = _.extend(Backbone.Events);
+    var trigger = Backbone.Events.trigger;
+    App.channels.main.trigger = function(){
+        console.log("main channel:");
+        console.log(arguments);
+        trigger.apply(this, arguments);
+    }
     App.route = {};
     App.route.root = "/";
 
     App.addRegions({
+        app: "#app",
         main: "#main",
         body: 'body',
         noticeContainer: "#notice-container",

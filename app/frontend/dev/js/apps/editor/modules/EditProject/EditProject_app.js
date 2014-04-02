@@ -10,19 +10,23 @@ define([
     './models/project',
     './layout/LayoutView',
 
+    /*submodules*/
+    './module/map/module',
+    './module/control/module',
+
     'helpers/notify/module'
 ], function(jQuery, Backbone, Marionette, config, App, ProjectModel, LayoutView){
 
-    App.module("Control", {
+    App.module("EditProject", {
 
         startWithParent: false,
 
-        define: function( Control, App, Backbone, Marionette, $, _ ){
+        define: function( EditProject, App, Backbone, Marionette, $, _ ){
 
             var Router = Marionette.AppRouter.extend({
 
                 before: function(){
-                    App.startSubApp( "Control", {} );
+                    App.startSubApp( "EditProject", {} );
                 },
 
                 appRoutes: {
@@ -43,16 +47,11 @@ define([
 
                     //вставить layout
                     var layoutView = new LayoutView();
+                    App.app.show(layoutView);
 
+                    EditProject.Map.Controller.init(layoutView, projectModel);
+                    EditProject.Control.Controller.init(layoutView, projectModel);
 
-                    /*
-                    1. проверить если id проекта
-                    2. если id есть, и проект выгружен в конфиг, создать модель проекта
-                    3. если id нет или есть, но проект не выгружен в конфиг, создать новую модель проекта
-                    4. инициализировать карту, отдать ей модель проекта
-                    5. инициализировать view основного меню
-                    6.
-                     */
                 },
                 analyzeController: function(){
 

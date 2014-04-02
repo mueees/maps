@@ -9,6 +9,10 @@ define([], function(){
         },
         url: {
             afterSignIn: "/projects"
+        },
+        channel: {
+            //secondButtonsView
+            changeFeatureType: "changeFeatureType"
         }
     }
 })
