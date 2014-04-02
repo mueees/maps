@@ -28,7 +28,6 @@ define([
                         App.channels.main.trigger(config.channel.changeFeatureType, type);
                     })
 
-
                     layout.secondContainer.show(secondButtonsView);
 
                     var mainButtonsView = new MainButtonsView({
