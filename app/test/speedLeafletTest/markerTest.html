@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="leaflet.js"></script>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
+    <style>
+        #map {
+            height: 500px
+        }
+    </style>
+</head>
+<body>
+<div id="map"></div>
+<script>
+    var markersPosition = [
+                [51.5, 30.5]
+            ],
+            markersInstances = [];
+    //marker
+
+    var map = L.map( "map", {zoomControl:false} ).setView([50.45, 30.52], 6);
+    L.tileLayer('http://b.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {maxZoom: 18}).addTo(map);
+    var layer = L.layerGroup();
+    var countTest = 10;
+
+    function createMarkers(count){
+        count = count || 1;
+
+        for(var j = 0; j < count; j++){
+            for(var i = 0; i < markersPosition.length; i++){
+                var marker = L.marker(markersPosition[i]);
+                markersInstances.push(marker);
+            }
+        }
+
+
+    }
+    function addMarkersToLayer(){
+        for(var i = 0; i < markersInstances.length; i++){
+            layer.addLayer(markersInstances[i]);
+        }
+    }
+    function showHide1(){
+        for(var i = 0; i < markersInstances.length; i++){
+            markersInstances[i].setOpacity(0);
+        }
+        for(var i = 0; i < markersInstances.length; i++){
+            markersInstances[i].setOpacity(1);
+        }
+    }
+    function showHide2(){
+        layer.clearLayers();
+        addMarkersToLayer();
+    }
+    function showHide3(){
+        layer.eachLayer(function (marker) {
+            marker.setOpacity(0);
+        });
+        layer.eachLayer(function (marker) {
+            marker.setOpacity(1);
+        });
+    }
+
+    createMarkers(3000);
+    addMarkersToLayer();
+    layer.addTo(map);
+
+    var start = new Date();
+    console.log('showHide1')
+    showHide1();
+    console.log( (new Date()).getTime() - start );
+
+    var start = new Date();
+    console.log('showHide2')
+    showHide2();
+    console.log( (new Date()).getTime() - start );
+
+    var start = new Date();
+    console.log('showHide3')
+    showHide3();
+    console.log( (new Date()).getTime() - start );
+
+</script>
+
+</body>
+</html>

@@ -2100,3 +2100,5 @@
 {"message":"","name":"CastError","type":"ObjectId","value":"project","path":"_id","level":"error","timestamp":"2014-04-02T14:56:34.575Z"}
 {"status":404,"url":"/icons.png","level":"warn","message":"","timestamp":"2014-04-02T14:56:35.131Z"}
 {"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-02T14:56:36.695Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-02T18:52:06.492Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-02T18:52:06.512Z"}
