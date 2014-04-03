@@ -15,7 +15,10 @@ requirejs.config({
         backbone: "libs/backbone/backbone",
         routefilter: "libs/backbone/backbone.routefilter",
         async: "libs/async",
-        leaflet: "libs/leaflet",
+
+        leaflet: "libs/leaflet/leaflet/leaflet-src",
+        leafletDraw: "libs/leaflet/plugins/draw/leaflet.draw-src",
+
         validate: 'libs/jquery/jquery.validate',
         bootstrap: "libs/bootstrap/bootstrap.min"
     },
@@ -45,6 +48,12 @@ requirejs.config({
         bootstrap: {
             deps: ['jquery']
         },
+
+        /*libs*/
+        leafletDraw: {
+            exports: 'Marionette',
+            deps: ['leaflet']
+        }
     },
 
     urlArgs: "bust=" + (new Date()).getTime()

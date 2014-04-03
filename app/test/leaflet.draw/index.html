@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="../leaflet/leaflet-src.js"></script>
+    <link rel="stylesheet" href="../leaflet/leaflet.css" />
+    <script src="../plugins/draw/leaflet.draw-src.js"></script>
+    <link rel="stylesheet" href="../plugins/draw/leaflet.draw.css" />
+    <style>
+        #map {
+            height: 500px
+        }
+    </style>
+</head>
+<body>
+<div id="map"></div>
+
+<script>
+    var map = L.map('map', {drawControl: false}).setView([51.505, -0.09], 13);
+    L.tileLayer('http://b.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {maxZoom: 18}).addTo(map);
+
+
+    var polygon = new L.Draw.Polyline(map);
+    polygon.on("enabled", function(){
+        console.log("polygon:enabled");
+    })
+    polygon.on("disabled", function(){
+        console.log("polygon:disabled");
+    })
+    map.on('draw:drawstart', function(){
+        console.log('draw:drawstart');
+    })
+    map.on('draw:drawstop', function(){
+        console.log('draw:drawstop');
+    })
+
+    polygon.enable();
+
+    setTimeout(function(){
+        //polygon.disable();
+    }, 1000)
+
+
+
+    /*map.on('click', function(){
+        console.log(1);
+    })
+    map.on('draw:editstop', function (e) {
+        debugger
+    });
+    map.on('draw:created', function (e) {
+        debugger
+    });
+    map.on('draw:editstart', function (e) {
+        debugger
+    });*/
+
+</script>
+
+</body>
+</html>

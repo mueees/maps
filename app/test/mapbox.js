@@ -822,14 +822,29 @@
                         getdata(opts);
                     });
                 } else if (!opts.tilejson) {
-                    App.tilejson(opts.model.get('layers').slice(0,15).join(','), function(err, tilejson) {
-                        if (err) return Views.modal.show('err', err);
+                    var loaded = function(tilejson) {
                         opts.tilejson = tilejson;
                         // tilestream-pro#3591
                         if (tilejson === undefined) tilejson.minzoom = 0;
                         if (tilejson === undefined) tilejson.maxzoom = 19;
                         tilejson.center = opts.model.get('center') || tilejson.center;
                         getdata(opts);
+                    };
+                    App.tilejson(opts.model.get('layers').slice(0,15).join(','), function(err, tilejson) {
+                        if (err && err.status !== 404) {
+                            Views.modal.show('err', err);
+                            // If a project has only 404'ing tilejson layers then *none*
+                            // of the layers exist. Fallback to a fully transparent
+                            // mapbox-streets rather than failing hard.
+                        } else if (err) {
+                            App.tilejson('base.mapbox-streets', function(err, tilejson) {
+                                if (err) return Views.modal.show('err', err);
+                                loaded(tilejson);
+                            });
+                            // Tilejson for layers loaded successfully.
+                        } else {
+                            loaded(tilejson);
+                        }
                     });
                 } else if (!App.param('layers') && !opts.model.get('_rev') && !opts.local) {
                     App.local(function(err, local) {
@@ -2415,7 +2430,8 @@
 
         function addAndEdit(e) {
             var feature = markers.addFeature(
-                markers.initializeFeature(e.layer.toGeoJSON()));
+                markers.initializeFeature(e.layer.toGeoJSON())
+            );
             markers.highlightFeature(feature);
             markers.syncUI();
             analytics.track('Drew a ' + feature.geometry.type);

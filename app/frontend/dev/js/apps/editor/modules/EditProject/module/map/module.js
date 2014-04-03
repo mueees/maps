@@ -17,7 +17,8 @@ define([
         define: function(Map, App, Backbone, Marionette, $, _){
 
             var mapModel,
-                mapView;
+                mapView,
+                map;
 
             var Controller = {
                 init: function(layout, projectModel){
