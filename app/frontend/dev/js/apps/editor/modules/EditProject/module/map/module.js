@@ -2,13 +2,14 @@ define([
     'apps/app',
     'marionette',
     'config',
+    'leaflet',
 
     /*views*/
     './views/MapView',
 
-    /*models*/
-    './models/MapModel'
-], function(App, Marionette, config, MapView, MapModel){
+    /*modules*/
+    './subModule/draw/module'
+], function(App, Marionette, config, L, MapView){
 
     App.module("EditProject.Map", {
 
@@ -22,22 +23,16 @@ define([
 
             var Controller = {
                 init: function(layout, projectModel){
-                    mapModel = new MapModel({
-                        projectModel: projectModel
-                    })
-                    mapView = new MapView({
-                        model: mapModel
-                    })
+                    mapView = new MapView();
                     layout.map.show(mapView);
+                    Controller.initializeMap();
+                    Map.Draw.Controller.init(projectModel, map);
                     Controller.subscribe();
                 },
 
-                subscribe: function(){
-                    App.channels.main.on(config.channel.changeFeatureType, Controller.handlerFeatureType);
-                },
-
-                handlerFeatureType: function(featureType){
-                    mapModel.set('featureType', featureType);
+                initializeMap: function(){
+                    map = L.map( mapView.el, {zoomControl:false} ).setView([50.45, 30.52], 6);
+                    L.tileLayer('http://b.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {maxZoom: 18}).addTo(map);
                 }
             }
 
@@ -47,3 +42,27 @@ define([
     })
 
 })
+
+/*var marker = L.marker([50.5, 30.5]);
+ marker.bindPopup("est")
+
+
+ var popup = L.popup()
+ .setLatLng([50.5, 30.5])
+ .setContent('<p>Hello world!<br />This is a nice popup.</p>')
+ .openOn(map);
+
+
+ var polyline = L.polyline([
+ L.latLng(50.5, 30.5),
+ L.latLng(50.5, 40.5)
+ ], {color: 'red'}).bindPopup("est");
+
+ var group = L.layerGroup([marker])
+ .addLayer(polyline);
+
+ group.addTo(map);
+
+ group.eachLayer(function (layer) {
+ layer.bindPopup('Hello');
+ });*/
