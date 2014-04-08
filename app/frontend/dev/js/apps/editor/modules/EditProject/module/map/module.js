@@ -27,7 +27,6 @@ define([
                     layout.map.show(mapView);
                     Controller.initializeMap();
                     Map.Draw.Controller.init(projectModel, map);
-                    Controller.subscribe();
                 },
 
                 initializeMap: function(){

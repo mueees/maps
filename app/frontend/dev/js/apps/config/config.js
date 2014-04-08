@@ -13,6 +13,10 @@ define([], function(){
         channel: {
             //secondButtonsView
             changeFeatureType: "changeFeatureType"
+        },
+
+        log: {
+            isShow: true
         }
     }
 })

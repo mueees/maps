@@ -446,6 +446,7 @@
             if (ev.type == 'click') ev = $('#' + ev.currentTarget.htmlFor);
             this.search.setview(ev);
             return false;
+            return false;
         };
 
         Editor.prototype.changeMode = function(ev) {

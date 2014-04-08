@@ -18,9 +18,10 @@ define([
 
         define: function(Control, App, Backbone, Marionette, $, _){
 
+            var secondModel;
             var Controller = {
                 init: function(layout, projectModel){
-                    var secondModel = new SecondModel();
+                    secondModel = new SecondModel();
                     var secondButtonsView = new SecondButtonsView({model: secondModel});
 
                     secondModel.on("change:featureType", function(){
@@ -35,6 +36,16 @@ define([
                     });
 
                     layout.firstContainer.show(mainButtonsView);
+
+                    this.subscribe();
+                },
+
+                handlerFeatureType: function(type){
+                    secondModel.set('featureType', type);
+                },
+
+                subscribe: function(){
+                    App.channels.main.on(config.channel.changeFeatureType, Controller.handlerFeatureType);
                 }
             }
 
