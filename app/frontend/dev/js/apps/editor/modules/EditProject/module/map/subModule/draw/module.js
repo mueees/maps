@@ -14,7 +14,7 @@ define([
 
             var Controller = {
                 init: function(projectModel, map){
-                    this.subscribe();
+                    Controller.subscribe();
                 },
 
                 handlerFeatureType: function(){

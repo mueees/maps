@@ -2194,3 +2194,9 @@
 {"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-04T15:37:13.520Z"}
 {"message":"","name":"CastError","type":"ObjectId","value":"project","path":"_id","level":"error","timestamp":"2014-04-04T15:38:32.470Z"}
 {"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-04T15:38:34.030Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-04T18:53:42.417Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-04T18:53:42.435Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-04T18:54:53.523Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-04T18:55:37.926Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-04T19:49:23.269Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-04T19:49:23.287Z"}
