@@ -8,7 +8,7 @@ define([
 
     /*models*/
     './models/project',
-    './models/marker',
+    './models/point',
 
     /*Views*/
     './layout/LayoutView',
@@ -19,11 +19,24 @@ define([
     './module/map/module',
     './module/control/module',
 
-
     'helpers/notify/module'
 ], function(jQuery, Backbone, Marionette, config, App, ProjectModel, MarkerModel, LayoutView, log){
 
-    var p = new ProjectModel({
+
+    var p = new Backbone.DeepModel({groups: [
+        {
+            features: [
+                {
+                    type: "marker",
+                    title: "test",
+                    description: "double test"
+                }
+            ]
+        }
+    ]});
+    debugger
+
+    /*var p = new ProjectModel({
         groups: [
             {
                 features: [
@@ -36,8 +49,7 @@ define([
             }
         ]
     }, {parse:true});
-
-    //log( p.toJSON() );
+    log( p.toJSON() );*/
 
     App.module("EditProject", {
 
@@ -61,14 +73,18 @@ define([
 
             var Controller = {
                 editController: function(projectId){
-                    new ProjectModel({});
-
 
                     var projectModel = Controller.getProjectModel(projectId);
 
-                    /*projectModel.save(null, {
+                    projectModel.on("add", function(ship) {
+                        alert("Ahoy " + ship.get("name") + "!");
+                    });
+
+                    /*
+                    projectModel.save(null, {
                         url: projectModel.url + "/add"
-                    });*/
+                    });
+                    */
 
                     //вставить layout
                     var layoutView = new LayoutView();
@@ -99,8 +115,6 @@ define([
                 editController: function(projectId){Controller.editController(projectId)},
                 analyzeController: function(){Controller.analyzeController()}
             }
-
-            //Controller.start();
 
             App.addInitializer(function(){
                 new Router({

@@ -22,6 +22,7 @@ define([
             var Controller = {
                 init: function(layout, projectModel){
                     secondModel = new SecondModel();
+
                     var secondButtonsView = new SecondButtonsView({model: secondModel});
 
                     secondModel.on("change:featureType", function(){

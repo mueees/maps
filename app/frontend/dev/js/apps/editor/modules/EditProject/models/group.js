@@ -10,7 +10,7 @@ define([
     return Backbone.Model.extend({
         defaults: {
             name: "Default group name",
-            features: null
+            features: new FeatureColl()
         },
 
         _collection: {
@@ -30,11 +30,7 @@ define([
             return response;
         },
 
-        initialize: function(attr){
-            /*if( attr.features && _.isArray(attr.features) ){
-                this.set('features', new FeatureColl( attr.features ))
-            }*/
-        },
+        initialize: function(attr){},
 
         addFeature: function(feature){
             //feature.layer.toGeoJSON()

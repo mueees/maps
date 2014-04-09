@@ -14,7 +14,7 @@ define([
             isPublic: true,
             type: "guest",
             share: [],
-            groups: null,
+            groups: new GroupColl(),
             description: "Default description",
 
             //front-end
@@ -43,11 +43,28 @@ define([
         url: config.api.project,
 
         initialize: function(attr){
-            //this.parse(attr);
+            var groups = this.get('groups');
+            if( !groups.size() ) this.initFirstGroupCollection();
+
+        },
+
+        initFirstGroupCollection: function(){
+            this.get('groups').add({});
         },
 
         addFeature: function(feature){
-            //feature.layer.toGeoJSON()
+            var featureGeoJson,
+                groups,
+                activeGroup;
+
+            featureGeoJson = feature.layer.toGeoJSON();
+            groups = this.get('groups');
+            activeGroup = groups.at(this.get('activeGroup'));
+            activeGroup.add({
+                type: featureGeoJson.geometry.type,
+                lon: featureGeoJson.geometry.coordinates[0],
+                lat: featureGeoJson.geometry.coordinates[1]
+            })
         }
     });
 })

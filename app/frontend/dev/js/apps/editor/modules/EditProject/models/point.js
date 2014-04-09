@@ -6,7 +6,7 @@ define([
 
     return Backbone.Model.extend({
         defaults: _.extend(FeatureModule.prototype.defaults, {
-            type: "marker",
+            type: "Point",
             lon: 0,
             lat: 0,
 

@@ -13,10 +13,10 @@ requirejs.config({
         underscore: "libs/underscore",
         marionette: "libs/marionette",
 
-        backbone: "libs/backbone/backbone",
+        "backbone.original": "libs/backbone/backbone",
+        "backbone": "libs/backbone/backbone.bootstrap",
+        "backbone.deepModel": "libs/backbone/backbone.deepModel",
         routefilter: "libs/backbone/backbone.routefilter",
-        backboneExtend: "libs/backbone/backbone.extend",
-
 
         async: "libs/async",
 
@@ -38,16 +38,16 @@ requirejs.config({
         underscore: {
             exports: '_'
         },
-        backbone: {
+        "backbone.deepModel": {
+            deps: ["backbone.original"],
+            exports: "Backbone"
+        },
+        "backbone.original": {
             deps: ['jquery', 'underscore'],
             exports: 'Backbone'
         },
         routefilter: {
             deps: ['backbone']
-        },
-        backboneExtend: {
-            deps: ['backbone'],
-            exports: 'Backbone'
         },
         validate: {
             deps: ['jquery'],

@@ -1,14 +1,18 @@
 define([
     'backbone',
-    './../models/marker',
+    './../models/point',
     './../models/polyline'
-], function(Backbone, MarkerModel, PolylineModel){
+], function(Backbone, PointModel, PolylineModel){
 
     return Backbone.Collection.extend({
         model: function(attrs, options) {
-            switch(attrs.type) {
-                case "marker":
-                    return new MarkerModel(attrs, options);
+            var type;
+            type = attrs.type || "";
+            type = type.toLowerCase();
+
+            switch(type) {
+                case "point":
+                    return new PointModel(attrs, options);
                 case "polyline":
                     return new PolylineModel(attrs, options);
             }
