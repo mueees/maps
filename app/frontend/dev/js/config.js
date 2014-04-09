@@ -12,8 +12,12 @@ requirejs.config({
         jquery: "libs/jquery",
         underscore: "libs/underscore",
         marionette: "libs/marionette",
+
         backbone: "libs/backbone/backbone",
         routefilter: "libs/backbone/backbone.routefilter",
+        backboneExtend: "libs/backbone/backbone.extend",
+
+
         async: "libs/async",
 
         leaflet: "libs/leaflet/leaflet/leaflet-src",
@@ -40,6 +44,10 @@ requirejs.config({
         },
         routefilter: {
             deps: ['backbone']
+        },
+        backboneExtend: {
+            deps: ['backbone'],
+            exports: 'Backbone'
         },
         validate: {
             deps: ['jquery'],

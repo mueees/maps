@@ -8,14 +8,36 @@ define([
 
     /*models*/
     './models/project',
+    './models/marker',
+
+    /*Views*/
     './layout/LayoutView',
+
+    'helpers/log/module',
 
     /*submodules*/
     './module/map/module',
     './module/control/module',
 
+
     'helpers/notify/module'
-], function(jQuery, Backbone, Marionette, config, App, ProjectModel, LayoutView){
+], function(jQuery, Backbone, Marionette, config, App, ProjectModel, MarkerModel, LayoutView, log){
+
+    var p = new ProjectModel({
+        groups: [
+            {
+                features: [
+                    {
+                        type: "marker",
+                        title: "test",
+                        description: "double test"
+                    }
+                ]
+            }
+        ]
+    }, {parse:true});
+
+    //log( p.toJSON() );
 
     App.module("EditProject", {
 
@@ -39,6 +61,9 @@ define([
 
             var Controller = {
                 editController: function(projectId){
+                    new ProjectModel({});
+
+
                     var projectModel = Controller.getProjectModel(projectId);
 
                     /*projectModel.save(null, {
