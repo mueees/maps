@@ -23,33 +23,101 @@ define([
 ], function(jQuery, Backbone, Marionette, config, App, ProjectModel, MarkerModel, LayoutView, log){
 
 
-    var p = new Backbone.DeepModel({groups: [
-        {
-            features: [
-                {
-                    type: "marker",
-                    title: "test",
-                    description: "double test"
-                }
-            ]
-        }
-    ]});
-    debugger
+    var Animal,
+        AnimalCollection,
+        Zoo;
 
-    /*var p = new ProjectModel({
-        groups: [
-            {
-                features: [
-                    {
-                        type: "marker",
-                        title: "test",
-                        description: "double test"
-                    }
-                ]
+    var Feature = Backbone.RelationalModel.extend({});
+    var FeatureCollection = Backbone.Collection.extend({
+        model: Feature
+    });
+    var Group = Backbone.RelationalModel.extend({
+        idAttribute: '_id'
+    });
+    var GroupCollection = Backbone.Collection.extend({
+        model: Group
+    });
+
+    var Project = Backbone.RelationalModel.extend({
+        idAttribute: '_id',
+        relations: [{
+            type: Backbone.HasMany,
+            key: 'groups',
+            relatedModel: Group,
+            collectionType: GroupCollection,
+            reverseRelation: {
+                key: 'project',
+                includeInJSON: true
             }
-        ]
-    }, {parse:true});
-    log( p.toJSON() );*/
+        }]
+    });
+
+    var project = new Project({
+        name: 'Test proejct',
+        _id: '1',
+        groups: [{
+            _id: '2',
+            name: "test group"
+        }]
+    });
+
+    console.log(project.toJSON());
+
+    Animal = Backbone.RelationalModel.extend({
+        urlRoot: '/animal/'
+    });
+
+    AnimalCollection = Backbone.Collection.extend({
+        model: Animal
+    });
+
+    //relation plugin
+    Zoo = Backbone.RelationalModel.extend({
+        relations: [{
+            type: Backbone.HasMany,
+            key: 'animals',
+            relatedModel: Animal,
+            collectionType: AnimalCollection,
+            reverseRelation: {
+                key: 'livesIn',
+                includeInJSON: 'id'
+                // 'relatedModel' is automatically set to 'Zoo'; the 'relationType' to 'HasOne'.
+            }
+        }]
+    });
+
+    var artis = new Zoo( { name: 'Artis' } );
+    var lion = new Animal( { species: 'Lion', livesIn: artis } );
+    //alert( artis.get( 'animals' ).pluck( 'species' ) );
+
+    // deep model
+    /*var p = new Backbone.DeepModel({groups: [
+     {
+     features: [
+     {
+     type: "marker",
+     title: "test",
+     description: "double test"
+     }
+     ]
+     }
+     ]});*/
+
+    //clear module
+    /*var p = new ProjectModel({
+     groups: [
+     {
+     features: [
+     {
+     type: "marker",
+     title: "test",
+     description: "double test"
+     }
+     ]
+     }
+     ]
+     }, {parse:true});
+     log( p.toJSON() );*/
 
     App.module("EditProject", {
 
@@ -81,10 +149,10 @@ define([
                     });
 
                     /*
-                    projectModel.save(null, {
-                        url: projectModel.url + "/add"
-                    });
-                    */
+                     projectModel.save(null, {
+                     url: projectModel.url + "/add"
+                     });
+                     */
 
                     //вставить layout
                     var layoutView = new LayoutView();

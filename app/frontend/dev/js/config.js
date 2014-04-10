@@ -13,9 +13,10 @@ requirejs.config({
         underscore: "libs/underscore",
         marionette: "libs/marionette",
 
-        "backbone.original": "libs/backbone/backbone",
         "backbone": "libs/backbone/backbone.bootstrap",
+        "backbone.original": "libs/backbone/backbone",
         "backbone.deepModel": "libs/backbone/backbone.deepModel",
+        "backbone.relational": "libs/backbone/backbone.relational",
         routefilter: "libs/backbone/backbone.routefilter",
 
         async: "libs/async",
@@ -39,6 +40,10 @@ requirejs.config({
             exports: '_'
         },
         "backbone.deepModel": {
+            deps: ["backbone.original"],
+            exports: "Backbone"
+        },
+        "backbone.relational": {
             deps: ["backbone.original"],
             exports: "Backbone"
         },
