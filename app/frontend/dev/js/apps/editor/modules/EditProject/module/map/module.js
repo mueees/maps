@@ -8,7 +8,8 @@ define([
     './views/MapView',
 
     /*modules*/
-    './subModule/draw/module'
+    './subModule/draw/module',
+    './subModule/layer/module'
 ], function(App, Marionette, config, L, MapView){
 
     App.module("EditProject.Map", {
@@ -27,6 +28,7 @@ define([
                     layout.map.show(mapView);
                     Controller.initializeMap();
                     Map.Draw.Controller.init(projectModel, map);
+                    Map.Layer.Controller.init(projectModel, map);
                 },
 
                 initializeMap: function(){

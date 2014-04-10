@@ -2,10 +2,10 @@ define([
     'backbone',
     'config',
     './feature'
-], function(Backbone, config, FeatureModel){
+], function(Backbone, config, FeatureModule){
 
     return Backbone.Model.extend({
-        defaults: _.extend(FeatureModel.prototype.defaults, {
+        defaults: _.extend(FeatureModule.prototype.defaults, {
             type: "polyline"
         })
     });

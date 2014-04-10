@@ -1,39 +1,26 @@
 define([
     'backbone',
     'config',
+    './../models/feature',
     './../collection/featureColl',
     'helpers/log/module',
-], function(Backbone, config, FeatureColl, log){
+], function(Backbone, config, FeatureModel, FeatureCollection, log){
 
-    log(FeatureColl);
-
-    return Backbone.Model.extend({
+    return Backbone.RelationalModel.extend({
+        relations: [{
+            type: Backbone.HasMany,
+            key: 'features',
+            relatedModel: FeatureModel,
+            collectionType: FeatureCollection,
+            includeInJSON: true,
+            reverseRelation: {
+                key: 'group'
+            }
+        }],
         defaults: {
             name: "Default group name",
-            features: new FeatureColl()
-        },
-
-        _collection: {
-            features: FeatureColl
-        },
-
-        parse: function(response){
-            var key,
-                embeddedClass,
-                embeddedData;
-
-            for(key in this._collection){
-                embeddedClass = this._collection[key];
-                embeddedData = response[key];
-                response[key] = new embeddedClass(embeddedData, {parse:true});
-            }
-            return response;
-        },
-
-        initialize: function(attr){},
-
-        addFeature: function(feature){
-            //feature.layer.toGeoJSON()
+            features: []
         }
     });
+
 })

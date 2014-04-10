@@ -22,102 +22,67 @@ define([
     'helpers/notify/module'
 ], function(jQuery, Backbone, Marionette, config, App, ProjectModel, MarkerModel, LayoutView, log){
 
-
-    var Animal,
-        AnimalCollection,
-        Zoo;
-
-    var Feature = Backbone.RelationalModel.extend({});
+    /*var Feature = Backbone.RelationalModel.extend({
+        defaults: {
+            name: "feature name",
+            type: "point"
+        }
+    });
     var FeatureCollection = Backbone.Collection.extend({
         model: Feature
     });
     var Group = Backbone.RelationalModel.extend({
-        idAttribute: '_id'
+        relations: [{
+            type: Backbone.HasMany,
+            key: 'features',
+            relatedModel: Feature,
+            collectionType: FeatureCollection,
+            includeInJSON: true,
+            reverseRelation: {
+                key: 'group'
+            }
+        }],
+        defaults: {
+            features: []
+        }
     });
     var GroupCollection = Backbone.Collection.extend({
         model: Group
     });
-
     var Project = Backbone.RelationalModel.extend({
-        idAttribute: '_id',
         relations: [{
             type: Backbone.HasMany,
             key: 'groups',
             relatedModel: Group,
             collectionType: GroupCollection,
+            includeInJSON: true,
             reverseRelation: {
-                key: 'project',
-                includeInJSON: true
+                key: 'project'
             }
         }]
     });
 
-    var project = new Project({
-        name: 'Test proejct',
-        _id: '1',
-        groups: [{
-            _id: '2',
-            name: "test group"
+    var project = new Project({name: 'Test project'});
+    project.on("add:groups", function(model, coll){
+        debugger
+    });
+    project.get('groups').on('add:features', function(model, coll){
+        debugger
+    })
+    project.get('groups').add([{
+        _id: '2',
+        name: "test group",
+        features: [{
+            _id: '3',
+            name: "feat name",
+            type: 'polyline'
         }]
-    });
-
-    console.log(project.toJSON());
-
-    Animal = Backbone.RelationalModel.extend({
-        urlRoot: '/animal/'
-    });
-
-    AnimalCollection = Backbone.Collection.extend({
-        model: Animal
-    });
-
-    //relation plugin
-    Zoo = Backbone.RelationalModel.extend({
-        relations: [{
-            type: Backbone.HasMany,
-            key: 'animals',
-            relatedModel: Animal,
-            collectionType: AnimalCollection,
-            reverseRelation: {
-                key: 'livesIn',
-                includeInJSON: 'id'
-                // 'relatedModel' is automatically set to 'Zoo'; the 'relationType' to 'HasOne'.
-            }
-        }]
-    });
-
-    var artis = new Zoo( { name: 'Artis' } );
-    var lion = new Animal( { species: 'Lion', livesIn: artis } );
-    //alert( artis.get( 'animals' ).pluck( 'species' ) );
-
-    // deep model
-    /*var p = new Backbone.DeepModel({groups: [
-     {
-     features: [
-     {
-     type: "marker",
-     title: "test",
-     description: "double test"
-     }
-     ]
-     }
-     ]});*/
-
-    //clear module
-    /*var p = new ProjectModel({
-     groups: [
-     {
-     features: [
-     {
-     type: "marker",
-     title: "test",
-     description: "double test"
-     }
-     ]
-     }
-     ]
-     }, {parse:true});
-     log( p.toJSON() );*/
+    }])
+    project.get('groups').at(0).get('features').add({
+        _id: '4',
+        name: "feat name",
+        type: 'polyline'
+    })*/
 
     App.module("EditProject", {
 
@@ -143,11 +108,6 @@ define([
                 editController: function(projectId){
 
                     var projectModel = Controller.getProjectModel(projectId);
-
-                    projectModel.on("add", function(ship) {
-                        alert("Ahoy " + ship.get("name") + "!");
-                    });
-
                     /*
                      projectModel.save(null, {
                      url: projectModel.url + "/add"
@@ -192,6 +152,5 @@ define([
 
         }
     })
-
 
 })

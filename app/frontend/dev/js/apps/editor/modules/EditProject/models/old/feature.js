@@ -1,13 +1,11 @@
 define([
     'backbone',
-    'config',
-    'backbone.relational'
+    'config'
 ], function(Backbone, config){
-    return Backbone.RelationalModel.extend({
+    return Backbone.Model.extend({
         defaults: {
             title: "",
             description: ""
         }
     });
-
 })
