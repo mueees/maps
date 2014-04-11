@@ -5,8 +5,8 @@ define([
 ], function(Backbone, config){
     return Backbone.RelationalModel.extend({
         defaults: {
-            title: "",
-            description: ""
+            title: "Default title",
+            description: "Default description"
         }
     });
 
