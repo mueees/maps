@@ -1,3 +1,184 @@
 <div id="map"></div>
-<div id="control-first-container"></div>
+<div id="control-first-container">
+    <div class="main-buttons-container"></div>
+    <div class="tab-container">
+    <div class="tab-data">
+    <div class="layouts-container proejctLayouts">
+        <header class="layouts-container-header">
+            <span class="title">Project data</span>
+            <a class="btn btn-sm btn-primary" href="#">Add Layout</a>
+        </header>
+        <div class="layouts">
+            <div class="layout active">
+                <header class="layout-header">
+                    <input class="visible" type="checkbox"/>
+                    <span class="title">Some name</span>
+                    <a class="manage" href="#">
+                        <span class="glyphicon glyphicon-trash"></span>
+                    </a>
+                </header>
+                <section class="features">
+                    <div data-type="marker" class="feature">
+                        <span class="glyphicon glyphicon-map-marker"></span>
+                        <span class="name">Some place</span>
+                        <a class="manage" href="#">
+                            <span class="glyphicon glyphicon-trash"></span>
+                        </a>
+                        <span class="meta">
+                            <span class="link">
+                                <span class="glyphicon glyphicon-link">a</span>
+                            </span>
+                        </span>
+                        <a href="#" class="manage" title="Clone feature to project">
+                            <span class="glyphicon glyphicon-cloud-upload"></span>
+                        </a>
+                    </div>
+                    <div data-type="line" class="feature">
+
+                        <span class="glyphicon glyphicon-resize-full"></span>
+                        <span class="name">Some place</span>
+                        <span class="meta">
+                            <span class="link">
+                                <span class="glyphicon glyphicon-link">p</span>
+                            </span>
+                        </span>
+                        <a class="manage" href="#">
+                            <span class="glyphicon glyphicon-trash"></span>
+                        </a>
+                        <a class="manage" href="#">
+                            <span class="glyphicon glyphicon-cloud-upload"></span>
+
+                        </a>
+                    </div>
+                    <div data-type="polygon" class="feature">
+                        <span class="glyphicon glyphicon-retweet"></span>
+                        <span class="name">Some place</span>
+                        <a class="manage" href="#" title="Delete feature">
+                            <span class="glyphicon glyphicon-trash"></span>
+                        </a>
+                        <a class="manage" href="#" title="Share feature to account">
+                            <span class="glyphicon glyphicon-share"></span>
+                        </a>
+                        <a class="manage" href="#" title="Share feature to public">
+                            <span class="glyphicon glyphicon-eye-open"></span>
+                        </a>
+                        <div class="share-feature">
+                            <div class="share-header">
+                                <a href="#" class="close">
+                                    <span class="glyphicon glyphicon-remove"></span>
+                                </a>
+                            </div>
+                            <div>Account layers:</div>
+                            <ul>
+                                <li>
+                                    <a href="#">Layer name 1</a>
+                                </li>
+                                <li>
+                                    <a href="#">Layer name 2</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="layout">
+                <header class="layout-header">
+                    <input class="visible" type="checkbox"/>
+                    <span class="title">Some name</span>
+                    <a class="manage" href="#">
+                        <span class="glyphicon glyphicon-trash"></span>
+                    </a>
+                </header>
+                <section class="features">
+                    <div data-type="marker" class="feature">
+                        <i class="icon">marker</i>
+                        <span class="name">Some place</span>
+                        <i class="icon">delete-icon</i>
+                    </div>
+                </section>
+            </div>
+            <div class="layout active">
+                <header class="layout-header">
+                    <input class="visible" type="checkbox"/>
+                    <span class="title">Some name</span>
+                    <a class="manage" href="#">
+                        <span class="glyphicon glyphicon-trash"></span>
+                    </a>
+                </header>
+                <section class="features">
+                    <div data-type="marker" class="feature">
+                        <i class="icon">marker</i>
+                        <span class="name">Some place</span>
+                        <i class="icon">delete-icon</i>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="layouts-container accountLayouts">
+        <header class="layouts-container-header">
+            <span class="title">Account data</span>
+            <a class="btn btn-sm btn-primary" href="#">Add Layout</a>
+        </header>
+        <div class="layouts">
+            <div class="layout active">
+                <header>
+                    <input class="visible" type="checkbox"/>
+                    <span class="title">Some name</span>
+                </header>
+                <section class="features">
+                    <div data-type="marker" class="feature">
+                        <span class="glyphicon glyphicon-map-marker"></span>
+                        <span class="name">Some place</span>
+                        <a class="manage" href="#">
+                            <span class="glyphicon glyphicon-trash"></span>
+                        </a>
+                    </div>
+                    <div data-type="line" class="feature">
+                        <span class="glyphicon glyphicon-resize-full"></span>
+                        <span class="name">Some place</span>
+                        <a class="manage" href="#">
+                            <span class="glyphicon glyphicon-trash"></span>
+                        </a>
+                    </div>
+                    <div data-type="polygon" class="feature">
+                        <span class="glyphicon glyphicon-retweet"></span>
+                        <span class="name">Some place</span>
+                        <a class="manage" href="#">
+                            <span class="glyphicon glyphicon-trash"></span>
+                        </a>
+                    </div>
+                </section>
+            </div>
+            <div class="layout">
+                <header>
+                    <input class="visible" type="checkbox"/>
+                    <span class="title">Some name</span>
+                </header>
+                <section class="features">
+                    <div data-type="marker" class="feature">
+                        <i class="icon">marker</i>
+                        <span class="name">Some place</span>
+                        <i class="icon">delete-icon</i>
+                    </div>
+                </section>
+            </div>
+            <div class="layout active">
+                <header>
+                    <input class="visible" type="checkbox"/>
+                    <span class="title">Some name</span>
+                </header>
+                <section class="features">
+                    <div data-type="marker" class="feature">
+                        <i class="icon">marker</i>
+                        <span class="name">Some place</span>
+                        <i class="icon">delete-icon</i>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+</div>
 <div id="control-second-container"></div>

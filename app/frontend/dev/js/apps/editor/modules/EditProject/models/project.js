@@ -54,8 +54,9 @@ define([
 
             featureGeoJson = feature.layer.toGeoJSON();
             groups = this.get('groups');
-            activeGroup = groups.at(this.get('activeGroup'));
-            this.get('groups').at( this.get('activeGroup')).get('features').add({
+            activeGroup = this.get('groups').at( this.get('activeGroup'));
+            if(!activeGroup) return false;
+            activeGroup.get('features').add({
                 type: featureGeoJson.geometry.type,
                 lon: featureGeoJson.geometry.coordinates[0],
                 lat: featureGeoJson.geometry.coordinates[1]

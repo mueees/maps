@@ -8,7 +8,8 @@ define([
 
         regions: {
             'map': '#map',
-            'firstContainer': "#control-first-container",
+            'mainButtons': "#control-first-container .main-buttons-container",
+            'tabContainer': ".tab-container",
             'secondContainer': "#control-second-container"
         }
     })

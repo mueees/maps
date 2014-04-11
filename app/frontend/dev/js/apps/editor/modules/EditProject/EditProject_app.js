@@ -109,10 +109,10 @@ define([
 
                     var projectModel = Controller.getProjectModel(projectId);
                     /*
-                     projectModel.save(null, {
-                     url: projectModel.url + "/add"
-                     });
-                     */
+                         projectModel.save(null, {
+                            url: projectModel.url + "/add"
+                         });
+                    */
 
                     //вставить layout
                     var layoutView = new LayoutView();
@@ -120,6 +120,7 @@ define([
 
                     EditProject.Map.Controller.init(layoutView, projectModel);
                     EditProject.Control.Controller.init(layoutView, projectModel);
+                    EditProject.Tab.Controller.init(layoutView, projectModel);
 
                 },
                 analyzeController: function(){

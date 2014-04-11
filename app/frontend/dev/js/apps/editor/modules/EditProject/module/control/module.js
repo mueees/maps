@@ -21,24 +21,19 @@ define([
             var secondModel;
             var Controller = {
                 init: function(layout, projectModel){
-                    secondModel = new SecondModel();
+                    this.subscribe();
 
+                    secondModel = new SecondModel();
                     var secondButtonsView = new SecondButtonsView({model: secondModel});
+                    var mainButtonsView = new MainButtonsView({model: projectModel});
 
                     secondModel.on("change:featureType", function(){
-                        var type = secondModel.get('featureType');
-                        App.channels.main.trigger(config.channel.changeFeatureType, type);
+                        App.channels.main.trigger(config.channel.changeFeatureType, secondModel.get('featureType'));
                     })
 
                     layout.secondContainer.show(secondButtonsView);
+                    layout.mainButtons.show(mainButtonsView);
 
-                    var mainButtonsView = new MainButtonsView({
-                        model: projectModel
-                    });
-
-                    layout.firstContainer.show(mainButtonsView);
-
-                    this.subscribe();
                 },
 
                 handlerFeatureType: function(type){

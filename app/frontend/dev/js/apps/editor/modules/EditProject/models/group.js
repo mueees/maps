@@ -19,7 +19,8 @@ define([
         }],
         defaults: {
             name: "Default group name",
-            features: []
+            features: [],
+            show: true
         }
     });
 
