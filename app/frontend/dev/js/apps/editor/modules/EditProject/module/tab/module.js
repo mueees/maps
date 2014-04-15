@@ -1,8 +1,9 @@
 define([
     'apps/app',
     'marionette',
-    'config'
-], function(App, Marionette, config){
+    'config',
+    "./instances/TabFactory"
+], function(App, Marionette, config, TabFactory){
 
     App.module("EditProject.Tab", {
 
@@ -14,8 +15,21 @@ define([
                 init: function(layout, projectModel){
                     this.subscribe();
                 },
-                subscribe:function(){
+                handlerMainControl: function(type){
+                    if(!type) {
+                        return Controller.clearTab();
+                    }
 
+                    Controller.showTab(type);
+                },
+                showTab:function(type){
+                    Controller.clearTab();
+                    var tabView = TabFactory.make(type);
+                    layout.show(tabView);
+                },
+                clearTab:function(){},
+                subscribe:function(){
+                    App.channels.main.on(config.channel.changeMainControl, Controller.handlerMainControl);
                 }
             }
 

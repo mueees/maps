@@ -768,3 +768,9 @@
 {"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-11T13:38:42.923Z"}
 {"message":"","name":"CastError","type":"ObjectId","value":"style","path":"_id","level":"error","timestamp":"2014-04-11T13:46:08.063Z"}
 {"message":"","name":"CastError","type":"ObjectId","value":"style","path":"_id","level":"error","timestamp":"2014-04-11T14:16:48.080Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-15T15:14:10.788Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-15T15:14:10.847Z"}
+{"message":"","name":"CastError","type":"ObjectId","value":"style","path":"_id","level":"error","timestamp":"2014-04-15T15:14:13.136Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-15T15:37:52.478Z"}
+{"message":"","name":"CastError","type":"ObjectId","value":"style","path":"_id","level":"error","timestamp":"2014-04-15T15:39:36.616Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-15T15:39:38.222Z"}

@@ -11,6 +11,7 @@ define([], function(){
             afterSignIn: "/projects"
         },
         channel: {
+            changeMainControl: "changeMainControl",
             //secondButtonsView
             changeFeatureType: "changeFeatureType"
         },
