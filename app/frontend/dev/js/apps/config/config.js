@@ -12,7 +12,8 @@ define([], function(){
         },
         channel: {
             //secondButtonsView
-            changeFeatureType: "changeFeatureType"
+            changeFeatureType: "changeFeatureType",
+            changeMainMenu: "changeMainMenu"
         },
 
         log: {

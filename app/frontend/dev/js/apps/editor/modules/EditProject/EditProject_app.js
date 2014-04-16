@@ -18,6 +18,7 @@ define([
     /*submodules*/
     './module/map/module',
     './module/control/module',
+    './module/tab/module',
 
     'helpers/notify/module'
 ], function(jQuery, Backbone, Marionette, config, App, ProjectModel, MarkerModel, LayoutView, log){
