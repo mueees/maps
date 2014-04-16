@@ -18,6 +18,7 @@ define([
     /*submodules*/
     './module/map/module',
     './module/control/module',
+    './module/tab/module',
 
     'helpers/notify/module'
 ], function(jQuery, Backbone, Marionette, config, App, ProjectModel, MarkerModel, LayoutView, log){
@@ -108,11 +109,6 @@ define([
                 editController: function(projectId){
 
                     var projectModel = Controller.getProjectModel(projectId);
-                    /*
-                         projectModel.save(null, {
-                            url: projectModel.url + "/add"
-                         });
-                    */
 
                     //вставить layout
                     var layoutView = new LayoutView();

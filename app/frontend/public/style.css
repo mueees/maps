@@ -636,8 +636,12 @@ body {
 #control-first-container .tab-data .layout .features {
   display: none;
 }
-#control-first-container .tab-data .layout.active .features {
+#control-first-container .tab-data .layout.open .features {
   display: block;
+}
+#control-first-container .tab-data .layout.active header {
+  border-left: 6px solid #5cb85c;
+  background: #e6e6e6;
 }
 #control-first-container .tab-data .layout header {
   border-left: 6px solid #fff;

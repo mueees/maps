@@ -6,7 +6,13 @@ define([
     return Backbone.RelationalModel.extend({
         defaults: {
             title: "Default title",
-            description: "Default description"
+            description: "Default description",
+
+            /*
+             * point
+             * polygon,
+            * */
+            type: ""
         }
     });
 

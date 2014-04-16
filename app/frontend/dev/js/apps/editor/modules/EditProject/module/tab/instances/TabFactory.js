@@ -1,10 +1,15 @@
 define([
-],function(L, Point){
+    'backbone',
+    'marionette',
+    '../views/TabDataView'
+],function(Backbone, Marionette, TabDataView){
+
     function TabFactory(){}
 
-    TabFactory.make = function(type){
+    TabFactory.make = function(type , projectModel){
         var result;
-        switch (type) {
+
+        /*switch (type) {
             case "data":
                 result = new DataTab();
                 break;
@@ -14,7 +19,13 @@ define([
             case "project":
                 result = new DataTab();
                 break;
-        }
+        }*/
+
+        result = new TabDataView({
+            model: projectModel
+        });
+
+
         return result;
     }
     return TabFactory;

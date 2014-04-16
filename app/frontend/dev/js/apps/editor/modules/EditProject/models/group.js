@@ -20,7 +20,21 @@ define([
         defaults: {
             name: "Default group name",
             features: [],
-            show: true
+
+            /*
+            * Show or hide all features on map
+            * */
+            show: true,
+
+            /*
+            * Show or hide all features on Tab-Data View
+            * */
+            isOpen: true,
+
+            /*
+            * Determine
+            * */
+            isActive: true
         }
     });
 
