@@ -1,9 +1,10 @@
 define([
     'backbone',
+    'underscore',
     'config',
     './../models/group',
     './../collection/groupColl'
-], function(Backbone, config, GroupModel, GroupColl){
+], function(Backbone, _, config, GroupModel, GroupColl){
 
     return Backbone.RelationalModel.extend({
 
@@ -54,12 +55,36 @@ define([
 
             featureGeoJson = feature.layer.toGeoJSON();
             groups = this.get('groups');
-            activeGroup = this.get('groups').at( this.get('activeGroup'));
-            if(!activeGroup) return false;
+
+            activeGroup = this.getActiveGroup();
+
+            if(!activeGroup){
+                this.setDefaultActiveGroup();
+                activeGroup = this.getActiveGroup();
+            }
+
             activeGroup.get('features').add({
                 type: featureGeoJson.geometry.type,
                 lon: featureGeoJson.geometry.coordinates[0],
                 lat: featureGeoJson.geometry.coordinates[1]
+            });
+        },
+
+        getActiveGroup: function(){
+            return this.get('groups').findWhere({isActive: true});
+        },
+
+        setDefaultActiveGroup: function(){
+            if(!this.get('groups').length){
+                return this.get('groups').add({});
+            }else{
+                return this.get('groups').at(0).set('isActive', true);
+            }
+        },
+
+        resetAllActiveGroup: function(){
+            this.get('groups').each(function(group){
+                group.set('isActive', false);
             })
         }
     });

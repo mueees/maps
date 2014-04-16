@@ -109,11 +109,6 @@ define([
                 editController: function(projectId){
 
                     var projectModel = Controller.getProjectModel(projectId);
-                    /*
-                         projectModel.save(null, {
-                            url: projectModel.url + "/add"
-                         });
-                    */
 
                     //вставить layout
                     var layoutView = new LayoutView();

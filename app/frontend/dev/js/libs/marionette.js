@@ -1545,6 +1545,7 @@ var Marionette = (function(global, Backbone, _){
         // provide your own implementation of a render function for
         // the collection view.
         render: function(){
+
             this.isClosed = false;
             this.triggerBeforeRender();
             this._renderChildren();
@@ -1795,6 +1796,7 @@ var Marionette = (function(global, Backbone, _){
         // this again will tell the model's view to re-render itself
         // but the collection will not re-render.
         render: function(){
+
             this.isRendered = true;
             this.isClosed = false;
             this.resetItemViewContainer();
