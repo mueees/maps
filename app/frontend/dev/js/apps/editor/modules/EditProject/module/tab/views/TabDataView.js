@@ -19,6 +19,11 @@ define([
             this.collection = this.model.get('groups');
             this.listenTo(this.model.get('groups'), "wantToBeActive", this.handlerWantToBeActive);
             this.listenTo(this.model.get('groups'), "wantToBeRemove", this.handlerWantToBeRemove);
+            this.listenTo(this.model.get('groups'), "change:feature:isEdit", this.handlerIsEditFeature);
+        },
+
+        handlerIsEditFeature: function(feature){
+            debugger
         },
 
         handlerWantToBeActive: function(group){

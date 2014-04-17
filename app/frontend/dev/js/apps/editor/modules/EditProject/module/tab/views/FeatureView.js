@@ -7,8 +7,21 @@ define([
 
         className: "feature",
 
-        initialize: function(){
+        events: {
 
+            "click": "handlerFeatureClick",
+            "click .delete": "deleteFeature"
+        },
+
+        initialize: function(){
+        },
+
+        deleteFeature: function(){
+            this.model.trigger("wantToBeRemove", this.model);
+        },
+
+        handlerFeatureClick: function(){
+            this.model.trigger("wantToBeFeatureEdit", this.model);
         },
 
         onAfterRender: function(){

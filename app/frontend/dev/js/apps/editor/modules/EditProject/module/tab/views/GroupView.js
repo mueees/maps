@@ -18,14 +18,25 @@ define([
         },
 
         ui: {
-            'visible': ".visible"
+            'visible': ".visible",
+            'countFeatures': '.countFeatures'
         },
 
         initialize: function(){
             this.collection = this.model.get('features');
 
-            this.listenTo(this.model, "change:isOpen", this.handlerChangeIsOpen)
-            this.listenTo(this.model, "change:isActive", this.handlerChangeIsActive)
+            this.listenTo(this.collection, "wantToBeRemove", this.handlerWantToBeRemove);
+            this.listenTo(this.collection, "wantToBeFeatureEdit", this.handlerWantToBeFeatureEdit);
+
+            this.listenTo(this.collection, "add", this.handlerAddFeature);
+            this.listenTo(this.collection, "remove", this.handlerRemoveFeature);
+            this.listenTo(this.collection, "change:feature:isEdit", this.handlerIsEditFeature);
+            this.listenTo(this.model, "change:isOpen", this.handlerChangeIsOpen);
+            this.listenTo(this.model, "change:isActive", this.handlerChangeIsActive);
+        },
+
+        handlerIsEditFeature: function(feature){
+            this.model.trigger("change:feature:isEdit", feature);
         },
 
         appendHtml: function(collectionView, itemView){
@@ -65,6 +76,26 @@ define([
             }else{
                 this.$el.removeClass('active');
             }
+        },
+
+        handlerWantToBeRemove: function(feature){
+            this.collection.remove(feature);
+        },
+
+        handlerWantToBeFeatureEdit: function(){
+            this.model.trigger("wantToBeFeatureEdit", this.model);
+        },
+
+        handlerAddFeature: function(){
+            this.recalculateFeatureCounts();
+        },
+
+        handlerRemoveFeature: function(){
+            this.recalculateFeatureCounts();
+        },
+
+        recalculateFeatureCounts: function(){
+            this.ui.countFeatures.html( this.model.get('features').length );
         },
 
         switchVisible: function(e){
