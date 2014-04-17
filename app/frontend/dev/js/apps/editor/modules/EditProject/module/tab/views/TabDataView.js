@@ -23,7 +23,7 @@ define([
         },
 
         handlerIsEditFeature: function(feature){
-            debugger
+
         },
 
         handlerWantToBeActive: function(group){

@@ -35,6 +35,10 @@ define([
             * Determine
             * */
             isActive: true
+        },
+
+        initialize: function(){
+
         }
     });
 

@@ -12,7 +12,29 @@ define([
              * point
              * polygon,
             * */
-            type: ""
+            type: "",
+
+            /*frontend*/
+            isEdit: false
+        },
+
+        editEnable: function(){
+            var group,
+                project;
+
+            group = this.get('group');
+            if( !group ){
+                this.set('isEdit', true);
+                return this;
+            }
+
+            project = group.get('project');
+            if(!project){
+                this.set('isEdit', true);
+                return this;
+            }
+
+            project.setEditFeature(this);
         }
     });
 

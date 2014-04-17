@@ -26,10 +26,7 @@ define([
             /**
              * symbol
              * */
-            symbol: "",
-
-            /*frontend*/
-            isEdit: false
+            symbol: ""
         })
     });
 })

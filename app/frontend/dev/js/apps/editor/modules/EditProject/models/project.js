@@ -86,6 +86,21 @@ define([
             this.get('groups').each(function(group){
                 group.set('isActive', false);
             })
+        },
+
+        setEditFeature: function(model){
+            if(!model) return false;
+            this.disableAllEditFeature();
+            model.set('isEdit', true);
+        },
+
+        disableAllEditFeature: function(){
+            this.get('groups').each(function(group){
+                group.get('features').each(function(feature){
+                    feature.set('isEdit', false);
+                })
+            })
+
         }
     });
 

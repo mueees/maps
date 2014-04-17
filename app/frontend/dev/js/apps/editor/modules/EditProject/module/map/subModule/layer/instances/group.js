@@ -57,13 +57,13 @@ define([
 
             f.on("show", this.handlerShowFeature);
             f.on("hide", this.handlerHideFeature);
-            f.on("editFeature", this.handlerEditFeature);
+            f.on("feature:want:change:isEdit", this.handlerEditFeature);
 
             this.features.push(f);
             this.group.addLayer(f.view);
         },
-        handlerEditFeature:function(){
-            this.trigger("editFeature");
+        handlerEditFeature:function(data){
+            this.trigger("feature:want:change:isEdit", data);
         },
 
         /**

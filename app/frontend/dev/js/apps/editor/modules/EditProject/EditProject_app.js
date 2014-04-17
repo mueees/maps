@@ -82,7 +82,7 @@ define([
     project.get('groups').at(0).get('features').add({
         _id: '4',
         name: "feat name",
-        type: 'polyline'
+     type: 'polyline'
     })*/
 
     App.module("EditProject", {

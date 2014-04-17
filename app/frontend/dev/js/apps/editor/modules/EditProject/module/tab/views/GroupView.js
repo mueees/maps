@@ -26,7 +26,6 @@ define([
             this.collection = this.model.get('features');
 
             this.listenTo(this.collection, "wantToBeRemove", this.handlerWantToBeRemove);
-            this.listenTo(this.collection, "wantToBeFeatureEdit", this.handlerWantToBeFeatureEdit);
 
             this.listenTo(this.collection, "add", this.handlerAddFeature);
             this.listenTo(this.collection, "remove", this.handlerRemoveFeature);
@@ -80,10 +79,6 @@ define([
 
         handlerWantToBeRemove: function(feature){
             this.collection.remove(feature);
-        },
-
-        handlerWantToBeFeatureEdit: function(){
-            this.model.trigger("wantToBeFeatureEdit", this.model);
         },
 
         handlerAddFeature: function(){

@@ -8,12 +8,12 @@ define([
         className: "feature",
 
         events: {
-
             "click": "handlerFeatureClick",
             "click .delete": "deleteFeature"
         },
 
         initialize: function(){
+            this.listenTo(this.model, "change:isEdit", this.handlerIsEdit);
         },
 
         deleteFeature: function(){
@@ -21,7 +21,17 @@ define([
         },
 
         handlerFeatureClick: function(){
-            this.model.trigger("wantToBeFeatureEdit", this.model);
+            var isEdit = this.model.get('isEdit');
+            if(isEdit) return false;
+            this.model.editEnable();
+        },
+
+        handlerIsEdit: function(){
+            if(this.model.get('isEdit')){
+                this.$el.addClass('edit');
+            }else{
+                this.$el.removeClass('edit');
+            }
         },
 
         onAfterRender: function(){

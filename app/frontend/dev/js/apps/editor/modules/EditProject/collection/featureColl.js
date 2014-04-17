@@ -16,13 +16,6 @@ define([
                 case "polyline":
                     return new PolylineModel(attrs, options);
             }
-        },
-
-        initialize: function(){
-            var _this = this;
-            this.on('change:isEdit', function(feature){
-                _this.trigger("change:feature:isEdit", feature);
-            })
         }
     });
 

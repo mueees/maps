@@ -33,23 +33,21 @@ define([
         },
         /**
          * Fired when the user clicks (or taps) the marker.
+         * Trigger that feature want to be Editable, this event up to Groups, and then
+         * disable isEdit for all features, and enable isEdit for current _feature model
          * */
         handlerViewClick:function(e){
             var isEdit = this._feature.get('isEdit');
             if(isEdit) return false;
-            this._feature.set('isEdit', !isEdit);
+
+            this.trigger('feature:want:change:isEdit', {
+                model: this._feature,
+                value: !isEdit
+            });
         },
         handlerChangeIsEdit:function(){
-            var isEdit = this._feature.get('isEdit');
-            if(isEdit){
-                this.trigger('editFeature');
-                /*повторно устанавливаем значение в true, потому что
-                * editFeature - отключил у всех фич isEdit свойство
-                * */
-                this._feature.set('isEdit', isEdit, {silent: true});
-            }
-            this.setDragging(isEdit);
-
+            this.setDragging(this._feature.get('isEdit'));
+            this.view
         },
         handlerChangeCoord:function(){
             var lat = this._feature.get('lat');

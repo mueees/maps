@@ -30,15 +30,20 @@ define([
             })
         },
         addGroup:function(group){
-            var g = new Group(group),
-                _this = this;
+            var g = new Group(group);
 
-            g.on("editFeature", this.handlerEditFeature);
+            g.on("feature:want:change:isEdit", this.handlerEditFeature);
             this.groups.push(g);
             g.addTo(this.map);
         },
-        handlerEditFeature:function(){
+        handlerEditFeature:function(data){
             this.disableDraggingForAllFeature();
+            data.model.set('isEdit', data.value);
+            this.setViewByMarker(data.model);
+        },
+        setViewByMarker: function(featureModel){
+            var latlng = L.latLng(featureModel.get('lat'), featureModel.get('lon'));
+            this.map.setView(latlng);
         },
         disableDraggingForAllFeature:function(){
             var _this = this;

@@ -670,6 +670,10 @@ body {
 #control-first-container .tab-data .feature .meta {
   color: #b8b8b8;
 }
+#control-first-container .tab-data .feature.edit {
+  background: #e6e6e6;
+  border-left: 3px solid #428bca;
+}
 #control-first-container .tab-data .feature:hover {
   background: #e6e6e6;
   border-left: 3px solid #428bca;
