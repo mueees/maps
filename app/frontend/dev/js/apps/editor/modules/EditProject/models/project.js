@@ -40,16 +40,14 @@ define([
         url: config.api.project,
 
         initialize: function(attr){
-            var groups = this.get('groups'),
-                _this = this;
+            var _this = this;
+            if( !this.get('groups').size() ) this.initFirstGroupCollection();
 
-            groups.on("custom:event:", function(data){
-                var name = data.name;
-                if(!name) return false;
-                debugger
+            this.get('groups').on("custom:event:", function(data){
+                if(!data.name) return false;
+                _this.trigger('change:custom:event:', data);
             });
 
-            if( !groups.size() ) this.initFirstGroupCollection();
         },
 
         initFirstGroupCollection: function(){
@@ -63,7 +61,6 @@ define([
 
             featureGeoJson = feature.layer.toGeoJSON();
             groups = this.get('groups');
-
             activeGroup = this.getActiveGroup();
 
             if(!activeGroup){
@@ -76,13 +73,6 @@ define([
                 lon: featureGeoJson.geometry.coordinates[0],
                 lat: featureGeoJson.geometry.coordinates[1]
             });
-
-            setTimeout(function(){
-                var feature = activeGroup.get('features').at(0);
-                feature.trigger('change:custom:event:', {
-                    name: "centerMe"
-                })
-            }, 1000)
         },
 
         getActiveGroup: function(){
@@ -91,7 +81,7 @@ define([
 
         setDefaultActiveGroup: function(){
             if(!this.get('groups').length){
-                return this.get('groups').add({});
+                return this.initFirstGroupCollection();
             }else{
                 return this.get('groups').at(0).set('isActive', true);
             }
@@ -107,6 +97,7 @@ define([
             if(!model) return false;
             this.disableAllEditFeature();
             model.set('isEdit', true);
+            this.trigger('editFeature', {model:model});
         },
 
         disableAllEditFeature: function(){

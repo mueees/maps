@@ -39,7 +39,7 @@ define([
                         App.channels.main.trigger(config.channel.changeFeatureType, secondModel.get('featureType'));
                     })
 
-                    layout.secondContainer.show(secondButtonsView);
+                    layout.secondButtonsContainer.show(secondButtonsView);
                     layout.mainButtons.show(mainButtonsView);
 
                 },

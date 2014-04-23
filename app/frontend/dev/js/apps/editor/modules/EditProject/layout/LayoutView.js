@@ -10,7 +10,8 @@ define([
             'map': '#map',
             'mainButtons': "#control-first-container .main-buttons-container",
             'tabContainer': ".tab-container",
-            'secondContainer': "#control-second-container"
+            'secondButtonsContainer': '.second-buttons-container',
+            'editorContainer': '.editor-container'
         }
     })
 

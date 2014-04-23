@@ -22,7 +22,6 @@ define([
             var _this = this;
             this.on("change:custom:event:", function(data){
                 if(!data.name) return false;
-                debugger
                 _this.trigger('custom:event:', data);
             });
         }

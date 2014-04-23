@@ -451,6 +451,12 @@ body {
 .tabs-content {
   padding: 20px 15px;
 }
+.tabs-content .tab {
+  display: none;
+}
+.tabs-content .tab.active {
+  display: block;
+}
 #notice-container {
   position: fixed;
   width: 200px;

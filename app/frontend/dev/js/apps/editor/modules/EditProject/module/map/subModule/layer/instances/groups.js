@@ -33,7 +33,6 @@ define([
         addGroup:function(group){
             var g = new Group(group);
 
-            g.on("feature:center", this.handlerCenterFeature);
             this.groups.push(g);
             g.addTo(this.map);
         },
@@ -45,9 +44,19 @@ define([
             this.map.setView(latlng);
         },
         subscribe:function(){
+            var _this = this;
             this._groups.on('remove', this.handlerRemoveGroup);
             this._groups.on('add', this.handlerAddGroup);
-            this._groups.on('centerFeature', function(){debugger});
+            this._groups.on("custom:event:", function(data){
+                var name = data.name;
+                if(!name) return false;
+
+                switch (name){
+                    case "feature:centerMe":
+                        _this.handlerCenterFeature(data);
+                        break;
+                }
+            });
         },
         handlerAddGroup:function(model){
             this.addGroup(model);

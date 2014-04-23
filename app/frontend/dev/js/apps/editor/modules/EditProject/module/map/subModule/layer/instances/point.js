@@ -8,7 +8,8 @@ define([
                 "handlerChangePopUp",
                 "handlerChangeShow",
                 "handlerChangeIsEdit",
-                "handlerViewClick"
+                "handlerViewClick",
+                "handlerDragEnd"
             );
             this.view = L.marker([this._feature.get('lat'), this._feature.get('lon')]);
             this.bindPopUp();
@@ -19,10 +20,18 @@ define([
             this._feature.on('change:show', this.handlerChangeShow);
             this._feature.on('change:isEdit', this.handlerChangeIsEdit);
             this.view.on('click', this.handlerViewClick);
+            this.view.on('dragend', this.handlerDragEnd);
 
             //draggable
             //clickable
             //alt
+        },
+        handlerDragEnd:function(e){
+            var coords = e.target.getLatLng();
+            this._feature.set({
+                lat: coords.lat,
+                lon: coords.lng
+            },{silent: true});
         },
         setDragging:function(toggle){
             if(toggle){
@@ -40,10 +49,13 @@ define([
             if(!this._feature.get('isEdit')) this._feature.editEnable();
         },
         handlerChangeIsEdit:function(){
+            var _this = this;
             this.setDragging(this._feature.get('isEdit'));
             if(!this._feature.get('isEdit')) return false;
-            this.trigger('feature:center', {
-                model: this._feature
+
+            this._feature.trigger('change:custom:event:', {
+                name: "feature:centerMe",
+                model: _this._feature
             });
 
         },

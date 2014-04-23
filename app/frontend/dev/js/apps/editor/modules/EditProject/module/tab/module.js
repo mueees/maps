@@ -2,8 +2,9 @@ define([
     'apps/app',
     'marionette',
     'config',
-    "./instances/TabFactory"
-], function(App, Marionette, config, TabFactory){
+    "./instances/TabFactory",
+    "./instances/EditFeatureFactory"
+], function(App, Marionette, config, TabFactory, EditFeatureFactory){
 
     App.module("EditProject.Tab", {
 
@@ -30,6 +31,12 @@ define([
                     }
                     Controller.showTab(type);
                 },
+                handlerEditFeature: function(data){
+                    var feature = data.model;
+                    if(!feature) return false;
+                    var editView = EditFeatureFactory.make(feature);
+                    state.layout.editorContainer.show(editView);
+                },
                 showTab:function(type){
                     Controller.clearTab();
                     var tabView = TabFactory.make(type, state.projectModel);
@@ -43,7 +50,8 @@ define([
 
                 subscribe:function(){
                     App.channels.main.on(config.channel.changeMainControl, Controller.handlerMainControl);
-                    state.projectModel.on('custom:event:', function(data){debugger});
+
+                    state.projectModel.on('editFeature', Controller.handlerEditFeature);
                 }
             }
 
