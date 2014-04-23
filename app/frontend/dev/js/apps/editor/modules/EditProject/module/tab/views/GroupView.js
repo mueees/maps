@@ -14,6 +14,7 @@ define([
         events: {
             "click .layout-header": "switchOpen",
             "click .visible": "switchVisible",
+            "click .zoom": "zoom",
             "click .delete": "deleteGroup"
         },
 
@@ -59,6 +60,15 @@ define([
 
         deleteGroup: function(){
             this.model.trigger("wantToBeRemove", this.model);
+        },
+
+        zoom: function(e){
+            e.preventDefault();
+            e.stopPropagation();
+            this.model.trigger('custom:event:', {
+                name: 'group:centerMe',
+                model: this.model
+            });
         },
 
         handlerChangeIsOpen: function(){

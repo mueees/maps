@@ -9,22 +9,19 @@ define([
     TabFactory.make = function(type , projectModel){
         var result;
 
-        /*switch (type) {
+        switch (type) {
             case "data":
-                result = new DataTab();
+                result = new TabDataView({
+                    model: projectModel
+                });
                 break;
             case "style":
-                result = new DataTab();
+                //result = new DataTab();
                 break;
             case "project":
-                result = new DataTab();
+                //result = new DataTab();
                 break;
-        }*/
-
-        result = new TabDataView({
-            model: projectModel
-        });
-
+        }
 
         return result;
     }

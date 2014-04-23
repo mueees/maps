@@ -39,9 +39,23 @@ define([
         handlerCenterFeature:function(data){
             this.setViewByMarker(data.model);
         },
+        handlerCenterGroup:function(data){
+            this.setViewByGroup(data.model);
+        },
         setViewByMarker: function(featureModel){
             var latlng = L.latLng(featureModel.get('lat'), featureModel.get('lon'));
             this.map.setView(latlng);
+        },
+        setViewByGroup: function(groupModel){
+
+            //this is object group
+            var group = this.getGroup(groupModel.cid);
+            if(!group) return false;
+
+            var bounds = group.getLatLngBounds();
+            if(!bounds) return false;
+
+            this.map.fitBounds(bounds);
         },
         subscribe:function(){
             var _this = this;
@@ -54,6 +68,9 @@ define([
                 switch (name){
                     case "feature:centerMe":
                         _this.handlerCenterFeature(data);
+                        break;
+                    case "group:centerMe":
+                        _this.handlerCenterGroup(data);
                         break;
                 }
             });

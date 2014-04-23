@@ -12,8 +12,13 @@ define([
             "click .delete": "deleteFeature"
         },
 
+        ui: {
+            title: ".name"
+        },
+
         initialize: function(){
             this.listenTo(this.model, "change:isEdit", this.handlerIsEdit);
+            this.listenTo(this.model, "change:title", this.handlerChangeTitle);
         },
 
         deleteFeature: function(){
@@ -32,6 +37,10 @@ define([
             }else{
                 this.$el.removeClass('edit');
             }
+        },
+
+        handlerChangeTitle: function(){
+            this.ui.title.html(this.model.get('title'));
         },
 
         onAfterRender: function(){

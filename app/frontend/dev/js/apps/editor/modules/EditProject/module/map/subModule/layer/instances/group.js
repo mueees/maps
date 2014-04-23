@@ -94,6 +94,13 @@ define([
             })
             return result;
         },
+        getLatLngBounds: function(){
+            var result = [];
+            _.each(this.features, function(feature){
+                result.push(feature.view.getLatLng());
+            });
+            return (result.length != 0) ? L.latLngBounds(result) : false;
+        },
         handlerShowFeature:function(feature){
             this.addFeatureToGroup(feature.cid);
         },

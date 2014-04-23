@@ -15,12 +15,12 @@ define([
         },
 
         initialize: function(){
-            this.listenTo(this.model, "change:tab", this.handlerChangeTab)
+            this.listenTo(this.model, "change:selectedItem", this.handlerChangeTab);
             this.model.on();
         },
 
         handlerChangeTab: function(){
-            var tab = this.model.get('tab');
+            var tab = this.model.get('selectedItem');
             this.disableAllTab();
             if( tab ){
                 this.selectTabItem(tab);
@@ -28,7 +28,7 @@ define([
         },
 
         selectTabItem: function(tab){
-            this.$el.find('a[data-tab='+tab+']').addClass('active');
+            this.$el.find('a[data-type='+tab+']').addClass('active');
         },
 
         disableAllTab: function(){
@@ -38,15 +38,15 @@ define([
         handlerTabClick: function(e){
             e.preventDefault();
             var $el = $(e.target),
-                tab = $el.data('tab');
+                tab = $el.data('type');
             if(!tab) return false;
 
             if(tab == "save"){
                 this.model.trigger("save");
-            }else if( tab == this.model.get('tab') ){
-                this.model.set('tab', null);
+            }else if( tab == this.model.get('selectedItem') ){
+                this.model.set('selectedItem', null);
             }else{
-                this.model.set('tab', tab);
+                this.model.set('selectedItem', tab);
             }
         }
     })

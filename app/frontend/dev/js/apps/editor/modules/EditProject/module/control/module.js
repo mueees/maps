@@ -48,8 +48,13 @@ define([
                     secondModel.set('featureType', type);
                 },
 
+                handlerMainControl: function(type){
+                    mainModel.set('selectedItem', type);
+                },
+
                 subscribe: function(){
                     App.channels.main.on(config.channel.changeFeatureType, Controller.handlerFeatureType);
+                    App.channels.main.on(config.channel.changeMainControl, Controller.handlerMainControl);
                 }
             }
 

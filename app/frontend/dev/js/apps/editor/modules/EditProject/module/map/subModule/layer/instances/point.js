@@ -31,7 +31,7 @@ define([
             this._feature.set({
                 lat: coords.lat,
                 lon: coords.lng
-            },{silent: true});
+            });
         },
         setDragging:function(toggle){
             if(toggle){
