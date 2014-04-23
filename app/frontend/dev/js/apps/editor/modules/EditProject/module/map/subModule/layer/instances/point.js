@@ -37,17 +37,15 @@ define([
          * disable isEdit for all features, and enable isEdit for current _feature model
          * */
         handlerViewClick:function(e){
-            var isEdit = this._feature.get('isEdit');
-            if(isEdit) return false;
-
-            this.trigger('feature:want:change:isEdit', {
-                model: this._feature,
-                value: !isEdit
-            });
+            if(!this._feature.get('isEdit')) this._feature.editEnable();
         },
         handlerChangeIsEdit:function(){
             this.setDragging(this._feature.get('isEdit'));
-            this.view
+            if(!this._feature.get('isEdit')) return false;
+            this.trigger('feature:center', {
+                model: this._feature
+            });
+
         },
         handlerChangeCoord:function(){
             var lat = this._feature.get('lat');

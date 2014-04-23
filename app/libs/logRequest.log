@@ -256,3 +256,32 @@
 {"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-17T14:15:12.181Z"}
 {"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-17T14:15:15.289Z"}
 {"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-17T14:15:16.653Z"}
+{"level":"info","message":"Web server listening: 5001","timestamp":"2014-04-22T19:54:09.851Z"}
+{"level":"info","message":"Mongoose open connection: mongodb://127.0.0.1/map_dev","timestamp":"2014-04-22T19:54:09.884Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-22T19:59:07.790Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-22T20:00:48.643Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-22T20:01:45.872Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-22T20:14:49.973Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-22T20:20:03.695Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-22T20:20:07.866Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-22T20:20:24.756Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-22T20:20:46.260Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-22T20:21:01.258Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-22T20:21:23.820Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-22T20:22:11.835Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-22T20:36:45.528Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-22T20:37:06.101Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-22T20:38:41.248Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-22T20:39:03.797Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-22T20:39:47.743Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-22T20:40:42.539Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-22T20:42:20.175Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-22T20:42:37.868Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-22T20:43:05.459Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-22T20:45:50.482Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-22T20:51:31.128Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-22T20:52:50.657Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-22T20:56:23.906Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-22T21:00:49.932Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-22T21:01:24.025Z"}
+{"status":404,"url":"/js/libs/jquery.min.map","level":"warn","message":"","timestamp":"2014-04-22T21:02:57.080Z"}

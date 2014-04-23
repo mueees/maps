@@ -38,7 +38,12 @@ define([
         },
 
         initialize: function(){
-
+            var _this = this;
+            this.get('features').on("custom:event:", function(data){
+                debugger
+                if(!data.name) return false;
+                _this.trigger('change:custom:event:', data);
+            });
         }
     });
 

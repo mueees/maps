@@ -14,8 +14,8 @@ define([
 
     App.module("EditProject.Map.Layer", {
 
-
         startWithParent: true,
+
         define: function(Layer, App, Backbone, Marionette, $, _){
             var Controller = {
                 init: function(projectModel, map){

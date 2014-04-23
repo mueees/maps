@@ -43,7 +43,7 @@ define([
 
                 subscribe:function(){
                     App.channels.main.on(config.channel.changeMainControl, Controller.handlerMainControl);
-                    state.projectModel.get('groups').on('');
+                    state.projectModel.on('custom:event:', function(data){debugger});
                 }
             }
 

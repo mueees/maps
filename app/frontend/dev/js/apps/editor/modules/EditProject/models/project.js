@@ -40,7 +40,15 @@ define([
         url: config.api.project,
 
         initialize: function(attr){
-            var groups = this.get('groups');
+            var groups = this.get('groups'),
+                _this = this;
+
+            groups.on("custom:event:", function(data){
+                var name = data.name;
+                if(!name) return false;
+                debugger
+            });
+
             if( !groups.size() ) this.initFirstGroupCollection();
         },
 
@@ -68,6 +76,13 @@ define([
                 lon: featureGeoJson.geometry.coordinates[0],
                 lat: featureGeoJson.geometry.coordinates[1]
             });
+
+            setTimeout(function(){
+                var feature = activeGroup.get('features').at(0);
+                feature.trigger('change:custom:event:', {
+                    name: "centerMe"
+                })
+            }, 1000)
         },
 
         getActiveGroup: function(){
@@ -100,7 +115,6 @@ define([
                     feature.set('isEdit', false);
                 })
             })
-
         }
     });
 

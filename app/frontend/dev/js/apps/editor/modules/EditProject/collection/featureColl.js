@@ -16,6 +16,15 @@ define([
                 case "polyline":
                     return new PolylineModel(attrs, options);
             }
+        },
+
+        initialize: function(){
+            var _this = this;
+            this.on("change:custom:event:", function(data){
+                if(!data.name) return false;
+                debugger
+                _this.trigger('custom:event:', data);
+            });
         }
     });
 

@@ -1,9 +1,10 @@
 define([
     'leaflet',
-    './group'
-],function(L, Group){
+    './group',
+    'underscore'
+],function(L, Group, _){
     function Groups( groups, map ){
-        //Bacbone collection
+        //Backbone groups collection
         this._groups = groups;
         //Leaflet groups
         this.groups = [];
@@ -13,7 +14,7 @@ define([
         _.bindAll(this, "addGroup",
             "handlerRemoveGroup",
             "handlerAddGroup",
-            "handlerEditFeature"
+            "handlerCenterFeature"
         );
         this.initialize();
 
@@ -32,30 +33,21 @@ define([
         addGroup:function(group){
             var g = new Group(group);
 
-            g.on("feature:want:change:isEdit", this.handlerEditFeature);
+            g.on("feature:center", this.handlerCenterFeature);
             this.groups.push(g);
             g.addTo(this.map);
         },
-        handlerEditFeature:function(data){
-            this.disableDraggingForAllFeature();
-            data.model.set('isEdit', data.value);
+        handlerCenterFeature:function(data){
             this.setViewByMarker(data.model);
         },
         setViewByMarker: function(featureModel){
             var latlng = L.latLng(featureModel.get('lat'), featureModel.get('lon'));
             this.map.setView(latlng);
         },
-        disableDraggingForAllFeature:function(){
-            var _this = this;
-            _this._groups.each(function(group){
-                group.get('features').each(function(feature){
-                    feature.set('isEdit', false);
-                })
-            })
-        },
         subscribe:function(){
             this._groups.on('remove', this.handlerRemoveGroup);
             this._groups.on('add', this.handlerAddGroup);
+            this._groups.on('centerFeature', function(){debugger});
         },
         handlerAddGroup:function(model){
             this.addGroup(model);
