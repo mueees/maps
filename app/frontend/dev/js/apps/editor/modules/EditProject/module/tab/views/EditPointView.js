@@ -10,7 +10,8 @@ define([
         events: function(){
             return _.extend({}, TabView.prototype.events,{
                 "blur #title-marker": "handlerChangeTitle",
-                "blur #description-marker": "handlerChangeDescription"
+                "blur #description-marker": "handlerChangeDescription",
+                "click .tabs .remove" : "handlerRemove"
             });
         },
         ui:{
@@ -23,6 +24,7 @@ define([
         initialize: function(){
             this.listenTo(this.model, "change:lon", this.handlerChangerCoordinat);
             this.listenTo(this.model, "change:lat", this.handlerChangerCoordinat);
+            this.listenTo(this.model, "remove", this.handlerRemoveView);
         },
 
         handlerChangeTitle:function(){
@@ -34,6 +36,12 @@ define([
         handlerChangerCoordinat:function(){
             this.ui.lon.val(this.model.get('lon'));
             this.ui.lat.val(this.model.get('lat'));
+        },
+        handlerRemove: function(){
+            this.model.trigger("wantToBeRemove", this.model);
+        },
+        handlerRemoveView:function(){
+            this.close();
         }
     });
 
