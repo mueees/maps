@@ -50,19 +50,44 @@ var projectSchema = new Schema({
         default: [],
         required: false
     },
-    layers: {
+    groups: {
         type: Array,
         default: [],
         required: false
     },
-    //new, this is project settings
+
     description: {
         type: String,
         default: "",
         required: true
+    },
+
+    shareLink: {
+        type: String,
+        default: ""
     }
 
 });
+
+projectSchema.statics.isHasProjectCreatedByGuest = function(idProject, cb){
+    var query = {
+        _id: idProject,
+        userId: null
+    }
+    this.find(query, null, function(err, projects){
+        if( err ){
+            logger.error(err);
+            cb("Server error");
+            return false;
+        }
+
+        if( projects.length === 0 ){
+            cb(null, false);
+        }else{
+            cb(null, projects[0]);
+        }
+    });
+}
 projectSchema.statics.isHasProject = function(idProject, cb){
     this.find({_id: idProject}, null, function(err, projects){
         if( err ){
@@ -95,6 +120,10 @@ projectSchema.statics.isUserHasProject = function(userId, idProject, cb){
             cb(null, projects[0]);
         }
     });
+}
+
+projectSchema.methods.generateShareLink = function(){
+    this.shareLink = this._id.toString().slice(0, 6);
 }
 
 var ProjectModel = mongoose.model('Project', projectSchema);

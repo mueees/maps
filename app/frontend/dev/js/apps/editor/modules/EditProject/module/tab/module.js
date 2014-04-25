@@ -28,6 +28,9 @@ define([
                 handlerMainControl: function(type){
                     if(type == state.currentTabType) return false;
                     state.currentTabType = type;
+
+                    if(!type || type != "data") state.projectModel.disableAllEditFeature();
+
                     if(!type) {
                         Controller.clearTab();
                         Controller.clearEditView();
@@ -66,9 +69,30 @@ define([
                     if(state.layout) state.layout.editorContainer.close();
                 },
 
+                isHasEditView: function(){
+                    return (state.layout.editorContainer.currentView)? true : false;
+                },
+
+                handlerKeyUp: function(e){
+                    if( !e ) return false;
+                    if( e.keyCode != config.key.esc ) return false;
+
+                    /* Escape Choose */
+                    if(state.currentTabType == 'data'){
+                        if( Controller.isHasEditView() ){
+                            Controller.clearEditView();
+                            state.projectModel.disableAllEditFeature();
+                            return false;
+                        }
+                    }
+
+                    App.channels.main.trigger(config.channel.changeMainControl, null);
+                },
+
                 subscribe:function(){
                     App.channels.main.on(config.channel.changeMainControl, Controller.handlerMainControl);
                     state.projectModel.on('editFeature', Controller.handlerEditFeature);
+                    $(window).on("keyup", Controller.handlerKeyUp);
                 }
             }
 

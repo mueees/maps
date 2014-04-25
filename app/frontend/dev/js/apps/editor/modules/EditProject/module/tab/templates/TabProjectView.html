@@ -1,0 +1,85 @@
+<div class="tabs tab-count-2 pos-top">
+    <ul>
+        <li data-type="info" class="active">
+            <a href="#">Info</a>
+        </li>
+        <li data-type="settings" class="">
+            <a href="#">Settings</a>
+        </li>
+    </ul>
+</div>
+<div class="tabs-content">
+    <div data-type='info' class="tab active tab-info">
+        <!--<table class="table key-value data">
+            <tbody>
+            <tr>
+                <td class="name">
+                    Data
+                </td>
+                <td class="value">
+                    <a href="#">KML</a>
+                </td>
+                <td class="value">
+                    <a href="#">GeoJson</a>
+                </td>
+            </tr>
+            </tbody>
+        </table>-->
+        <table class="table key-value share-link">
+            <tbody>
+            <tr>
+                <td class="name">
+                    <label for="shareLink">Share</label>
+                </td>
+                <td class="value">
+                    <% if(!shareLink) {%>
+                    Please save project
+                    <%} else {%>
+                    <input class="unvisibleInput" id="shareLink" type="text" value="/share/<%= shareLink%>"/>
+                    <%}%>
+                </td>
+            </tr>
+            <tr>
+                <td class="name">
+                    <label for="embedLink">Embed</label>
+                </td>
+                <td class="value">
+                    <% if(!shareLink) {%>
+                    Please save project
+                    <%} else {%>
+                    <input class="unvisibleInput" id="embedLink" value="/embed/<%= shareLink%>" type="text"/>
+                    <%}%>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        <!--<div class="checkbox">
+            <label>
+                <input type="checkbox"> Public
+            </label>
+            <a href="#">
+                <span class="glyphicon glyphicon-question-sign"></span>
+            </a>
+        </div>
+        <div class="form-group">
+            <div>Protected code:
+                <a href="#">
+                    <span class="glyphicon glyphicon-question-sign"></span>
+                </a>
+            </div>
+            <input type="text" class="form-control" name="name" placeholder="Protected code">
+        </div>-->
+    </div>
+    <div data-type='settings' class="tab tab-settings">
+        <form>
+            <div class="form-group">
+                <label for="name-project">Title</label>
+                <input type="text" id="name-project" class="form-control" value="<%= name %>" name="name" placeholder="Name">
+            </div>
+            <div class="form-group">
+                <label for="description-project">Description</label>
+                <textarea id="description-project" class="form-control" name="description" rows="5"  placeholder="Description"><%= description %></textarea>
+            </div>
+        </form>
+    </div>
+</div>

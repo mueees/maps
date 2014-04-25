@@ -1,8 +1,9 @@
 define([
     'backbone',
     'marionette',
-    '../views/TabDataView'
-],function(Backbone, Marionette, TabDataView){
+    '../views/TabDataView',
+    '../views/TabProjectView'
+],function(Backbone, Marionette, TabDataView, TabProjectView){
 
     function TabFactory(){}
 
@@ -19,7 +20,9 @@ define([
                 //result = new DataTab();
                 break;
             case "project":
-                //result = new DataTab();
+                result = new TabProjectView({
+                    model: projectModel
+                });
                 break;
         }
 

@@ -20,6 +20,7 @@ define([
             var Controller = {
                 init: function(projectModel, map){
                     var groups = new Groups(projectModel.get('groups'), map);
+                    groups.center();
                 }
             }
 

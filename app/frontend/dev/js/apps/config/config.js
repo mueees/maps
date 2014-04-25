@@ -19,6 +19,10 @@ define([], function(){
 
         log: {
             isShow: true
+        },
+
+        key: {
+            esc: 27
         }
     }
 })

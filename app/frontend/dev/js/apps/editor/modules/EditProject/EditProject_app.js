@@ -104,6 +104,7 @@ define([
                 }
 
             })
+            var router;
 
             var Controller = {
                 editController: function(projectId){
@@ -124,12 +125,8 @@ define([
                 },
 
                 getProjectModel: function(projectId){
-                    if( projectId ){
-                        if(Maps.config.project){
-                            return new ProjectModel(Maps.config.project);
-                        }else{
-                            return new ProjectModel();
-                        }
+                    if( projectId && Maps.config.project ){
+                        return new ProjectModel(Maps.config.project);
                     }else{
                         return new ProjectModel();
                     }
@@ -142,7 +139,7 @@ define([
             }
 
             App.addInitializer(function(){
-                new Router({
+                router = new Router({
                     controller: API
                 })
             })

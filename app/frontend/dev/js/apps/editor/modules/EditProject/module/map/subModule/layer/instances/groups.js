@@ -107,6 +107,17 @@ define([
                 }
             })
             return result;
+        },
+        center: function(){
+            var bounds = [],
+                _this = this;
+            _.each(this.groups, function(group, i){
+                bounds = bounds.concat(group.getLatLng());
+            })
+            if(!bounds.length) return false;
+            setTimeout(function(){
+                _this.map.fitBounds(L.latLngBounds(bounds));
+            },0)
         }
 
     }

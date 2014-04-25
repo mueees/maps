@@ -17,11 +17,16 @@ define([
             isPublic: true,
             type: "guest",
             share: [],
+            shareLink: "",
             groups: new GroupColl(),
             description: "Default description",
 
             //front-end
             activeGroup: 0
+        },
+
+        getUrl: function(){
+            return this.get('_id') ? "/api/project/edit/" + this.get('_id') : "/api/project/add";
         },
 
         relations: [{
@@ -106,6 +111,16 @@ define([
                     feature.set('isEdit', false);
                 })
             })
+        },
+
+        saveProject: function(options){
+            options = options || {};
+            options = _.extend({
+                url: this.getUrl(),
+                type: "POST"
+            }, options);
+
+            this.save(null,options);
         }
     });
 

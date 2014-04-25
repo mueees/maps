@@ -46,6 +46,7 @@ define([
         onRender: function(){
             this.model.trigger('change:isOpen');
             this.model.trigger('change:isActive');
+            this.recalculateFeatureCounts();
         },
 
         switchOpen: function(){

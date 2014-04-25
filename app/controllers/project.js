@@ -25,6 +25,7 @@ var controller = {
                 })
             },
             function(cb){
+                project.generateShareLink();
                 project.save(function(err){
                     if(err) {
                         logger.error(err);
@@ -38,9 +39,7 @@ var controller = {
                 return next(new HttpError(400, err));
             }
 
-            res.send({
-                _id: project._id
-            });
+            res.send(project);
         })
     },
 
@@ -107,8 +106,75 @@ var controller = {
         })
     },
 
+    editProjectUnregisterUser: function(globalCb, project){
+        async.waterfall([
+            function(cb){
+                project.validate(function(err){
+                    if(err) {
+                        logger.error(err);
+                        return cb("Project data doesn't not valid");
+                    }else{
+                        cb(null);
+                    }
+                })
+            },
+            function(cb){
+                //есть ли такой проект и действительно ли он создан незарегестрированным юзером
+                ProjectModel.isHasProjectCreatedByGuest(project._id, cb);
+            },
+            function(isHasProject, cb){
+                if( !isHasProject ){
+                    return cb("Cannot find project");
+                }else{
+                    return cb(null);
+                }
+            },
+            function(cb){
+                //сохраним проект
+                /*ненавижу mongoose за это*/
+                var data = project.toObject();
+                delete data._id;
+                ProjectModel.findOneAndUpdate({_id: project._id}, data, null, function(err){
+                    if(err) {
+                        logger.error(err);
+                        console.log(err);
+                        return cb("An error occurred. Please try again later");
+                    }
+                    cb(null);
+                })
+            }
+        ], function(err){
+            if(err){
+                return globalCb(err);
+            }
+            globalCb(null);
+        })
+    },
+
     editProject: function(req, res, next){
-        // req.params.id
+        var data = req.body;
+
+        data.userId = (req.user) ? req.user._id : null;
+        var project = new ProjectModel(data);
+
+        if( !project._id ){
+            //это не ранее не сохраненный проект, редактировать в этом случае нечего
+            return next(new HttpError(400, "This is unsaved project"));
+        }
+
+        if( !project.userId ){
+            //клиент хочет редактировать проект
+            //как-будто проект был ранее сохранен незарегестррованным пользователем,
+            controller.editProjectUnregisterUser(function(err){
+                if(err){
+                    return next(new HttpError(400, err));
+                }
+                res.send({
+                    _id: project._id
+                });
+            }, project);
+        }
+
     }
 
 }

@@ -2,14 +2,16 @@ define([
     'jquery',
     'backbone',
     'leaflet',
-    'backbone'
-],function($, Backbone, L, Backbone){
+    'backbone',
+    'text!../tempaltes/popUpTemp.html'
+],function($, Backbone, L, Backbone, popUpTemp){
     function Feature(feature){
         //Backbone Model
         this._feature = feature;
         //Leaflet view
         this.view = null;
         this.cid = this._feature.cid;
+        this.template = _.template(popUpTemp);
 
         _.bindAll(this, "handlerChangePopUp");
 
@@ -19,7 +21,8 @@ define([
 
     $.extend(Feature.prototype, Backbone.Events, {
         bindPopUp:function(){
-            this.view.bindPopup(this._feature.get('title') + this._feature.get('description')).openPopup();
+            var view = this.template( this._feature.toJSON() );
+            this.view.bindPopup(view).openPopup();
         },
         handlerChangePopUp: function(){
             this.bindPopUp();

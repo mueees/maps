@@ -21,6 +21,10 @@ define([
             this.listenTo(this.model, "change:title", this.handlerChangeTitle);
         },
 
+        onRender: function(){
+            this.handlerIsEdit();
+        },
+
         deleteFeature: function(){
             this.model.trigger("wantToBeRemove", this.model);
         },

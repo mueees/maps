@@ -21,6 +21,6 @@ module.exports = function(app) {
     app.post('/api/project/remove/:id', passport.authenticate('local', {}), projectController.remove);
     app.get('/api/projects', passport.authenticate('local', {}), projectController.getProjects);
     app.get('/api/project/:id', passport.authenticate('local', {}), projectController.getProject);
-    app.post('/api/project/edit/:id', passport.authenticate('local', {}), projectController.editProject);
+    app.post('/api/project/edit/:id', projectController.editProject);
 
 }

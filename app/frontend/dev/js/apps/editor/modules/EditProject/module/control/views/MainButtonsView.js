@@ -16,7 +16,6 @@ define([
 
         initialize: function(){
             this.listenTo(this.model, "change:selectedItem", this.handlerChangeTab);
-            this.model.on();
         },
 
         handlerChangeTab: function(){

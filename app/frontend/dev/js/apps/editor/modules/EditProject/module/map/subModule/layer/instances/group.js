@@ -94,6 +94,13 @@ define([
             })
             return result;
         },
+        getLatLng: function(){
+            var result = [];
+            _.each(this.features, function(feature){
+                result.push(feature.view.getLatLng());
+            });
+            return result;
+        },
         getLatLngBounds: function(){
             var result = [];
             _.each(this.features, function(feature){
