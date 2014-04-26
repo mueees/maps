@@ -1,6 +1,5 @@
 .idea
-node_modules
-app/public/node_modules
+/node_modules
 app/frontend/node_modules
 app/frontend/public
 ./.vagrant
