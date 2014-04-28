@@ -21,10 +21,6 @@ define([
             this._feature.on('change:isEdit', this.handlerChangeIsEdit);
             this.view.on('click', this.handlerViewClick);
             this.view.on('dragend', this.handlerDragEnd);
-
-            //draggable
-            //clickable
-            //alt
         },
         handlerDragEnd:function(e){
             var coords = e.target.getLatLng();

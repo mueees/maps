@@ -1,7 +1,8 @@
 define([
     'leaflet',
-    './point'
-],function(L, Point){
+    './point',
+    './polyLine'
+],function(L, Point, PolyLine){
     function FeatureFactory(){}
     FeatureFactory.make = function(feature){
         var result;
@@ -9,6 +10,9 @@ define([
             case "Point":
                 result = new Point(feature);
                 break;
+            case "LineString":
+                result = new PolyLine(feature);
+                break
             default :
                 result = false;
         }

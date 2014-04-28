@@ -6,7 +6,11 @@ define([
 
     return Backbone.Model.extend({
         defaults: _.extend(FeatureModel.prototype.defaults, {
-            type: "polyline"
-        })
+            type: "Polyline"
+        }),
+
+        initialize: function(){
+            debugger
+        }
     });
 })

@@ -64,6 +64,8 @@ define([
                 groups,
                 activeGroup;
 
+            //LineString"
+
             featureGeoJson = feature.layer.toGeoJSON();
             groups = this.get('groups');
             activeGroup = this.getActiveGroup();
@@ -73,11 +75,15 @@ define([
                 activeGroup = this.getActiveGroup();
             }
 
+            //activeGroup.get('features').add(featureGeoJson);
+
             activeGroup.get('features').add({
                 type: featureGeoJson.geometry.type,
                 lon: featureGeoJson.geometry.coordinates[0],
                 lat: featureGeoJson.geometry.coordinates[1]
             });
+
+
         },
 
         getActiveGroup: function(){

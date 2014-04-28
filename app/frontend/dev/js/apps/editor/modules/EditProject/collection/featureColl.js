@@ -13,8 +13,10 @@ define([
             switch(type) {
                 case "point":
                     return new PointModel(attrs, options);
+                    break;
                 case "polyline":
                     return new PolylineModel(attrs, options);
+                    break;
             }
         },
 

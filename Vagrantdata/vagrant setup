@@ -8,7 +8,7 @@ vagrant plugin install vagrant-vbguest
 vagrant up
 vagrant provision
 vagrant ssh
-vagrant suspend | hult | destroy
+vagrant suspend | halt | destroy
 
 не забыть прописать сайт в hosts
 
