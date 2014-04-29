@@ -1,24 +1,12 @@
 define([
     'backbone',
+    './../models/feature',
     './../models/point',
     './../models/polyline'
-], function(Backbone, PointModel, PolylineModel){
+], function(Backbone, FeatureModel, PointModel, PolylineModel){
 
-    return Backbone.Collection.extend({
-        model: function(attrs, options) {
-            var type;
-            type = attrs.type || "";
-            type = type.toLowerCase();
-
-            switch(type) {
-                case "point":
-                    return new PointModel(attrs, options);
-                    break;
-                case "polyline":
-                    return new PolylineModel(attrs, options);
-                    break;
-            }
-        },
+    var FeatureColl = Backbone.Collection.extend({
+        model: FeatureModel,
 
         initialize: function(){
             var _this = this;
@@ -29,4 +17,5 @@ define([
         }
     });
 
+    return FeatureColl;
 })

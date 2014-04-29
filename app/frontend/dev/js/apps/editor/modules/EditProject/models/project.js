@@ -75,15 +75,21 @@ define([
                 activeGroup = this.getActiveGroup();
             }
 
-            //activeGroup.get('features').add(featureGeoJson);
+            if( featureGeoJson.geometry.type == "LineString" ){
 
-            activeGroup.get('features').add({
-                type: featureGeoJson.geometry.type,
-                lon: featureGeoJson.geometry.coordinates[0],
-                lat: featureGeoJson.geometry.coordinates[1]
-            });
+                featureGeoJson.geometry.type = "Polyline";
+                activeGroup.get('features').add({
+                    type: featureGeoJson.geometry.type,
+                    coordinates: featureGeoJson.geometry.coordinates
+                });
 
-
+            }else if( featureGeoJson.geometry.type == "Point" ){
+                activeGroup.get('features').add({
+                    type: featureGeoJson.geometry.type,
+                    lon: featureGeoJson.geometry.coordinates[0],
+                    lat: featureGeoJson.geometry.coordinates[1]
+                });
+            }
         },
 
         getActiveGroup: function(){

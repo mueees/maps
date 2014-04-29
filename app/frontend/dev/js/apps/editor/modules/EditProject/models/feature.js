@@ -18,6 +18,11 @@ define([
             isEdit: false
         },
 
+        subModelTypes: {
+            'Point': 'Point',
+            'PolyLine': 'PolyLine'
+        },
+
         editEnable: function(){
             var group,
                 project;
