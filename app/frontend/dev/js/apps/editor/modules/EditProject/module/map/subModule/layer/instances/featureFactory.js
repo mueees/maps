@@ -10,7 +10,7 @@ define([
             case "Point":
                 result = new Point(feature);
                 break;
-            case "LineString":
+            case "Polyline":
                 result = new PolyLine(feature);
                 break
             default :

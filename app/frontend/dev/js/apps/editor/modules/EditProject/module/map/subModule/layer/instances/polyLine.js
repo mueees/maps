@@ -12,7 +12,7 @@ define([
                 "handlerDragEnd"
             );*/
 
-            this.view = L.polyline([this._feature.get('lat'), this._feature.get('lon')]);
+            this.view = L.polyline([[30, 40], [34, 44]]);
             this.bindPopUp();
         },
 

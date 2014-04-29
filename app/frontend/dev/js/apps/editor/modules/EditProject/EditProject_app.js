@@ -8,7 +8,6 @@ define([
 
     /*models*/
     './models/project',
-    './models/point',
 
     /*Views*/
     './layout/LayoutView',
@@ -21,7 +20,7 @@ define([
     './module/tab/module',
 
     'helpers/notify/module'
-], function(jQuery, Backbone, Marionette, config, App, ProjectModel, MarkerModel, LayoutView, log){
+], function(jQuery, Backbone, Marionette, config, App, ProjectModel, LayoutView, log){
 
     /*var Feature = Backbone.RelationalModel.extend({
         defaults: {

@@ -1,16 +1,27 @@
 define([
+    'underscore',
     'backbone',
     'config',
-    './feature'
-], function(Backbone, config, FeatureModel){
+    './feature',
+    '../collection/pointColl'
+], function(_, Backbone, config, FeatureModel, PointColl){
 
-    return Backbone.Model.extend({
-        defaults: _.extend(FeatureModel.prototype.defaults, {
-            type: "Polyline"
+    var def = _.clone(FeatureModel.prototype.defaults);
+    var PolyLine = FeatureModel.extend({
+        defaults: _.extend(def, {
+            type: "Polyline",
+            coordinates: new PointColl(),
+            //style
+            lineWeight: 4,
+            color: "red"
         }),
 
         initialize: function(){
-            debugger
+            console.log('PolyLine');
         }
     });
+
+    Backbone.Relational.store.addModelScope({"PolyLine": PolyLine});
+
+    return PolyLine;
 })

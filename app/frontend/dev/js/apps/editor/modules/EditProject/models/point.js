@@ -1,11 +1,13 @@
 define([
+    'underscore',
     'backbone',
     'config',
     './feature'
-], function(Backbone, config, FeatureModel){
+], function(_, Backbone, config, FeatureModel){
 
-    return Backbone.Model.extend({
-        defaults: _.extend(FeatureModel.prototype.defaults, {
+    var def = _.clone(FeatureModel.prototype.defaults);
+    var Point = FeatureModel.extend({
+        defaults: _.extend(def, {
             type: "Point",
             lon: 0,
             lat: 0,
@@ -27,6 +29,14 @@ define([
              * symbol
              * */
             symbol: ""
-        })
+        }),
+
+        initialize: function(){
+            console.log('Point');
+        }
     });
+
+    Backbone.Relational.store.addModelScope({"Point": Point});
+
+    return Point;
 })
