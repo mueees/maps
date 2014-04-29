@@ -18,8 +18,7 @@ define([
 
         define: function(Map, App, Backbone, Marionette, $, _){
 
-            var mapModel,
-                mapView,
+            var mapView,
                 map;
 
             var Controller = {
@@ -32,8 +31,9 @@ define([
                 },
 
                 initializeMap: function(){
-                    map = L.map( mapView.el, {zoomControl:false} ).setView([50.45, 30.52], 6);
-                    L.tileLayer('http://b.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {maxZoom: 18}).addTo(map);
+                    map = L.map( mapView.el, {zoomControl: config.map.defaults.zoomControl} )
+                        .setView(config.map.defaults.center, config.map.defaults.startZoom);
+                    L.tileLayer(config.map.defaults.titleLayerUrl, {maxZoom: config.map.defaults.maxZoom}).addTo(map);
                 }
             }
 
@@ -43,27 +43,3 @@ define([
     })
 
 })
-
-/*var marker = L.marker([50.5, 30.5]);
- marker.bindPopup("est")
-
-
- var popup = L.popup()
- .setLatLng([50.5, 30.5])
- .setContent('<p>Hello world!<br />This is a nice popup.</p>')
- .openOn(map);
-
-
- var polyline = L.polyline([
- L.latLng(50.5, 30.5),
- L.latLng(50.5, 40.5)
- ], {color: 'red'}).bindPopup("est");
-
- var group = L.layerGroup([marker])
- .addLayer(polyline);
-
- group.addTo(map);
-
- group.eachLayer(function (layer) {
- layer.bindPopup('Hello');
- });*/

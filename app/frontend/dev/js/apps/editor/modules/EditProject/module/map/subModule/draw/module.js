@@ -38,6 +38,9 @@ define([
                 subscribe: function(){
                     this.model.on("change:featureType", this.handlerFeatureType);
                     this.map.on('draw:created', this.handlerDrawCreated);
+                    this.map.on('draw:editstop', function(){
+                        debugger
+                    });
                 },
 
                 handlerFeatureType: function(){

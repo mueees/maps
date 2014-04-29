@@ -20,7 +20,7 @@ define([
 
         subModelTypes: {
             'Point': 'Point',
-            'PolyLine': 'PolyLine'
+            'Polyline': 'Polyline'
         },
 
         editEnable: function(){

@@ -80,7 +80,7 @@ define([
                 featureGeoJson.geometry.type = "Polyline";
                 activeGroup.get('features').add({
                     type: featureGeoJson.geometry.type,
-                    coordinates: featureGeoJson.geometry.coordinates
+                    coordinates_raw: featureGeoJson.geometry.coordinates
                 });
 
             }else if( featureGeoJson.geometry.type == "Point" ){

@@ -54,7 +54,7 @@ requirejs.config({
 
         /*libs*/
         leafletDraw: {
-            exports: 'Marionette',
+            exports: 'L',
             deps: ['leaflet']
         }
     },

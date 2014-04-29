@@ -36,14 +36,7 @@ define([
                 this.view.dragging.disable();
             }
         },
-        /**
-         * Fired when the user clicks (or taps) the marker.
-         * Trigger that feature want to be Editable, this event up to Groups, and then
-         * disable isEdit for all features, and enable isEdit for current _feature model
-         * */
-        handlerViewClick:function(e){
-            if(!this._feature.get('isEdit')) this._feature.editEnable();
-        },
+
         handlerChangeIsEdit:function(){
             var _this = this;
             this.setDragging(this._feature.get('isEdit'));
@@ -59,13 +52,6 @@ define([
             var lat = this._feature.get('lat');
             var lon = this._feature.get('lon');
             this.view.setLatLng([lat, lon]);
-        },
-        handlerChangeShow:function(){
-            if(this._feature.get('show')){
-                this.trigger("show", this._feature);
-            }else{
-                this.trigger("hide", this._feature);
-            }
         }
     });
 

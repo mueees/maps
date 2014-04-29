@@ -17,6 +17,16 @@ define([], function(){
             changeMainMenu: "changeMainMenu"
         },
 
+        map: {
+            defaults: {
+                titleLayerUrl: 'http://b.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png',
+                center: [50.45, 30.52],
+                startZoom: 6,
+                maxZoom: 18,
+                zoomControl: false
+            }
+        },
+
         log: {
             isShow: true
         },

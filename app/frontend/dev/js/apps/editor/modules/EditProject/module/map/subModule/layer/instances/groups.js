@@ -37,17 +37,28 @@ define([
             g.addTo(this.map);
         },
         handlerCenterFeature:function(data){
-            this.setViewByMarker(data.model);
+            var type = data.model.get('type');
+            switch (type){
+                case "Point":
+                    this.setViewByMarker(data);
+                    break;
+                case "Polyline":
+                    this.setViewByPolyline(data);
+                    break;
+            }
+
         },
         handlerCenterGroup:function(data){
             this.setViewByGroup(data.model);
         },
-        setViewByMarker: function(featureModel){
-            var latlng = L.latLng(featureModel.get('lat'), featureModel.get('lon'));
+        setViewByMarker: function(data){
+            var latlng = L.latLng(data.model.get('lat'), data.model.get('lon'));
             this.map.setView(latlng);
         },
+        setViewByPolyline: function(data){
+            this.map.fitBounds(data.view.getBounds());
+        },
         setViewByGroup: function(groupModel){
-
             //this is object group
             var group = this.getGroup(groupModel.cid);
             if(!group) return false;

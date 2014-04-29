@@ -4,25 +4,38 @@ define([
 ],function(L, Feature){
     var PolyLine = Feature.extend({
         initialize: function(){
-            /*_.bindAll(this, "handlerChangeCoord",
-                "handlerChangePopUp",
-                "handlerChangeShow",
-                "handlerChangeIsEdit",
-                "handlerViewClick",
-                "handlerDragEnd"
-            );*/
+            _.bindAll(this, "handlerViewClick",
+                "handlerChangeIsEdit");
+            this.view = L.polyline(this.makeLatLng());
+        },
 
-            this.view = L.polyline([[30, 40], [34, 44]]);
-            this.bindPopUp();
+        makeLatLng: function(){
+            var result = [];
+            var coordinates = this._feature.get('coordinates').toJSON();
+            for(var i = 0; i < coordinates.length; i++){
+                result.push(new L.latLng(coordinates[i].lat, coordinates[i].lon) );
+            }
+            return result;
         },
 
         subscribe:function(){
-            this._feature.on('change:lon change:lat', this.handlerChangeCoord);
-            this._feature.on('change:title change:description', this.handlerChangePopUp);
             this._feature.on('change:show', this.handlerChangeShow);
             this._feature.on('change:isEdit', this.handlerChangeIsEdit);
             this.view.on('click', this.handlerViewClick);
-            this.view.on('dragend', this.handlerDragEnd);
+        },
+
+        handlerChangeIsEdit:function(){
+            if(this._feature.get('isEdit')){
+                this.view.editing.enable();
+                this._feature.trigger('change:custom:event:', {
+                    name: "feature:centerMe",
+                    model: this._feature,
+                    view: this.view
+                });
+            }else{
+                debugger
+                this.view.editing.disable();
+            }
         }
     });
 

@@ -1,29 +1,26 @@
 define([
     'backbone',
     'marionette',
-    '../views/EditPointView'
-],function(Backbone, Marionette, EditPointView){
+    '../views/EditPointView',
+    '../views/EditPolylineView'
+],function(Backbone, Marionette, EditPointView, EditPolylineView){
 
     function EditFeatureFactory(){}
 
     EditFeatureFactory.make = function(feature){
         var result;
-
-        /*switch (type) {
-         case "data":
-         result = new DataTab();
-         break;
-         case "style":
-         result = new DataTab();
-         break;
-         case "project":
-         result = new DataTab();
-         break;
-         }*/
-
-        result = new EditPointView({
-            model: feature
-        });
+        switch (feature.get('type')) {
+            case "Marker":
+                result = new EditPointView({
+                    model: feature
+                });
+                break;
+            case "Polyline":
+                result = new EditPolylineView({
+                    model: feature
+                });
+                break;
+        }
 
         return result;
     }

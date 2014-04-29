@@ -26,6 +26,21 @@ define([
         },
         handlerChangePopUp: function(){
             this.bindPopUp();
+        },
+        handlerChangeShow:function(){
+            if(this._feature.get('show')){
+                this.trigger("show", this._feature);
+            }else{
+                this.trigger("hide", this._feature);
+            }
+        },
+        /**
+         * Fired when the user clicks (or taps) the marker.
+         * Trigger that feature want to be Editable, this event up to Groups, and then
+         * disable isEdit for all features, and enable isEdit for current _feature model
+         * */
+        handlerViewClick:function(e){
+            if(!this._feature.get('isEdit')) this._feature.editEnable();
         }
     })
 
